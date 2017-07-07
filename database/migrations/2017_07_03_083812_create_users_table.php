@@ -22,8 +22,9 @@ class CreateUsersTable extends Migration {
 			$table->integer('date')->lenght(10)->unsigned()->nullable()->default(NULL);
 			$table->string('ip', 15)->nullable()->default(NULL);
 			$table->tinyInteger('role')->lenght(1)->unsigned()->nullable()->default(NULL);
-			$table->string('auth', 255)->nullable()->default(NULL);
+			//$table->string('auth', 255)->nullable()->default(NULL);
 			$table->string('hash', 255)->nullable()->default(NULL);
+			$table->rememberToken();
 		});
 	}
 
