@@ -1,9 +1,9 @@
-﻿<!DOCTYPE HTML>
-<html lang="{{ app()->getLocale() }}">
+<!DOCTYPE HTML>
+<html lang="en-US">
 	<head>
 		<meta charset="UTF-8">
 		<title>
-			My HYIP
+			Admin
 		</title>
 	</head>
 	<body>

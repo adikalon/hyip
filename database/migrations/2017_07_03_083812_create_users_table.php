@@ -15,8 +15,8 @@ class CreateUsersTable extends Migration {
 			$table->increments('id')->lenght(10)->unsigned();
 			$table->integer('ident')->lenght(10)->unsigned()->nullable()->default(NULL);
 			$table->string('login', 255)->unique()->nullable()->default(NULL);
-			$table->string('pass', 255)->nullable()->default(NULL);
-			$table->string('mail', 255)->unique()->nullable()->default(NULL);
+			$table->string('password', 255)->nullable()->default(NULL);
+			$table->string('email', 255)->unique()->nullable()->default(NULL);
 			$table->decimal('refback', 5, 2)->unsigned()->default(0);
 			$table->decimal('balance', 10, 2)->unsigned()->default(0);
 			$table->integer('date')->lenght(10)->unsigned()->nullable()->default(NULL);

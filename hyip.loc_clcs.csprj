@@ -469,17 +469,38 @@
 <treenode node="GLOBAL_FUNCTIONS_FILE;PHP:PHP Word;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\generator\run.php;f8;15;29;15;;;;vpos;;v;;rHAMCREST_BASE . DIRECTORY_SEPARATOR . &apos;Hamcrest.php&apos;;;d-1,-1;;b0,0;;m">
 </treenode>
 <treenode node="Guard;PHP:Interface Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Contracts\Auth\Guard.php;f0;4;1;49;;;;vpos;;v;;r;;d0,5;;b0,0;;m">
-<treenode node="check;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Contracts\Auth\Guard.php;f11;11;27;11;;;;vpos;;vbool;;r Description      Determine if the current user is authenticated.;;d-1,-1;;b1,0;;m">
+<treenode node="check;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Contracts\Auth\Guard.php;f11;11;27;11;;;;vpos;;vbool;;r
+Description
+     Determine if the current user is authenticated.;;d-1,-1;;b1,0;;m">
 </treenode>
-<treenode node="guest;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Contracts\Auth\Guard.php;f11;18;27;18;;;;vpos;;vbool;;r Description      Determine if the current user is a guest.;;d-1,-1;;b1,0;;m">
+<treenode node="guest;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Contracts\Auth\Guard.php;f11;18;27;18;;;;vpos;;vbool;;r
+Description
+     Determine if the current user is a guest.;;d-1,-1;;b1,0;;m">
 </treenode>
-<treenode node="id;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Contracts\Auth\Guard.php;f11;32;24;32;;;;vpos;;vint;;r Description      Get the ID for the currently authenticated user.  Return:    |null;;d-1,-1;;b1,0;;m">
+<treenode node="id;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Contracts\Auth\Guard.php;f11;32;24;32;;;;vpos;;vint;;r
+Description
+     Get the ID for the currently authenticated user.
+
+Return:
+   |null;;d-1,-1;;b1,0;;m">
 </treenode>
-<treenode node="setUser;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Contracts\Auth\Guard.php;f11;48;50;48;;;;vpos;;vvoid;;r Description      Set the current user.  Parameters:     \Illuminate\Contracts\Auth\Authenticatable $user;;d-1,-1;;b1,0;;m\Illuminate\Contracts\Auth\Authenticatable $user;;p">
+<treenode node="setUser;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Contracts\Auth\Guard.php;f11;48;50;48;;;;vpos;;vvoid;;r
+Description
+     Set the current user.
+
+Parameters:
+    \Illuminate\Contracts\Auth\Authenticatable $user;;d-1,-1;;b1,0;;m\Illuminate\Contracts\Auth\Authenticatable $user;;p">
 </treenode>
-<treenode node="user;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Contracts\Auth\Guard.php;f11;25;26;25;;;;vpos;;v;;r Description      Get the currently authenticated user.;;d-1,-1;;b1,0;;m">
+<treenode node="user;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Contracts\Auth\Guard.php;f11;25;26;25;;;;vpos;;v;;r
+Description
+     Get the currently authenticated user.;;d-1,-1;;b1,0;;m">
 </treenode>
-<treenode node="validate;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Contracts\Auth\Guard.php;f11;40;53;40;;;;vpos;;vbool;;r Description      Validate a user&apos;s credentials.  Parameters:     array $credentials;;d-1,-1;;b1,0;;marray $credentials;;p">
+<treenode node="validate;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Contracts\Auth\Guard.php;f11;40;53;40;;;;vpos;;vbool;;r
+Description
+     Validate a user&apos;s credentials.
+
+Parameters:
+    array $credentials;;d-1,-1;;b1,0;;marray $credentials;;p">
 </treenode>
 </treenode>
 <treenode node="Hamcrest.php;PHP:PHP Include;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\tests\bootstrap.php;f14;17;26;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -1784,6 +1805,10 @@
 <treenode node="testStreetSuffix;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\fzaninotto\faker\test\Faker\Provider\en_AU\AddressTest.php;f9;30;3;36;;;;vpos;;v;;r;;d2,31;;b1,0;;m">
 </treenode>
 </treenode>
+<treenode node="AdminController;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Admin\AdminController.php;f0;7;1;11;;;;vpos;;vController;;c;;r;;d41,7;;b0,0;;m">
+<treenode node="index;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Admin\AdminController.php;f8;8;2;10;;;;vpos;;v;;r;;d26,8;;b1,0;;m">
+</treenode>
+</treenode>
 <treenode node="AggregateServiceProvider;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Support\AggregateServiceProvider.php;f0;4;1;51;;;;vpos;;vServiceProvider;;c;;r;;d0,5;;b0,0;;m">
 <treenode node="provides;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Support\AggregateServiceProvider.php;f11;39;5;50;;;;vpos;;varray;;r Definition     provides()  Description      Get the services provided by the provider.;;d4,40;;b1,0;;m">
 </treenode>
@@ -2162,10 +2187,10 @@
 <treenode node="setServicesConfigNamespace;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Console\AppNameCommand.php;f14;195;5;202;;;;vpos;;vvoid;;r Definition     setServicesConfigNamespace()  Description      Set the services User namespace.;;d4,196;;b2,0;;m">
 </treenode>
 </treenode>
-<treenode node="AppServiceProvider;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\app\Providers\AppServiceProvider.php;f0;6;1;27;;;;vpos;;vServiceProvider;;c;;r;;d0,7;;b0,0;;m">
-<treenode node="boot;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\app\Providers\AppServiceProvider.php;f11;13;5;16;;;;vpos;;vvoid;;r Definition     boot()  Description      Bootstrap any application services.;;d4,14;;b1,0;;m">
+<treenode node="AppServiceProvider;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\app\Providers\AppServiceProvider.php;f0;7;1;28;;;;vpos;;vServiceProvider;;c;;r;;d49,7;;b0,0;;m">
+<treenode node="boot;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\app\Providers\AppServiceProvider.php;f8;13;2;18;;;;vpos;;vvoid;;r Definition     boot()  Description      Bootstrap any application services.;;d24,13;;b1,0;;m">
 </treenode>
-<treenode node="register;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\app\Providers\AppServiceProvider.php;f11;23;5;26;;;;vpos;;vvoid;;r Definition     register()  Description      Register any application services.;;d4,24;;b1,0;;m">
+<treenode node="register;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\app\Providers\AppServiceProvider.php;f8;25;2;27;;;;vpos;;vvoid;;r Definition     register()  Description      Register any application services.;;d28,25;;b1,0;;m">
 </treenode>
 </treenode>
 <treenode node="Arr;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Support\Arr.php;f0;8;1;579;;;;vpos;;vMacroable;;c;;r;;d0,9;;b0,0;;m">
@@ -2433,11 +2458,37 @@
 </treenode>
 </treenode>
 <treenode node="Authenticate;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\Middleware\Authenticate.php;f0;8;1;67;;;;vpos;;v;;r;;d0,9;;b0,0;;m">
-<treenode node="__construct;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\Middleware\Authenticate.php;f11;23;5;26;;;;vpos;;vvoid;;r Definition     __construct(Auth $auth)  Description      Create a new middleware instance.  Parameters:     \Illuminate\Contracts\Auth\Factory $auth;;d4,24;;b1,0;;m\Illuminate\Contracts\Auth\Factory $auth;;p">
+<treenode node="__construct;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\Middleware\Authenticate.php;f11;23;5;26;;;;vpos;;vvoid;;r
+Definition
+    __construct(Auth $auth)
+
+Description
+     Create a new middleware instance.
+
+Parameters:
+    \Illuminate\Contracts\Auth\Factory $auth;;d4,24;;b1,0;;m\Illuminate\Contracts\Auth\Factory $auth;;p">
 </treenode>
-<treenode node="authenticate;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\Middleware\Authenticate.php;f14;53;5;66;;;;vpos;;vvoid;;r Definition     authenticate(array $guards)  Description      Determine if the user is logged in to any of the given guards.  Parameters:     array $guards;;d4,54;;b2,0;;marray $guards;;p">
+<treenode node="authenticate;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\Middleware\Authenticate.php;f14;53;5;66;;;;vpos;;vvoid;;r
+Definition
+    authenticate(array $guards)
+
+Description
+     Determine if the user is logged in to any of the given guards.
+
+Parameters:
+    array $guards;;d4,54;;b2,0;;marray $guards;;p">
 </treenode>
-<treenode node="handle;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\Middleware\Authenticate.php;f11;38;5;43;;;;vpos;;vmixed;;r Definition     handle($request, Closure $next, ...$guards)  Description      Handle an incoming request.  Parameters:     \Illuminate\Http\Request $request     \Closure $next     string[] - ...$guards;;d4,39;;b1,0;;m\Illuminate\Http\Request $request;;p\Closure $next;;pstring[];;p">
+<treenode node="handle;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\Middleware\Authenticate.php;f11;38;5;43;;;;vpos;;vmixed;;r
+Definition
+    handle($request, Closure $next, ...$guards)
+
+Description
+     Handle an incoming request.
+
+Parameters:
+    \Illuminate\Http\Request $request
+    \Closure $next
+    string[] - ...$guards;;d4,39;;b1,0;;m\Illuminate\Http\Request $request;;p\Closure $next;;pstring[];;p">
 </treenode>
 </treenode>
 <treenode node="Authenticated;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\Events\Authenticated.php;f0;6;1;27;;;;vpos;;vSerializesModels;;c;;r;;d0,7;;b0,0;;m">
@@ -2455,27 +2506,107 @@
 </treenode>
 </treenode>
 <treenode node="AuthenticatesUsers;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php;f0;7;1;173;;;;vpos;;vRedirectsUsers;;c;;r;;d0,8;;b0,0;;m">
-<treenode node="attemptLogin;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php;f14;72;5;77;;;;vpos;;vbool;;r Definition     attemptLogin(Request $request)  Description      Attempt to log the user into the application.  Parameters:     \Illuminate\Http\Request $request;;d4,73;;b2,0;;m\Illuminate\Http\Request $request;;p">
+<treenode node="attemptLogin;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php;f14;72;5;77;;;;vpos;;vbool;;r
+Definition
+    attemptLogin(Request $request)
+
+Description
+     Attempt to log the user into the application.
+
+Parameters:
+    \Illuminate\Http\Request $request;;d4,73;;b2,0;;m\Illuminate\Http\Request $request;;p">
 </treenode>
-<treenode node="authenticated;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php;f14;113;5;116;;;;vpos;;vmixed;;r Definition     authenticated(Request $request, $user)  Description      The user has been authenticated.  Parameters:     \Illuminate\Http\Request $request     mixed $user;;d4,114;;b2,0;;m\Illuminate\Http\Request $request;;pmixed $user;;p">
+<treenode node="authenticated;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php;f14;113;5;116;;;;vpos;;vmixed;;r
+Definition
+    authenticated(Request $request, $user)
+
+Description
+     The user has been authenticated.
+
+Parameters:
+    \Illuminate\Http\Request $request
+    mixed $user;;d4,114;;b2,0;;m\Illuminate\Http\Request $request;;pmixed $user;;p">
 </treenode>
-<treenode node="credentials;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php;f14;85;5;88;;;;vpos;;varray;;r Definition     credentials(Request $request)  Description      Get the needed authorization credentials from the request.  Parameters:     \Illuminate\Http\Request $request;;d4,86;;b2,0;;m\Illuminate\Http\Request $request;;p">
+<treenode node="credentials;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php;f14;85;5;88;;;;vpos;;varray;;r
+Definition
+    credentials(Request $request)
+
+Description
+     Get the needed authorization credentials from the request.
+
+Parameters:
+    \Illuminate\Http\Request $request;;d4,86;;b2,0;;m\Illuminate\Http\Request $request;;p">
 </treenode>
-<treenode node="guard;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php;f14;169;5;172;;;;vpos;;v;;r Definition     guard()  Description      Get the guard to be used during authentication.;;d4,170;;b2,0;;m">
+<treenode node="guard;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php;f14;169;5;172;;;;vpos;;v;;r
+Definition
+    guard()
+
+Description
+     Get the guard to be used during authentication.;;d4,170;;b2,0;;m">
 </treenode>
-<treenode node="login;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php;f11;27;5;50;;;;vpos;;v;;r Definition     login(Request $request)  Description      Handle a login request to the application.  Parameters:     \Illuminate\Http\Request $request;;d4,28;;b1,0;;m\Illuminate\Http\Request $request;;p">
+<treenode node="login;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php;f11;27;5;50;;;;vpos;;v;;r
+Definition
+    login(Request $request)
+
+Description
+     Handle a login request to the application.
+
+Parameters:
+    \Illuminate\Http\Request $request;;d4,28;;b1,0;;m\Illuminate\Http\Request $request;;p">
 </treenode>
-<treenode node="logout;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php;f11;153;5;162;;;;vpos;;v;;r Definition     logout(Request $request)  Description      Log the user out of the application.  Parameters:     \Illuminate\Http\Request $request;;d4,154;;b1,0;;m\Illuminate\Http\Request $request;;p">
+<treenode node="logout;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php;f11;153;5;162;;;;vpos;;v;;r
+Definition
+    logout(Request $request)
+
+Description
+     Log the user out of the application.
+
+Parameters:
+    \Illuminate\Http\Request $request;;d4,154;;b1,0;;m\Illuminate\Http\Request $request;;p">
 </treenode>
-<treenode node="sendFailedLoginResponse;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php;f14;124;5;135;;;;vpos;;v;;r Definition     sendFailedLoginResponse(Request $request)  Description      Get the failed login response instance.  Parameters:     \Illuminate\Http\Request $request;;d4,125;;b2,0;;m\Illuminate\Http\Request $request;;p">
+<treenode node="sendFailedLoginResponse;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php;f14;124;5;135;;;;vpos;;v;;r
+Definition
+    sendFailedLoginResponse(Request $request)
+
+Description
+     Get the failed login response instance.
+
+Parameters:
+    \Illuminate\Http\Request $request;;d4,125;;b2,0;;m\Illuminate\Http\Request $request;;p">
 </treenode>
-<treenode node="sendLoginResponse;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php;f14;96;5;104;;;;vpos;;v;;r Definition     sendLoginResponse(Request $request)  Description      Send the response after the user was authenticated.  Parameters:     \Illuminate\Http\Request $request;;d4,97;;b2,0;;m\Illuminate\Http\Request $request;;p">
+<treenode node="sendLoginResponse;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php;f14;96;5;104;;;;vpos;;v;;r
+Definition
+    sendLoginResponse(Request $request)
+
+Description
+     Send the response after the user was authenticated.
+
+Parameters:
+    \Illuminate\Http\Request $request;;d4,97;;b2,0;;m\Illuminate\Http\Request $request;;p">
 </treenode>
-<treenode node="showLoginForm;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php;f11;16;5;19;;;;vpos;;v;;r Definition     showLoginForm()  Description      Show the application&apos;s login form.;;d4,17;;b1,0;;m">
+<treenode node="showLoginForm;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php;f11;16;5;19;;;;vpos;;v;;r
+Definition
+    showLoginForm()
+
+Description
+     Show the application&apos;s login form.;;d4,17;;b1,0;;m">
 </treenode>
-<treenode node="username;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php;f11;142;5;145;;;;vpos;;vstring;;r Definition     username()  Description      Get the login username to be used by the controller.;;d4,143;;b1,0;;m">
+<treenode node="username;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php;f11;142;5;145;;;;vpos;;vstring;;r
+Definition
+    username()
+
+Description
+     Get the login username to be used by the controller.;;d4,143;;b1,0;;m">
 </treenode>
-<treenode node="validateLogin;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php;f14;58;5;64;;;;vpos;;vvoid;;r Definition     validateLogin(Request $request)  Description      Validate the user login request.  Parameters:     \Illuminate\Http\Request $request;;d4,59;;b2,0;;m\Illuminate\Http\Request $request;;p">
+<treenode node="validateLogin;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php;f14;58;5;64;;;;vpos;;vvoid;;r
+Definition
+    validateLogin(Request $request)
+
+Description
+     Validate the user login request.
+
+Parameters:
+    \Illuminate\Http\Request $request;;d4,59;;b2,0;;m\Illuminate\Http\Request $request;;p">
 </treenode>
 </treenode>
 <treenode node="AuthenticateWithBasicAuth;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\Middleware\AuthenticateWithBasicAuth.php;f0;7;1;39;;;;vpos;;v;;r;;d0,8;;b0,0;;m">
@@ -2485,9 +2616,23 @@
 </treenode>
 </treenode>
 <treenode node="AuthenticationException;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\AuthenticationException.php;f0;6;1;38;;;;vpos;;vException;;c;;r;;d0,7;;b0,0;;m">
-<treenode node="__construct;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\AuthenticationException.php;f11;22;5;27;;;;vpos;;vvoid;;r Definition     __construct($message = &apos;Unauthenticated.&apos;, array $guards = [])  Description      Create a new authentication exception.  Parameters:     string $message     array $guards;;d4,23;;b1,0;;mstring $message;;parray $guards;;p">
+<treenode node="__construct;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\AuthenticationException.php;f11;22;5;27;;;;vpos;;vvoid;;r
+Definition
+    __construct($message = &apos;Unauthenticated.&apos;, array $guards = [])
+
+Description
+     Create a new authentication exception.
+
+Parameters:
+    string $message
+    array $guards;;d4,23;;b1,0;;mstring $message;;parray $guards;;p">
 </treenode>
-<treenode node="guards;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\AuthenticationException.php;f11;34;5;37;;;;vpos;;varray;;r Definition     guards()  Description      Get the guards that were checked.;;d4,35;;b1,0;;m">
+<treenode node="guards;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\AuthenticationException.php;f11;34;5;37;;;;vpos;;varray;;r
+Definition
+    guards()
+
+Description
+     Get the guards that were checked.;;d4,35;;b1,0;;m">
 </treenode>
 </treenode>
 <treenode node="AuthManager;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\AuthManager.php;f0;8;1;295;;;;vpos;;vFactoryContract;;cCreatesUserProviders;;c;;r;;d0,9;;b0,0;;m">
@@ -6036,28 +6181,6 @@
 <treenode node="createUserProvider;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\CreatesUserProviders.php;f11;23;5;41;;;;vpos;;v;;r Definition     createUserProvider($provider)  Description      Create the user provider implementation for the driver.  Parameters:     string $provider;;d4,24;;b1,0;;mstring $provider;;p">
 </treenode>
 </treenode>
-<treenode node="CreateUsersTable;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\database\migrations\2014_10_12_000000_create_users_table.php;f0;6;1;34;;;;vpos;;vMigration;;c;;r;;d0,7;;b0,0;;m">
-<treenode node="down;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\database\migrations\2014_10_12_000000_create_users_table.php;f11;30;5;33;;;;vpos;;vvoid;;r Definition     down()  Description      Reverse the migrations.;;d4,31;;b1,0;;m">
-</treenode>
-<treenode node="up;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\database\migrations\2014_10_12_000000_create_users_table.php;f11;13;5;23;;;;vpos;;vvoid;;r Definition     up()  Description      Run the migrations.;;d4,14;;b1,0;;m">
-</treenode>
-</treenode>
-<treenode node="CreateUsersTbl;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\database\migrations\2017_07_03_050714_create_users_tbl.php;f0;6;1;30;;;;vpos;;vMigration;;c;;r;;d0,7;;b0,0;;m">
-<treenode node="down;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\database\migrations\2017_07_03_050714_create_users_tbl.php;f11;26;5;29;;;;vpos;;vvoid;;r
-Definition
-    down()
-
-Description
-     Reverse the migrations.;;d4,27;;b1,0;;m">
-</treenode>
-<treenode node="up;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\database\migrations\2017_07_03_050714_create_users_tbl.php;f11;13;5;19;;;;vpos;;vvoid;;r
-Definition
-    up()
-
-Description
-     Run the migrations.;;d4,14;;b1,0;;m">
-</treenode>
-</treenode>
 <treenode node="Crypt;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Support\Facades\Crypt.php;f0;7;1;18;;;;vpos;;vFacade;;c;;r Definition     class Crypt extends Facade  Description       see \Illuminate\Encryption\Encrypter;;d0,8;;b0,0;;m">
 <treenode node="getFacadeAccessor;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Support\Facades\Crypt.php;f21;14;5;17;;;;vpos;;vstring;;r Definition     getFacadeAccessor()  Description      Get the registered name of the component.;;d4,15;;b2,5;;m">
 </treenode>
@@ -6274,8 +6397,8 @@ Description
 <treenode node="size;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Queue\DatabaseQueue.php;f11;63;5;68;;;;vpos;;vint;;r Definition     size($queue = null)  Description      Get the size of the queue.  Parameters:     string $queue;;d4,64;;b1,0;;mstring $queue;;p">
 </treenode>
 </treenode>
-<treenode node="DatabaseSeeder;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\database\seeds\DatabaseSeeder.php;f0;4;1;15;;;;vpos;;vSeeder;;c;;r;;d0,5;;b0,0;;m">
-<treenode node="run;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\database\seeds\DatabaseSeeder.php;f11;11;5;14;;;;vpos;;vvoid;;r Definition     run()  Description      Run the database seeds.;;d4,12;;b1,0;;m">
+<treenode node="DatabaseSeeder;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\database\seeds\DatabaseSeeder.php;f0;4;1;13;;;;vpos;;vSeeder;;c;;r;;d36,4;;b0,0;;m">
+<treenode node="run;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\database\seeds\DatabaseSeeder.php;f8;10;2;12;;;;vpos;;vvoid;;r Definition     run()  Description      Run the database seeds.;;d23,10;;b1,0;;m">
 </treenode>
 </treenode>
 <treenode node="DatabaseServiceProvider;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Database\DatabaseServiceProvider.php;f0;13;1;98;;;;vpos;;vServiceProvider;;c;;r;;d0,14;;b0,0;;m">
@@ -8734,8 +8857,8 @@ Description
 <treenode node="getArguments;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Queue\Console\ForgetFailedCommand.php;f14;42;5;47;;;;vpos;;varray;;r Definition     getArguments()  Description      Get the console command arguments.;;d4,43;;b2,0;;m">
 </treenode>
 </treenode>
-<treenode node="ForgotPasswordController;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\ForgotPasswordController.php;f0;7;1;31;;;;vpos;;vController;;cSendsPasswordResetEmails;;c;;r;;d0,8;;b0,0;;m">
-<treenode node="__construct;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\ForgotPasswordController.php;f11;27;5;30;;;;vpos;;vvoid;;r Definition     __construct()  Description      Create a new controller instance.;;d4,28;;b1,0;;m">
+<treenode node="ForgotPasswordController;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\ForgotPasswordController.php;f0;7;1;31;;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\ForgotPasswordController.php;f0;7;1;31;;;;vpos;;vController;;cSendsPasswordResetEmails;;c;;r;;d0,8;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\ForgotPasswordController.php;f11;27;5;30;;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\ForgotPasswordController.php;f11;27;5;30;;;;vpos;;vvoid;;r Definition     __construct()  Description      Create a new controller instance.;;d4,28;;b1,0;;m">
 </treenode>
 </treenode>
 <treenode node="FormatsMessages;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Validation\Concerns\FormatsMessages.php;f0;9;1;347;;;;vpos;;vReplacesAttributes;;c;;r;;d0,10;;b0,0;;m">
@@ -10132,6 +10255,22 @@ Description
 <treenode node="write;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\monolog\monolog\src\Monolog\Handler\HipChatHandler.php;f14;218;5;222;;;;vpos;;v;;r Definition     write(array $record)  Description      { inheritdoc}  Parameters:     array $record;;d4,219;;b2,0;;marray $record;;p">
 </treenode>
 </treenode>
+<treenode node="HomeController;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\HomeController.php;f0;6;1;24;;;;vpos;;vController;;c;;r;;d40,6;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\HomeController.php;f8;12;2;14;;;;vpos;;vvoid;;r
+Definition
+    __construct()
+
+Description
+     Create a new controller instance.;;d31,12;;b1,0;;m">
+</treenode>
+<treenode node="index;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\HomeController.php;f8;21;2;23;;;;vpos;;v;;r
+Definition
+    index()
+
+Description
+     Show the application dashboard.;;d25,21;;b1,0;;m">
+</treenode>
+</treenode>
 <treenode node="HostValidator;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Matching\HostValidator.php;f0;7;1;24;;;;vpos;;vValidatorInterface;;c;;r;;d0,8;;b0,0;;m">
 <treenode node="matches;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Matching\HostValidator.php;f11;16;5;23;;;;vpos;;vbool;;r Definition     matches(Route $route, Request $request)  Description      Validate a given rule against a route and request.  Parameters:     \Illuminate\Routing\Route $route     \Illuminate\Http\Request $request;;d4,17;;b1,0;;m\Illuminate\Routing\Route $route;;p\Illuminate\Http\Request $request;;p">
 </treenode>
@@ -10246,6 +10385,10 @@ Description
 <treenode node="__construct;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Validation\Rules\In.php;f11;24;5;27;;;;vpos;;vvoid;;r Definition     __construct(array $values)  Description      Create a new in rule instance.  Parameters:     array $values;;d4,25;;b1,0;;marray $values;;p">
 </treenode>
 <treenode node="__toString;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Validation\Rules\In.php;f11;34;5;37;;;;vpos;;vstring;;r Definition     __toString()  Description      Convert the rule to a validation string.;;d4,35;;b1,0;;m">
+</treenode>
+</treenode>
+<treenode node="IndexController;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\IndexController.php;f0;6;1;10;;;;vpos;;vController;;c;;r;;d41,6;;b0,0;;m">
+<treenode node="index;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\IndexController.php;f8;7;2;9;;;;vpos;;v;;r;;d25,7;;b1,0;;m">
 </treenode>
 </treenode>
 <treenode node="Inflector;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\doctrine\inflector\lib\Doctrine\Common\Inflector\Inflector.php;f0;35;1;481;;;;vpos;;v;;r Definition     class Inflector  Description      Doctrine inflector has static methods for inflecting text.;;d0,36;;b0,0;;m">
@@ -11654,7 +11797,7 @@ Description
 <treenode node="withCallback;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Http\JsonResponse.php;f11;35;5;38;;;;vpos;;v;;r Definition     withCallback($callback = null)  Description      Sets the JSONP callback.  Parameters:     string|null $callback;;d4,36;;b1,0;;mstring|null $callback;;p">
 </treenode>
 </treenode>
-<treenode node="Kernel;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php;f0;14;1;337;;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php;f0;16;1;333;;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Kernel.php;f0;6;1;59;;D:\Programs\OpenServer\domains\hyip.loc\app\Console\Kernel.php;f0;7;1;39;;;;vpos;;vKernelContract;;c;;r;;d0,15;;b0,0;;m">
+<treenode node="Kernel;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php;f0;14;1;337;;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php;f0;16;1;333;;D:\Programs\OpenServer\domains\hyip.loc\app\Console\Kernel.php;f0;7;1;39;;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Kernel.php;f0;6;1;59;;;;vpos;;vHttpKernel;;c;;r;;d0,7;;b0,0;;m">
 <treenode node="__construct;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php;f11;88;5;102;;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php;f11;75;5;87;;;;vpos;;vvoid;;r Definition     __construct(Application $app, Router $router)  Description      Create a new HTTP kernel instance.  Parameters:     \Illuminate\Contracts\Foundation\Application $app     \Illuminate\Routing\Router $router;;d4,89;;b1,0;;m\Illuminate\Contracts\Foundation\Application $app;;p\Illuminate\Routing\Router $router;;p">
 </treenode>
 <treenode node="all;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php;f11;239;5;244;;;;vpos;;varray;;r Definition     all()  Description      Get all of the commands registered with the console.;;d4,240;;b1,0;;m">
@@ -12146,8 +12289,17 @@ Description
 <treenode node="__construct;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\Events\Login.php;f11;31;5;35;;;;vpos;;vvoid;;r Definition     __construct($user, $remember)  Description      Create a new event instance.  Parameters:     \Illuminate\Contracts\Auth\Authenticatable $user     bool $remember;;d4,32;;b1,0;;m\Illuminate\Contracts\Auth\Authenticatable $user;;pbool $remember;;p">
 </treenode>
 </treenode>
-<treenode node="LoginController;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\LoginController.php;f0;7;1;38;;;;vpos;;vController;;cAuthenticatesUsers;;c;;r;;d0,8;;b0,0;;m">
-<treenode node="__construct;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\LoginController.php;f11;34;5;37;;;;vpos;;vvoid;;r Definition     __construct()  Description      Create a new controller instance.;;d4,35;;b1,0;;m">
+<treenode node="LoginController;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\LoginController.php;f0;8;1;47;;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\LoginController.php;f0;8;1;51;;;;vpos;;vController;;cAuthenticatesUsers;;c;;r;;d41,8;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\LoginController.php;f8;34;2;36;;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\LoginController.php;f8;34;2;36;;;;vpos;;vvoid;;r
+Definition
+    __construct()
+
+Description
+     Create a new controller instance.;;d31,34;;b1,0;;m">
+</treenode>
+<treenode node="username;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\LoginController.php;f8;48;2;50;;;;vpos;;v;;r;;d28,48;;b1,0;;m">
+</treenode>
+<treenode node="validateLogin;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\LoginController.php;f11;38;2;45;;;;vpos;;v;;r;;d52,38;;b2,0;;mrequest;;p">
 </treenode>
 </treenode>
 <treenode node="Logout;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\Events\Logout.php;f0;6;1;27;;;;vpos;;vSerializesModels;;c;;r;;d0,7;;b0,0;;m">
@@ -16687,7 +16839,12 @@ Description
 </treenode>
 </treenode>
 <treenode node="RedirectsUsers;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\RedirectsUsers.php;f0;4;1;19;;;;vpos;;v;;r;;d0,5;;b0,0;;m">
-<treenode node="redirectPath;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\RedirectsUsers.php;f11;11;5;18;;;;vpos;;vstring;;r Definition     redirectPath()  Description      Get the post register / login redirect path.;;d4,12;;b1,0;;m">
+<treenode node="redirectPath;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\RedirectsUsers.php;f11;11;5;18;;;;vpos;;vstring;;r
+Definition
+    redirectPath()
+
+Description
+     Get the post register / login redirect path.;;d4,12;;b1,0;;m">
 </treenode>
 </treenode>
 <treenode node="Redis;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Support\Facades\Redis.php;f0;8;1;19;;;;vpos;;vFacade;;c;;r Definition     class Redis extends Facade  Description       see \Illuminate\Redis\RedisManager;;d0,9;;b0,0;;m">
@@ -16866,16 +17023,47 @@ Description
 <treenode node="runSeeder;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\RefreshCommand.php;f14;123;5;130;;;;vpos;;vvoid;;r Definition     runSeeder($database)  Description      Run the database seeder command.  Parameters:     string $database;;d4,124;;b2,0;;mstring $database;;p">
 </treenode>
 </treenode>
-<treenode node="RegisterController;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\RegisterController.php;f0;9;1;70;;;;vpos;;vController;;cRegistersUsers;;c;;r;;d0,10;;b0,0;;m">
-<treenode node="__construct;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\RegisterController.php;f11;36;5;39;;;;vpos;;vvoid;;r Definition     __construct()  Description      Create a new controller instance.;;d4,37;;b1,0;;m">
+<treenode node="RegisterController;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\RegisterController.php;f0;9;1;94;;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\RegisterController.php;f0;9;1;94;;;;vpos;;vController;;cRegistersUsers;;c;;r;;d44,9;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\RegisterController.php;f8;35;2;37;;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\RegisterController.php;f8;35;2;37;;;;vpos;;vvoid;;r
+Definition
+    __construct()
+
+Description
+     Create a new controller instance.;;d31,35;;b1,0;;m">
 </treenode>
-<treenode node="create;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\RegisterController.php;f14;62;5;69;;;;vpos;;vUser;;r Definition     create(array $data)  Description      Create a new user instance after a valid registration.  Parameters:     array $data;;d4,63;;b2,0;;marray $data;;p">
+<treenode node="create;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\RegisterController.php;f11;69;2;88;;;;vpos;;vUser;;r
+Definition
+    create(array $data)
+
+Description
+     Create a new user instance after a valid registration.
+
+Parameters:
+    array $data;;d40,69;;b2,0;;marray $data;;p">
 </treenode>
-<treenode node="validator;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\RegisterController.php;f14;47;5;54;;;;vpos;;v;;r Definition     validator(array $data)  Description      Get a validator for an incoming registration request.  Parameters:     array $data;;d4,48;;b2,0;;marray $data;;p">
+<treenode node="showRegistrationForm;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\RegisterController.php;f8;91;2;93;;;;vpos;;v;;r;;d40,91;;b1,0;;m">
+</treenode>
+<treenode node="validator;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\RegisterController.php;f11;45;2;61;;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\RegisterController.php;f11;45;2;61;;;;vpos;;v;;r
+Definition
+    validator(array $data)
+
+Description
+     Get a validator for an incoming registration request.
+
+Parameters:
+    array $data;;d43,45;;b2,0;;marray $data;;p">
 </treenode>
 </treenode>
 <treenode node="Registered;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\Events\Registered.php;f0;6;1;27;;;;vpos;;vSerializesModels;;c;;r;;d0,7;;b0,0;;m">
-<treenode node="__construct;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\Events\Registered.php;f11;23;5;26;;;;vpos;;vvoid;;r Definition     __construct($user)  Description      Create a new event instance.  Parameters:     \Illuminate\Contracts\Auth\Authenticatable $user;;d4,24;;b1,0;;m\Illuminate\Contracts\Auth\Authenticatable $user;;p">
+<treenode node="__construct;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\Events\Registered.php;f11;23;5;26;;;;vpos;;vvoid;;r
+Definition
+    __construct($user)
+
+Description
+     Create a new event instance.
+
+Parameters:
+    \Illuminate\Contracts\Auth\Authenticatable $user;;d4,24;;b1,0;;m\Illuminate\Contracts\Auth\Authenticatable $user;;p">
 </treenode>
 </treenode>
 <treenode node="RegisterFacades;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\RegisterFacades.php;f0;8;1;24;;;;vpos;;v;;r;;d0,9;;b0,0;;m">
@@ -16887,13 +17075,40 @@ Description
 </treenode>
 </treenode>
 <treenode node="RegistersUsers;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\RegistersUsers.php;f0;8;1;61;;;;vpos;;vRedirectsUsers;;c;;r;;d0,9;;b0,0;;m">
-<treenode node="guard;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\RegistersUsers.php;f14;45;5;48;;;;vpos;;v;;r Definition     guard()  Description      Get the guard to be used during registration.;;d4,46;;b2,0;;m">
+<treenode node="guard;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\RegistersUsers.php;f14;45;5;48;;;;vpos;;v;;r
+Definition
+    guard()
+
+Description
+     Get the guard to be used during registration.;;d4,46;;b2,0;;m">
 </treenode>
-<treenode node="register;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\RegistersUsers.php;f11;28;5;38;;;;vpos;;v;;r Definition     register(Request $request)  Description      Handle a registration request for the application.  Parameters:     \Illuminate\Http\Request $request;;d4,29;;b1,0;;m\Illuminate\Http\Request $request;;p">
+<treenode node="register;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\RegistersUsers.php;f11;28;5;38;;;;vpos;;v;;r
+Definition
+    register(Request $request)
+
+Description
+     Handle a registration request for the application.
+
+Parameters:
+    \Illuminate\Http\Request $request;;d4,29;;b1,0;;m\Illuminate\Http\Request $request;;p">
 </treenode>
-<treenode node="registered;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\RegistersUsers.php;f14;57;5;60;;;;vpos;;vmixed;;r Definition     registered(Request $request, $user)  Description      The user has been registered.  Parameters:     \Illuminate\Http\Request $request     mixed $user;;d4,58;;b2,0;;m\Illuminate\Http\Request $request;;pmixed $user;;p">
+<treenode node="registered;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\RegistersUsers.php;f14;57;5;60;;;;vpos;;vmixed;;r
+Definition
+    registered(Request $request, $user)
+
+Description
+     The user has been registered.
+
+Parameters:
+    \Illuminate\Http\Request $request
+    mixed $user;;d4,58;;b2,0;;m\Illuminate\Http\Request $request;;pmixed $user;;p">
 </treenode>
-<treenode node="showRegistrationForm;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\RegistersUsers.php;f11;17;5;20;;;;vpos;;v;;r Definition     showRegistrationForm()  Description      Show the application registration form.;;d4,18;;b1,0;;m">
+<treenode node="showRegistrationForm;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\RegistersUsers.php;f11;17;5;20;;;;vpos;;v;;r
+Definition
+    showRegistrationForm()
+
+Description
+     Show the application registration form.;;d4,18;;b1,0;;m">
 </treenode>
 </treenode>
 <treenode node="Registry;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\monolog\monolog\src\Monolog\Registry.php;f0;37;1;133;;;;vpos;;v;;r Definition     class Registry  Description      Monolog log registry;;d0,38;;b0,0;;m">
@@ -17244,8 +17459,13 @@ Description
 <treenode node="via;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\Notifications\ResetPassword.php;f11;33;5;36;;;;vpos;;varray;;r Definition     via($notifiable)  Description      Get the notification&apos;s channels.  Parameters:     mixed $notifiable  Return:    |string;;d4,34;;b1,0;;mmixed $notifiable;;p">
 </treenode>
 </treenode>
-<treenode node="ResetPasswordController;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\ResetPasswordController.php;f0;7;1;38;;;;vpos;;vController;;cResetsPasswords;;c;;r;;d0,8;;b0,0;;m">
-<treenode node="__construct;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\ResetPasswordController.php;f11;34;5;37;;;;vpos;;vvoid;;r Definition     __construct()  Description      Create a new controller instance.;;d4,35;;b1,0;;m">
+<treenode node="ResetPasswordController;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\ResetPasswordController.php;f0;7;1;38;;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\ResetPasswordController.php;f0;7;1;38;;;;vpos;;vController;;cResetsPasswords;;c;;r;;d0,8;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\ResetPasswordController.php;f11;34;5;37;;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\ResetPasswordController.php;f11;34;5;37;;;;vpos;;vvoid;;r
+Definition
+    __construct()
+
+Description
+     Create a new controller instance.;;d4,35;;b1,0;;m">
 </treenode>
 </treenode>
 <treenode node="ResetsPasswords;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\ResetsPasswords.php;f0;9;1;155;;;;vpos;;vRedirectsUsers;;c;;r;;d0,10;;b0,0;;m">
@@ -17673,163 +17893,794 @@ Description
 </treenode>
 </treenode>
 <treenode node="Router;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f0;18;1;1101;;;;vpos;;vRegistrarContract;;cBindingRegistrar;;cMacroable;;c;;r;;d0,19;;b0,0;;m">
-<treenode node="__call;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;1093;5;1100;;;;vpos;;vmixed;;r Definition     __call($method, $parameters)  Description      Dynamically handle calls into the router instance.  Parameters:     string $method     array $parameters;;d4,1094;;b1,0;;mstring $method;;parray $parameters;;p">
-</treenode>
-<treenode node="__construct;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;117;5;122;;;;vpos;;vvoid;;r Definition     __construct(Dispatcher $events, Container $container = null)  Description      Create a new Router instance.  Parameters:     \Illuminate\Contracts\Events\Dispatcher $events     \Illuminate\Container\Container $container;;d4,118;;b1,0;;m\Illuminate\Contracts\Events\Dispatcher $events;;p\Illuminate\Container\Container $container;;p">
-</treenode>
-<treenode node="actionReferencesController;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;400;5;407;;;;vpos;;vbool;;r Definition     actionReferencesController($action)  Description      Determine if the action is routing to a controller.  Parameters:     array $action;;d4,401;;b2,0;;marray $action;;p">
-</treenode>
-<treenode node="addRoute;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;356;5;359;;;;vpos;;v;;r Definition     addRoute($methods, $uri, $action)  Description      Add a route to the underlying route collection.  Parameters:     array|string $methods     string $uri     \Closure|array|string|null $action;;d4,357;;b2,0;;marray|string $methods;;pstring $uri;;p\Closure|array|string|null $action;;p">
-</treenode>
-<treenode node="addWhereClausesToRoute;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;482;5;489;;;;vpos;;v;;r Definition     addWhereClausesToRoute($route)  Description      Add the necessary where clauses to the route based on its initial registration.  Parameters:     \Illuminate\Routing\Route $route;;d4,483;;b2,0;;m\Illuminate\Routing\Route $route;;p">
-</treenode>
-<treenode node="aliasMiddleware;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;691;5;696;;;;vpos;;v;;r Definition     aliasMiddleware($name, $class)  Description      Register a short-hand name for a middleware.  Parameters:     string $name     string $class;;d4,692;;b1,0;;mstring $name;;pstring $class;;p">
-</treenode>
-<treenode node="any;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;203;5;208;;;;vpos;;v;;r Definition     any($uri, $action = null)  Description      Register a new route responding to all verbs.  Parameters:     string $uri     \Closure|array|string|null $action;;d4,204;;b1,0;;mstring $uri;;p\Closure|array|string|null $action;;p">
-</treenode>
-<treenode node="apiResource;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;263;5;268;;;;vpos;;vvoid;;r Definition     apiResource($name, $controller, array $options = [])  Description      Route an api resource to a controller.  Parameters:     string $name     string $controller     array $options;;d4,264;;b1,0;;mstring $name;;pstring $controller;;parray $options;;p">
-</treenode>
-<treenode node="auth;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;1008;5;1024;;;;vpos;;vvoid;;r Definition     auth()  Description      Register the typical authentication routes for an application.;;d4,1009;;b1,0;;m">
-</treenode>
-<treenode node="bind;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;780;5;785;;;;vpos;;vvoid;;r Definition     bind($key, $binder)  Description      Add a new route parameter binder.  Parameters:     string $key     string|callable $binder;;d4,781;;b1,0;;mstring $key;;pstring|callable $binder;;p">
-</treenode>
-<treenode node="convertToControllerAction;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;415;5;434;;;;vpos;;varray;;r Definition     convertToControllerAction($action)  Description      Add a controller based route action to the action array.  Parameters:     array|string $action;;d4,416;;b2,0;;marray|string $action;;p">
-</treenode>
-<treenode node="createRoute;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;369;5;392;;;;vpos;;v;;r Definition     createRoute($methods, $uri, $action)  Description      Create a new route instance.  Parameters:     array|string $methods     string $uri     mixed $action;;d4,370;;b2,0;;marray|string $methods;;pstring $uri;;pmixed $action;;p">
-</treenode>
-<treenode node="current;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;907;5;910;;;;vpos;;v;;r Definition     current()  Description      Get the currently dispatched route instance.;;d4,908;;b1,0;;m">
-</treenode>
-<treenode node="currentRouteAction;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;965;5;974;;;;vpos;;vstring;;r Definition     currentRouteAction()  Description      Get the current route action.  Return:    |null;;d4,966;;b1,0;;m">
-</treenode>
-<treenode node="currentRouteName;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;928;5;931;;;;vpos;;vstring;;r Definition     currentRouteName()  Description      Get the current route name.  Return:    |null;;d4,929;;b1,0;;m">
-</treenode>
-<treenode node="currentRouteNamed;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;955;5;958;;;;vpos;;vbool;;r Definition     currentRouteNamed($name)  Description      Determine if the current route matches a given name.  Parameters:     string $name;;d4,956;;b1,0;;mstring $name;;p">
-</treenode>
-<treenode node="currentRouteUses;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;998;5;1001;;;;vpos;;vbool;;r Definition     currentRouteUses($action)  Description      Determine if the current route action matches a given action.  Parameters:     string $action;;d4,999;;b1,0;;mstring $action;;p">
-</treenode>
-<treenode node="delete;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;179;5;182;;;;vpos;;v;;r Definition     delete($uri, $action = null)  Description      Register a new DELETE route with the router.  Parameters:     string $uri     \Closure|array|string|null $action;;d4,180;;b1,0;;mstring $uri;;p\Closure|array|string|null $action;;p">
-</treenode>
-<treenode node="dispatch;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;508;5;513;;;;vpos;;v;;r Definition     dispatch(Request $request)  Description      Dispatch the request to the application.  Parameters:     \Illuminate\Http\Request $request;;d4,509;;b1,0;;m\Illuminate\Http\Request $request;;p">
-</treenode>
-<treenode node="dispatchToRoute;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;521;5;537;;;;vpos;;vmixed;;r Definition     dispatchToRoute(Request $request)  Description      Dispatch the request to a route and return the response.  Parameters:     \Illuminate\Http\Request $request;;d4,522;;b1,0;;m\Illuminate\Http\Request $request;;p">
-</treenode>
-<treenode node="findRoute;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;545;5;552;;;;vpos;;v;;r Definition     findRoute($request)  Description      Find the route matching a given request.  Parameters:     \Illuminate\Http\Request $request;;d4,546;;b2,0;;m\Illuminate\Http\Request $request;;p">
-</treenode>
-<treenode node="gatherRouteMiddleware;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;584;5;591;;;;vpos;;varray;;r Definition     gatherRouteMiddleware(Route $route)  Description      Gather the middleware for the given route with resolved class names.  Parameters:     \Illuminate\Routing\Route $route;;d4,585;;b1,0;;m\Illuminate\Routing\Route $route;;p">
-</treenode>
-<treenode node="get;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;131;5;134;;;;vpos;;v;;r Definition     get($uri, $action = null)  Description      Register a new GET route with the router.  Parameters:     string $uri     \Closure|array|string|null $action;;d4,132;;b1,0;;mstring $uri;;p\Closure|array|string|null $action;;p">
-</treenode>
-<treenode node="getBindingCallback;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;808;5;813;;;;vpos;;v;;r Definition     getBindingCallback($key)  Description      Get the binding callback for a given binding.  Parameters:     string $key;;d4,809;;b1,0;;mstring $key;;p">
-</treenode>
-<treenode node="getCurrentRequest;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;887;5;890;;;;vpos;;v;;r Definition     getCurrentRequest()  Description      Get the request currently being dispatched.;;d4,888;;b1,0;;m">
-</treenode>
-<treenode node="getCurrentRoute;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;897;5;900;;;;vpos;;v;;r Definition     getCurrentRoute()  Description      Get the currently dispatched route instance.;;d4,898;;b1,0;;m">
-</treenode>
-<treenode node="getGroupStack;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;865;5;868;;;;vpos;;varray;;r Definition     getGroupStack()  Description      Get the current group stack for the router.;;d4,866;;b1,0;;m">
-</treenode>
-<treenode node="getLastGroupPrefix;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;337;5;346;;;;vpos;;vstring;;r Definition     getLastGroupPrefix()  Description      Get the prefix from the last group on the stack.;;d4,338;;b1,0;;m">
-</treenode>
-<treenode node="getMiddleware;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;679;5;682;;;;vpos;;varray;;r Definition     getMiddleware()  Description      Get all of the defined middleware short-hand names.;;d4,680;;b1,0;;m">
-</treenode>
-<treenode node="getMiddlewareGroups;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;714;5;717;;;;vpos;;varray;;r Definition     getMiddlewareGroups()  Description      Get all of the defined middleware groups.;;d4,715;;b1,0;;m">
-</treenode>
-<treenode node="getPatterns;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;820;5;823;;;;vpos;;varray;;r Definition     getPatterns()  Description      Get the global &quot;where&quot; patterns.;;d4,821;;b1,0;;m">
-</treenode>
-<treenode node="getRoutes;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;1064;5;1067;;;;vpos;;v;;r Definition     getRoutes()  Description      Get the underlying route collection.;;d4,1065;;b1,0;;m">
-</treenode>
-<treenode node="group;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;277;5;287;;;;vpos;;vvoid;;r Definition     group(array $attributes, $routes)  Description      Create a route group with shared attributes.  Parameters:     array $attributes     \Closure|string $routes;;d4,278;;b1,0;;marray $attributes;;p\Closure|string $routes;;p">
-</treenode>
-<treenode node="has;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;918;5;921;;;;vpos;;vbool;;r Definition     has($name)  Description      Check if a route with the given name exists.  Parameters:     string $name;;d4,919;;b1,0;;mstring $name;;p">
-</treenode>
-<treenode node="hasGroupStack;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;855;5;858;;;;vpos;;vbool;;r Definition     hasGroupStack()  Description      Determine if the router currently has a group stack.;;d4,856;;b1,0;;m">
-</treenode>
-<treenode node="hasMiddlewareGroup;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;704;5;707;;;;vpos;;vbool;;r Definition     hasMiddlewareGroup($name)  Description      Check if a middlewareGroup with the given name exists.  Parameters:     string $name;;d4,705;;b1,0;;mstring $name;;p">
-</treenode>
-<treenode node="input;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;877;5;880;;;;vpos;;vmixed;;r Definition     input($key, $default = null)  Description      Get a route parameter for the current route.  Parameters:     string $key     string $default;;d4,878;;b1,0;;mstring $key;;pstring $default;;p">
-</treenode>
-<treenode node="is;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;938;5;947;;;;vpos;;vbool;;r Definition     is()  Description      Alias for the &quot;currentRouteNamed&quot; method.;;d4,939;;b1,0;;m">
-</treenode>
-<treenode node="loadRoutes;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;321;5;330;;;;vpos;;vvoid;;r Definition     loadRoutes($routes)  Description      Load the provided routes.  Parameters:     \Closure|string $routes;;d4,322;;b2,0;;m\Closure|string $routes;;p">
-</treenode>
-<treenode node="match;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;218;5;221;;;;vpos;;v;;r Definition     match($methods, $uri, $action = null)  Description      Register a new route with the given verbs.  Parameters:     array|string $methods     string $uri     \Closure|array|string|null $action;;d4,219;;b1,0;;marray|string $methods;;pstring $uri;;p\Closure|array|string|null $action;;p">
-</treenode>
-<treenode node="matched;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;669;5;672;;;;vpos;;vvoid;;r Definition     matched($callback)  Description      Register a route matched event listener.  Parameters:     string|callable $callback;;d4,670;;b1,0;;mstring|callable $callback;;p">
-</treenode>
-<treenode node="mergeGroupAttributesIntoRoute;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;497;5;500;;;;vpos;;vvoid;;r Definition     mergeGroupAttributesIntoRoute($route)  Description      Merge the group stack with the controller action.  Parameters:     \Illuminate\Routing\Route $route;;d4,498;;b2,0;;m\Illuminate\Routing\Route $route;;p">
-</treenode>
-<treenode node="mergeWithLastGroup;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;310;5;313;;;;vpos;;varray;;r Definition     mergeWithLastGroup($new)  Description      Merge the given array with the last group stack.  Parameters:     array $new;;d4,311;;b1,0;;marray $new;;p">
-</treenode>
-<treenode node="middlewareGroup;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;726;5;731;;;;vpos;;v;;r Definition     middlewareGroup($name, array $middleware)  Description      Register a group of middleware.  Parameters:     string $name     array $middleware;;d4,727;;b1,0;;mstring $name;;parray $middleware;;p">
-</treenode>
-<treenode node="model;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;797;5;800;;;;vpos;;vvoid;;r Definition     model($key, $class, Closure $callback = null)  Description      Register a model binder for a wildcard.  Parameters:     string $key     string $class     \Closure|null $callback;;d4,798;;b1,0;;mstring $key;;pstring $class;;p\Closure|null $callback;;p">
-</treenode>
-<treenode node="newRoute;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;458;5;463;;;;vpos;;v;;r Definition     newRoute($methods, $uri, $action)  Description      Create a new Route object.  Parameters:     array|string $methods     string $uri     mixed $action;;d4,459;;b2,0;;marray|string $methods;;pstring $uri;;pmixed $action;;p">
-</treenode>
-<treenode node="options;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;191;5;194;;;;vpos;;v;;r Definition     options($uri, $action = null)  Description      Register a new OPTIONS route with the router.  Parameters:     string $uri     \Closure|array|string|null $action;;d4,192;;b1,0;;mstring $uri;;p\Closure|array|string|null $action;;p">
-</treenode>
-<treenode node="patch;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;167;5;170;;;;vpos;;v;;r Definition     patch($uri, $action = null)  Description      Register a new PATCH route with the router.  Parameters:     string $uri     \Closure|array|string|null $action;;d4,168;;b1,0;;mstring $uri;;p\Closure|array|string|null $action;;p">
-</treenode>
-<treenode node="pattern;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;832;5;835;;;;vpos;;vvoid;;r Definition     pattern($key, $pattern)  Description      Set a global where pattern on all routes.  Parameters:     string $key     string $pattern;;d4,833;;b1,0;;mstring $key;;pstring $pattern;;p">
-</treenode>
-<treenode node="patterns;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;843;5;848;;;;vpos;;vvoid;;r Definition     patterns($patterns)  Description      Set a group of global where patterns on all routes.  Parameters:     array $patterns;;d4,844;;b1,0;;marray $patterns;;p">
-</treenode>
-<treenode node="performBinding;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;658;5;661;;;;vpos;;vmixed;;r Definition     performBinding($key, $value, $route)  Description      Call the binding callback for the given key.  Parameters:     string $key     string $value     \Illuminate\Routing\Route $route;;d4,659;;b2,0;;mstring $key;;pstring $value;;p\Illuminate\Routing\Route $route;;p">
-</treenode>
-<treenode node="post;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;143;5;146;;;;vpos;;v;;r Definition     post($uri, $action = null)  Description      Register a new POST route with the router.  Parameters:     string $uri     \Closure|array|string|null $action;;d4,144;;b1,0;;mstring $uri;;p\Closure|array|string|null $action;;p">
-</treenode>
-<treenode node="prefix;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;471;5;474;;;;vpos;;vstring;;r Definition     prefix($uri)  Description      Prefix the given URI with the last prefix.  Parameters:     string $uri;;d4,472;;b2,0;;mstring $uri;;p">
-</treenode>
-<treenode node="prepareResponse;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;611;5;620;;;;vpos;;v;;r Definition     prepareResponse($request, $response)  Description      Create a response instance from the given value.  Parameters:     \Symfony\Component\HttpFoundation\Request $request     mixed $response;;d4,612;;b1,0;;m\Symfony\Component\HttpFoundation\Request $request;;pmixed $response;;p">
-</treenode>
-<treenode node="prependGroupNamespace;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;442;5;448;;;;vpos;;vstring;;r Definition     prependGroupNamespace($class)  Description      Prepend the last group namespace onto the use clause.  Parameters:     string $class;;d4,443;;b2,0;;mstring $class;;p">
-</treenode>
-<treenode node="prependMiddlewareToGroup;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;742;5;749;;;;vpos;;v;;r Definition     prependMiddlewareToGroup($group, $middleware)  Description      Add a middleware to the beginning of a middleware group.  Parameters:     string $group     string $middleware;;d4,743;;b1,0;;mstring $group;;pstring $middleware;;p">
-</treenode>
-<treenode node="pushMiddlewareToGroup;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;760;5;771;;;;vpos;;v;;r Definition     pushMiddlewareToGroup($group, $middleware)  Description      Add a middleware to the end of a middleware group.  Parameters:     string $group     string $middleware;;d4,761;;b1,0;;mstring $group;;pstring $middleware;;p">
-</treenode>
-<treenode node="put;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;155;5;158;;;;vpos;;v;;r Definition     put($uri, $action = null)  Description      Register a new PUT route with the router.  Parameters:     string $uri     \Closure|array|string|null $action;;d4,156;;b1,0;;mstring $uri;;p\Closure|array|string|null $action;;p">
-</treenode>
-<treenode node="resource;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;244;5;253;;;;vpos;;vvoid;;r Definition     resource($name, $controller, array $options = [])  Description      Route a resource to a controller.  Parameters:     string $name     string $controller     array $options;;d4,245;;b1,0;;mstring $name;;pstring $controller;;parray $options;;p">
-</treenode>
-<treenode node="resourceParameters;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;1043;5;1046;;;;vpos;;vvoid;;r Definition     resourceParameters(array $parameters = [])  Description      Set the global resource parameter mapping.  Parameters:     array $parameters;;d4,1044;;b1,0;;marray $parameters;;p">
-</treenode>
-<treenode node="resources;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;229;5;234;;;;vpos;;vvoid;;r Definition     resources(array $resources)  Description      Register an array of resource controllers.  Parameters:     array $resources;;d4,230;;b1,0;;marray $resources;;p">
-</treenode>
-<treenode node="resourceVerbs;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;1054;5;1057;;;;vpos;;varray;;r Definition     resourceVerbs(array $verbs = [])  Description      Get or set the verbs used in the resource URIs.  Parameters:     array $verbs  Return:    |null;;d4,1055;;b1,0;;marray $verbs;;p">
-</treenode>
-<treenode node="runRouteWithinStack;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;561;5;576;;;;vpos;;vmixed;;r Definition     runRouteWithinStack(Route $route, Request $request)  Description      Run the given route within a Stack &quot;onion&quot; instance.  Parameters:     \Illuminate\Routing\Route $route     \Illuminate\Http\Request $request;;d4,562;;b2,0;;m\Illuminate\Routing\Route $route;;p\Illuminate\Http\Request $request;;p">
-</treenode>
-<treenode node="setRoutes;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;1075;5;1084;;;;vpos;;vvoid;;r Definition     setRoutes(RouteCollection $routes)  Description      Set the route collection instance.  Parameters:     \Illuminate\Routing\RouteCollection $routes;;d4,1076;;b1,0;;m\Illuminate\Routing\RouteCollection $routes;;p">
-</treenode>
-<treenode node="singularResourceParameters;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;1032;5;1035;;;;vpos;;vvoid;;r Definition     singularResourceParameters($singular = true)  Description      Set the unmapped global resource parameters to singular.  Parameters:     bool $singular;;d4,1033;;b1,0;;mbool $singular;;p">
-</treenode>
-<treenode node="sortMiddleware;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;599;5;602;;;;vpos;;varray;;r Definition     sortMiddleware(Collection $middlewares)  Description      Sort the given middleware by priority.  Parameters:     \Illuminate\Support\Collection $middlewares;;d4,600;;b2,0;;m\Illuminate\Support\Collection $middlewares;;p">
-</treenode>
-<treenode node="substituteBindings;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;628;5;637;;;;vpos;;v;;r Definition     substituteBindings($route)  Description      Substitute the route bindings onto the route.  Parameters:     \Illuminate\Routing\Route $route;;d4,629;;b1,0;;m\Illuminate\Routing\Route $route;;p">
-</treenode>
-<treenode node="substituteImplicitBindings;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;645;5;648;;;;vpos;;vvoid;;r Definition     substituteImplicitBindings($route)  Description      Substitute the implicit Eloquent model bindings for the route.  Parameters:     \Illuminate\Routing\Route $route;;d4,646;;b1,0;;m\Illuminate\Routing\Route $route;;p">
-</treenode>
-<treenode node="updateGroupStack;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;295;5;302;;;;vpos;;vvoid;;r Definition     updateGroupStack(array $attributes)  Description      Update the group stack with the given attributes.  Parameters:     array $attributes;;d4,296;;b2,0;;marray $attributes;;p">
-</treenode>
-<treenode node="uses;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;981;5;990;;;;vpos;;vbool;;r Definition     uses()  Description      Alias for the &quot;currentRouteUses&quot; method.;;d4,982;;b1,0;;m">
+<treenode node="__call;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;1093;5;1100;;;;vpos;;vmixed;;r
+Definition
+    __call($method, $parameters)
+
+Description
+     Dynamically handle calls into the router instance.
+
+Parameters:
+    string $method
+    array $parameters;;d4,1094;;b1,0;;mstring $method;;parray $parameters;;p">
+</treenode>
+<treenode node="__construct;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;117;5;122;;;;vpos;;vvoid;;r
+Definition
+    __construct(Dispatcher $events, Container $container = null)
+
+Description
+     Create a new Router instance.
+
+Parameters:
+    \Illuminate\Contracts\Events\Dispatcher $events
+    \Illuminate\Container\Container $container;;d4,118;;b1,0;;m\Illuminate\Contracts\Events\Dispatcher $events;;p\Illuminate\Container\Container $container;;p">
+</treenode>
+<treenode node="actionReferencesController;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;400;5;407;;;;vpos;;vbool;;r
+Definition
+    actionReferencesController($action)
+
+Description
+     Determine if the action is routing to a controller.
+
+Parameters:
+    array $action;;d4,401;;b2,0;;marray $action;;p">
+</treenode>
+<treenode node="addRoute;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;356;5;359;;;;vpos;;v;;r
+Definition
+    addRoute($methods, $uri, $action)
+
+Description
+     Add a route to the underlying route collection.
+
+Parameters:
+    array|string $methods
+    string $uri
+    \Closure|array|string|null $action;;d4,357;;b2,0;;marray|string $methods;;pstring $uri;;p\Closure|array|string|null $action;;p">
+</treenode>
+<treenode node="addWhereClausesToRoute;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;482;5;489;;;;vpos;;v;;r
+Definition
+    addWhereClausesToRoute($route)
+
+Description
+     Add the necessary where clauses to the route based on its initial registration.
+
+Parameters:
+    \Illuminate\Routing\Route $route;;d4,483;;b2,0;;m\Illuminate\Routing\Route $route;;p">
+</treenode>
+<treenode node="aliasMiddleware;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;691;5;696;;;;vpos;;v;;r
+Definition
+    aliasMiddleware($name, $class)
+
+Description
+     Register a short-hand name for a middleware.
+
+Parameters:
+    string $name
+    string $class;;d4,692;;b1,0;;mstring $name;;pstring $class;;p">
+</treenode>
+<treenode node="any;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;203;5;208;;;;vpos;;v;;r
+Definition
+    any($uri, $action = null)
+
+Description
+     Register a new route responding to all verbs.
+
+Parameters:
+    string $uri
+    \Closure|array|string|null $action;;d4,204;;b1,0;;mstring $uri;;p\Closure|array|string|null $action;;p">
+</treenode>
+<treenode node="apiResource;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;263;5;268;;;;vpos;;vvoid;;r
+Definition
+    apiResource($name, $controller, array $options = [])
+
+Description
+     Route an api resource to a controller.
+
+Parameters:
+    string $name
+    string $controller
+    array $options;;d4,264;;b1,0;;mstring $name;;pstring $controller;;parray $options;;p">
+</treenode>
+<treenode node="auth;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;1008;5;1024;;;;vpos;;vvoid;;r
+Definition
+    auth()
+
+Description
+     Register the typical authentication routes for an application.;;d4,1009;;b1,0;;m">
+</treenode>
+<treenode node="bind;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;780;5;785;;;;vpos;;vvoid;;r
+Definition
+    bind($key, $binder)
+
+Description
+     Add a new route parameter binder.
+
+Parameters:
+    string $key
+    string|callable $binder;;d4,781;;b1,0;;mstring $key;;pstring|callable $binder;;p">
+</treenode>
+<treenode node="convertToControllerAction;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;415;5;434;;;;vpos;;varray;;r
+Definition
+    convertToControllerAction($action)
+
+Description
+     Add a controller based route action to the action array.
+
+Parameters:
+    array|string $action;;d4,416;;b2,0;;marray|string $action;;p">
+</treenode>
+<treenode node="createRoute;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;369;5;392;;;;vpos;;v;;r
+Definition
+    createRoute($methods, $uri, $action)
+
+Description
+     Create a new route instance.
+
+Parameters:
+    array|string $methods
+    string $uri
+    mixed $action;;d4,370;;b2,0;;marray|string $methods;;pstring $uri;;pmixed $action;;p">
+</treenode>
+<treenode node="current;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;907;5;910;;;;vpos;;v;;r
+Definition
+    current()
+
+Description
+     Get the currently dispatched route instance.;;d4,908;;b1,0;;m">
+</treenode>
+<treenode node="currentRouteAction;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;965;5;974;;;;vpos;;vstring;;r
+Definition
+    currentRouteAction()
+
+Description
+     Get the current route action.
+
+Return:
+   |null;;d4,966;;b1,0;;m">
+</treenode>
+<treenode node="currentRouteName;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;928;5;931;;;;vpos;;vstring;;r
+Definition
+    currentRouteName()
+
+Description
+     Get the current route name.
+
+Return:
+   |null;;d4,929;;b1,0;;m">
+</treenode>
+<treenode node="currentRouteNamed;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;955;5;958;;;;vpos;;vbool;;r
+Definition
+    currentRouteNamed($name)
+
+Description
+     Determine if the current route matches a given name.
+
+Parameters:
+    string $name;;d4,956;;b1,0;;mstring $name;;p">
+</treenode>
+<treenode node="currentRouteUses;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;998;5;1001;;;;vpos;;vbool;;r
+Definition
+    currentRouteUses($action)
+
+Description
+     Determine if the current route action matches a given action.
+
+Parameters:
+    string $action;;d4,999;;b1,0;;mstring $action;;p">
+</treenode>
+<treenode node="delete;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;179;5;182;;;;vpos;;v;;r
+Definition
+    delete($uri, $action = null)
+
+Description
+     Register a new DELETE route with the router.
+
+Parameters:
+    string $uri
+    \Closure|array|string|null $action;;d4,180;;b1,0;;mstring $uri;;p\Closure|array|string|null $action;;p">
+</treenode>
+<treenode node="dispatch;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;508;5;513;;;;vpos;;v;;r
+Definition
+    dispatch(Request $request)
+
+Description
+     Dispatch the request to the application.
+
+Parameters:
+    \Illuminate\Http\Request $request;;d4,509;;b1,0;;m\Illuminate\Http\Request $request;;p">
+</treenode>
+<treenode node="dispatchToRoute;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;521;5;537;;;;vpos;;vmixed;;r
+Definition
+    dispatchToRoute(Request $request)
+
+Description
+     Dispatch the request to a route and return the response.
+
+Parameters:
+    \Illuminate\Http\Request $request;;d4,522;;b1,0;;m\Illuminate\Http\Request $request;;p">
+</treenode>
+<treenode node="findRoute;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;545;5;552;;;;vpos;;v;;r
+Definition
+    findRoute($request)
+
+Description
+     Find the route matching a given request.
+
+Parameters:
+    \Illuminate\Http\Request $request;;d4,546;;b2,0;;m\Illuminate\Http\Request $request;;p">
+</treenode>
+<treenode node="gatherRouteMiddleware;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;584;5;591;;;;vpos;;varray;;r
+Definition
+    gatherRouteMiddleware(Route $route)
+
+Description
+     Gather the middleware for the given route with resolved class names.
+
+Parameters:
+    \Illuminate\Routing\Route $route;;d4,585;;b1,0;;m\Illuminate\Routing\Route $route;;p">
+</treenode>
+<treenode node="get;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;131;5;134;;;;vpos;;v;;r
+Definition
+    get($uri, $action = null)
+
+Description
+     Register a new GET route with the router.
+
+Parameters:
+    string $uri
+    \Closure|array|string|null $action;;d4,132;;b1,0;;mstring $uri;;p\Closure|array|string|null $action;;p">
+</treenode>
+<treenode node="getBindingCallback;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;808;5;813;;;;vpos;;v;;r
+Definition
+    getBindingCallback($key)
+
+Description
+     Get the binding callback for a given binding.
+
+Parameters:
+    string $key;;d4,809;;b1,0;;mstring $key;;p">
+</treenode>
+<treenode node="getCurrentRequest;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;887;5;890;;;;vpos;;v;;r
+Definition
+    getCurrentRequest()
+
+Description
+     Get the request currently being dispatched.;;d4,888;;b1,0;;m">
+</treenode>
+<treenode node="getCurrentRoute;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;897;5;900;;;;vpos;;v;;r
+Definition
+    getCurrentRoute()
+
+Description
+     Get the currently dispatched route instance.;;d4,898;;b1,0;;m">
+</treenode>
+<treenode node="getGroupStack;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;865;5;868;;;;vpos;;varray;;r
+Definition
+    getGroupStack()
+
+Description
+     Get the current group stack for the router.;;d4,866;;b1,0;;m">
+</treenode>
+<treenode node="getLastGroupPrefix;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;337;5;346;;;;vpos;;vstring;;r
+Definition
+    getLastGroupPrefix()
+
+Description
+     Get the prefix from the last group on the stack.;;d4,338;;b1,0;;m">
+</treenode>
+<treenode node="getMiddleware;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;679;5;682;;;;vpos;;varray;;r
+Definition
+    getMiddleware()
+
+Description
+     Get all of the defined middleware short-hand names.;;d4,680;;b1,0;;m">
+</treenode>
+<treenode node="getMiddlewareGroups;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;714;5;717;;;;vpos;;varray;;r
+Definition
+    getMiddlewareGroups()
+
+Description
+     Get all of the defined middleware groups.;;d4,715;;b1,0;;m">
+</treenode>
+<treenode node="getPatterns;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;820;5;823;;;;vpos;;varray;;r
+Definition
+    getPatterns()
+
+Description
+     Get the global &quot;where&quot; patterns.;;d4,821;;b1,0;;m">
+</treenode>
+<treenode node="getRoutes;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;1064;5;1067;;;;vpos;;v;;r
+Definition
+    getRoutes()
+
+Description
+     Get the underlying route collection.;;d4,1065;;b1,0;;m">
+</treenode>
+<treenode node="group;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;277;5;287;;;;vpos;;vvoid;;r
+Definition
+    group(array $attributes, $routes)
+
+Description
+     Create a route group with shared attributes.
+
+Parameters:
+    array $attributes
+    \Closure|string $routes;;d4,278;;b1,0;;marray $attributes;;p\Closure|string $routes;;p">
+</treenode>
+<treenode node="has;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;918;5;921;;;;vpos;;vbool;;r
+Definition
+    has($name)
+
+Description
+     Check if a route with the given name exists.
+
+Parameters:
+    string $name;;d4,919;;b1,0;;mstring $name;;p">
+</treenode>
+<treenode node="hasGroupStack;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;855;5;858;;;;vpos;;vbool;;r
+Definition
+    hasGroupStack()
+
+Description
+     Determine if the router currently has a group stack.;;d4,856;;b1,0;;m">
+</treenode>
+<treenode node="hasMiddlewareGroup;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;704;5;707;;;;vpos;;vbool;;r
+Definition
+    hasMiddlewareGroup($name)
+
+Description
+     Check if a middlewareGroup with the given name exists.
+
+Parameters:
+    string $name;;d4,705;;b1,0;;mstring $name;;p">
+</treenode>
+<treenode node="input;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;877;5;880;;;;vpos;;vmixed;;r
+Definition
+    input($key, $default = null)
+
+Description
+     Get a route parameter for the current route.
+
+Parameters:
+    string $key
+    string $default;;d4,878;;b1,0;;mstring $key;;pstring $default;;p">
+</treenode>
+<treenode node="is;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;938;5;947;;;;vpos;;vbool;;r
+Definition
+    is()
+
+Description
+     Alias for the &quot;currentRouteNamed&quot; method.;;d4,939;;b1,0;;m">
+</treenode>
+<treenode node="loadRoutes;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;321;5;330;;;;vpos;;vvoid;;r
+Definition
+    loadRoutes($routes)
+
+Description
+     Load the provided routes.
+
+Parameters:
+    \Closure|string $routes;;d4,322;;b2,0;;m\Closure|string $routes;;p">
+</treenode>
+<treenode node="match;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;218;5;221;;;;vpos;;v;;r
+Definition
+    match($methods, $uri, $action = null)
+
+Description
+     Register a new route with the given verbs.
+
+Parameters:
+    array|string $methods
+    string $uri
+    \Closure|array|string|null $action;;d4,219;;b1,0;;marray|string $methods;;pstring $uri;;p\Closure|array|string|null $action;;p">
+</treenode>
+<treenode node="matched;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;669;5;672;;;;vpos;;vvoid;;r
+Definition
+    matched($callback)
+
+Description
+     Register a route matched event listener.
+
+Parameters:
+    string|callable $callback;;d4,670;;b1,0;;mstring|callable $callback;;p">
+</treenode>
+<treenode node="mergeGroupAttributesIntoRoute;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;497;5;500;;;;vpos;;vvoid;;r
+Definition
+    mergeGroupAttributesIntoRoute($route)
+
+Description
+     Merge the group stack with the controller action.
+
+Parameters:
+    \Illuminate\Routing\Route $route;;d4,498;;b2,0;;m\Illuminate\Routing\Route $route;;p">
+</treenode>
+<treenode node="mergeWithLastGroup;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;310;5;313;;;;vpos;;varray;;r
+Definition
+    mergeWithLastGroup($new)
+
+Description
+     Merge the given array with the last group stack.
+
+Parameters:
+    array $new;;d4,311;;b1,0;;marray $new;;p">
+</treenode>
+<treenode node="middlewareGroup;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;726;5;731;;;;vpos;;v;;r
+Definition
+    middlewareGroup($name, array $middleware)
+
+Description
+     Register a group of middleware.
+
+Parameters:
+    string $name
+    array $middleware;;d4,727;;b1,0;;mstring $name;;parray $middleware;;p">
+</treenode>
+<treenode node="model;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;797;5;800;;;;vpos;;vvoid;;r
+Definition
+    model($key, $class, Closure $callback = null)
+
+Description
+     Register a model binder for a wildcard.
+
+Parameters:
+    string $key
+    string $class
+    \Closure|null $callback;;d4,798;;b1,0;;mstring $key;;pstring $class;;p\Closure|null $callback;;p">
+</treenode>
+<treenode node="newRoute;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;458;5;463;;;;vpos;;v;;r
+Definition
+    newRoute($methods, $uri, $action)
+
+Description
+     Create a new Route object.
+
+Parameters:
+    array|string $methods
+    string $uri
+    mixed $action;;d4,459;;b2,0;;marray|string $methods;;pstring $uri;;pmixed $action;;p">
+</treenode>
+<treenode node="options;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;191;5;194;;;;vpos;;v;;r
+Definition
+    options($uri, $action = null)
+
+Description
+     Register a new OPTIONS route with the router.
+
+Parameters:
+    string $uri
+    \Closure|array|string|null $action;;d4,192;;b1,0;;mstring $uri;;p\Closure|array|string|null $action;;p">
+</treenode>
+<treenode node="patch;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;167;5;170;;;;vpos;;v;;r
+Definition
+    patch($uri, $action = null)
+
+Description
+     Register a new PATCH route with the router.
+
+Parameters:
+    string $uri
+    \Closure|array|string|null $action;;d4,168;;b1,0;;mstring $uri;;p\Closure|array|string|null $action;;p">
+</treenode>
+<treenode node="pattern;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;832;5;835;;;;vpos;;vvoid;;r
+Definition
+    pattern($key, $pattern)
+
+Description
+     Set a global where pattern on all routes.
+
+Parameters:
+    string $key
+    string $pattern;;d4,833;;b1,0;;mstring $key;;pstring $pattern;;p">
+</treenode>
+<treenode node="patterns;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;843;5;848;;;;vpos;;vvoid;;r
+Definition
+    patterns($patterns)
+
+Description
+     Set a group of global where patterns on all routes.
+
+Parameters:
+    array $patterns;;d4,844;;b1,0;;marray $patterns;;p">
+</treenode>
+<treenode node="performBinding;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;658;5;661;;;;vpos;;vmixed;;r
+Definition
+    performBinding($key, $value, $route)
+
+Description
+     Call the binding callback for the given key.
+
+Parameters:
+    string $key
+    string $value
+    \Illuminate\Routing\Route $route;;d4,659;;b2,0;;mstring $key;;pstring $value;;p\Illuminate\Routing\Route $route;;p">
+</treenode>
+<treenode node="post;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;143;5;146;;;;vpos;;v;;r
+Definition
+    post($uri, $action = null)
+
+Description
+     Register a new POST route with the router.
+
+Parameters:
+    string $uri
+    \Closure|array|string|null $action;;d4,144;;b1,0;;mstring $uri;;p\Closure|array|string|null $action;;p">
+</treenode>
+<treenode node="prefix;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;471;5;474;;;;vpos;;vstring;;r
+Definition
+    prefix($uri)
+
+Description
+     Prefix the given URI with the last prefix.
+
+Parameters:
+    string $uri;;d4,472;;b2,0;;mstring $uri;;p">
+</treenode>
+<treenode node="prepareResponse;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;611;5;620;;;;vpos;;v;;r
+Definition
+    prepareResponse($request, $response)
+
+Description
+     Create a response instance from the given value.
+
+Parameters:
+    \Symfony\Component\HttpFoundation\Request $request
+    mixed $response;;d4,612;;b1,0;;m\Symfony\Component\HttpFoundation\Request $request;;pmixed $response;;p">
+</treenode>
+<treenode node="prependGroupNamespace;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;442;5;448;;;;vpos;;vstring;;r
+Definition
+    prependGroupNamespace($class)
+
+Description
+     Prepend the last group namespace onto the use clause.
+
+Parameters:
+    string $class;;d4,443;;b2,0;;mstring $class;;p">
+</treenode>
+<treenode node="prependMiddlewareToGroup;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;742;5;749;;;;vpos;;v;;r
+Definition
+    prependMiddlewareToGroup($group, $middleware)
+
+Description
+     Add a middleware to the beginning of a middleware group.
+
+Parameters:
+    string $group
+    string $middleware;;d4,743;;b1,0;;mstring $group;;pstring $middleware;;p">
+</treenode>
+<treenode node="pushMiddlewareToGroup;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;760;5;771;;;;vpos;;v;;r
+Definition
+    pushMiddlewareToGroup($group, $middleware)
+
+Description
+     Add a middleware to the end of a middleware group.
+
+Parameters:
+    string $group
+    string $middleware;;d4,761;;b1,0;;mstring $group;;pstring $middleware;;p">
+</treenode>
+<treenode node="put;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;155;5;158;;;;vpos;;v;;r
+Definition
+    put($uri, $action = null)
+
+Description
+     Register a new PUT route with the router.
+
+Parameters:
+    string $uri
+    \Closure|array|string|null $action;;d4,156;;b1,0;;mstring $uri;;p\Closure|array|string|null $action;;p">
+</treenode>
+<treenode node="resource;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;244;5;253;;;;vpos;;vvoid;;r
+Definition
+    resource($name, $controller, array $options = [])
+
+Description
+     Route a resource to a controller.
+
+Parameters:
+    string $name
+    string $controller
+    array $options;;d4,245;;b1,0;;mstring $name;;pstring $controller;;parray $options;;p">
+</treenode>
+<treenode node="resourceParameters;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;1043;5;1046;;;;vpos;;vvoid;;r
+Definition
+    resourceParameters(array $parameters = [])
+
+Description
+     Set the global resource parameter mapping.
+
+Parameters:
+    array $parameters;;d4,1044;;b1,0;;marray $parameters;;p">
+</treenode>
+<treenode node="resources;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;229;5;234;;;;vpos;;vvoid;;r
+Definition
+    resources(array $resources)
+
+Description
+     Register an array of resource controllers.
+
+Parameters:
+    array $resources;;d4,230;;b1,0;;marray $resources;;p">
+</treenode>
+<treenode node="resourceVerbs;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;1054;5;1057;;;;vpos;;varray;;r
+Definition
+    resourceVerbs(array $verbs = [])
+
+Description
+     Get or set the verbs used in the resource URIs.
+
+Parameters:
+    array $verbs
+
+Return:
+   |null;;d4,1055;;b1,0;;marray $verbs;;p">
+</treenode>
+<treenode node="runRouteWithinStack;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;561;5;576;;;;vpos;;vmixed;;r
+Definition
+    runRouteWithinStack(Route $route, Request $request)
+
+Description
+     Run the given route within a Stack &quot;onion&quot; instance.
+
+Parameters:
+    \Illuminate\Routing\Route $route
+    \Illuminate\Http\Request $request;;d4,562;;b2,0;;m\Illuminate\Routing\Route $route;;p\Illuminate\Http\Request $request;;p">
+</treenode>
+<treenode node="setRoutes;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;1075;5;1084;;;;vpos;;vvoid;;r
+Definition
+    setRoutes(RouteCollection $routes)
+
+Description
+     Set the route collection instance.
+
+Parameters:
+    \Illuminate\Routing\RouteCollection $routes;;d4,1076;;b1,0;;m\Illuminate\Routing\RouteCollection $routes;;p">
+</treenode>
+<treenode node="singularResourceParameters;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;1032;5;1035;;;;vpos;;vvoid;;r
+Definition
+    singularResourceParameters($singular = true)
+
+Description
+     Set the unmapped global resource parameters to singular.
+
+Parameters:
+    bool $singular;;d4,1033;;b1,0;;mbool $singular;;p">
+</treenode>
+<treenode node="sortMiddleware;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;599;5;602;;;;vpos;;varray;;r
+Definition
+    sortMiddleware(Collection $middlewares)
+
+Description
+     Sort the given middleware by priority.
+
+Parameters:
+    \Illuminate\Support\Collection $middlewares;;d4,600;;b2,0;;m\Illuminate\Support\Collection $middlewares;;p">
+</treenode>
+<treenode node="substituteBindings;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;628;5;637;;;;vpos;;v;;r
+Definition
+    substituteBindings($route)
+
+Description
+     Substitute the route bindings onto the route.
+
+Parameters:
+    \Illuminate\Routing\Route $route;;d4,629;;b1,0;;m\Illuminate\Routing\Route $route;;p">
+</treenode>
+<treenode node="substituteImplicitBindings;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;645;5;648;;;;vpos;;vvoid;;r
+Definition
+    substituteImplicitBindings($route)
+
+Description
+     Substitute the implicit Eloquent model bindings for the route.
+
+Parameters:
+    \Illuminate\Routing\Route $route;;d4,646;;b1,0;;m\Illuminate\Routing\Route $route;;p">
+</treenode>
+<treenode node="updateGroupStack;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f14;295;5;302;;;;vpos;;vvoid;;r
+Definition
+    updateGroupStack(array $attributes)
+
+Description
+     Update the group stack with the given attributes.
+
+Parameters:
+    array $attributes;;d4,296;;b2,0;;marray $attributes;;p">
+</treenode>
+<treenode node="uses;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Router.php;f11;981;5;990;;;;vpos;;vbool;;r
+Definition
+    uses()
+
+Description
+     Alias for the &quot;currentRouteUses&quot; method.;;d4,982;;b1,0;;m">
 </treenode>
 </treenode>
 <treenode node="RouteRegistrar;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php;f0;8;1;174;;;;vpos;;v;;r;;d0,9;;b0,0;;m">
-<treenode node="__call;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php;f11;162;5;173;;;;vpos;;v;;r Definition     __call($method, $parameters)  Description      Dynamically handle calls into the route registrar.  Parameters:     string $method     array $parameters;;d4,163;;b1,0;;mstring $method;;parray $parameters;;p">
+<treenode node="__call;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php;f11;162;5;173;;;;vpos;;v;;r
+Definition
+    __call($method, $parameters)
+
+Description
+     Dynamically handle calls into the route registrar.
+
+Parameters:
+    string $method
+    array $parameters;;d4,163;;b1,0;;mstring $method;;parray $parameters;;p">
 </treenode>
-<treenode node="__construct;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php;f11;57;5;60;;;;vpos;;vvoid;;r Definition     __construct(Router $router)  Description      Create a new route registrar instance.  Parameters:     \Illuminate\Routing\Router $router;;d4,58;;b1,0;;m\Illuminate\Routing\Router $router;;p">
+<treenode node="__construct;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php;f11;57;5;60;;;;vpos;;vvoid;;r
+Definition
+    __construct(Router $router)
+
+Description
+     Create a new route registrar instance.
+
+Parameters:
+    \Illuminate\Routing\Router $router;;d4,58;;b1,0;;m\Illuminate\Routing\Router $router;;p">
 </treenode>
-<treenode node="attribute;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php;f11;71;5;80;;;;vpos;;v;;r Definition     attribute($key, $value)  Description      Set the value for a given attribute.  Parameters:     string $key     mixed $value;;d4,72;;b1,0;;mstring $key;;pmixed $value;;p">
+<treenode node="attribute;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php;f11;71;5;80;;;;vpos;;v;;r
+Definition
+    attribute($key, $value)
+
+Description
+     Set the value for a given attribute.
+
+Parameters:
+    string $key
+    mixed $value;;d4,72;;b1,0;;mstring $key;;pmixed $value;;p">
 </treenode>
-<treenode node="compileAction;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php;f14;142;5;153;;;;vpos;;varray;;r Definition     compileAction($action)  Description      Compile the action into an array including the attributes.  Parameters:     \Closure|array|string|null $action;;d4,143;;b2,0;;m\Closure|array|string|null $action;;p">
+<treenode node="compileAction;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php;f14;142;5;153;;;;vpos;;varray;;r
+Definition
+    compileAction($action)
+
+Description
+     Compile the action into an array including the attributes.
+
+Parameters:
+    \Closure|array|string|null $action;;d4,143;;b2,0;;m\Closure|array|string|null $action;;p">
 </treenode>
-<treenode node="group;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php;f11;101;5;104;;;;vpos;;vvoid;;r Definition     group($callback)  Description      Create a route group with shared attributes.  Parameters:     \Closure|string $callback;;d4,102;;b1,0;;m\Closure|string $callback;;p">
+<treenode node="group;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php;f11;101;5;104;;;;vpos;;vvoid;;r
+Definition
+    group($callback)
+
+Description
+     Create a route group with shared attributes.
+
+Parameters:
+    \Closure|string $callback;;d4,102;;b1,0;;m\Closure|string $callback;;p">
 </treenode>
-<treenode node="match;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php;f11;114;5;117;;;;vpos;;v;;r Definition     match($methods, $uri, $action = null)  Description      Register a new route with the given verbs.  Parameters:     array|string $methods     string $uri     \Closure|array|string|null $action;;d4,115;;b1,0;;marray|string $methods;;pstring $uri;;p\Closure|array|string|null $action;;p">
+<treenode node="match;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php;f11;114;5;117;;;;vpos;;v;;r
+Definition
+    match($methods, $uri, $action = null)
+
+Description
+     Register a new route with the given verbs.
+
+Parameters:
+    array|string $methods
+    string $uri
+    \Closure|array|string|null $action;;d4,115;;b1,0;;marray|string $methods;;pstring $uri;;p\Closure|array|string|null $action;;p">
 </treenode>
-<treenode node="registerRoute;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php;f14;127;5;134;;;;vpos;;v;;r Definition     registerRoute($method, $uri, $action = null)  Description      Register a new route with the router.  Parameters:     string $method     string $uri     \Closure|array|string|null $action;;d4,128;;b2,0;;mstring $method;;pstring $uri;;p\Closure|array|string|null $action;;p">
+<treenode node="registerRoute;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php;f14;127;5;134;;;;vpos;;v;;r
+Definition
+    registerRoute($method, $uri, $action = null)
+
+Description
+     Register a new route with the router.
+
+Parameters:
+    string $method
+    string $uri
+    \Closure|array|string|null $action;;d4,128;;b2,0;;mstring $method;;pstring $uri;;p\Closure|array|string|null $action;;p">
 </treenode>
-<treenode node="resource;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php;f11;90;5;93;;;;vpos;;vvoid;;r Definition     resource($name, $controller, array $options = [])  Description      Route a resource to a controller.  Parameters:     string $name     string $controller     array $options;;d4,91;;b1,0;;mstring $name;;pstring $controller;;parray $options;;p">
+<treenode node="resource;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php;f11;90;5;93;;;;vpos;;vvoid;;r
+Definition
+    resource($name, $controller, array $options = [])
+
+Description
+     Route a resource to a controller.
+
+Parameters:
+    string $name
+    string $controller
+    array $options;;d4,91;;b1,0;;mstring $name;;pstring $controller;;parray $options;;p">
 </treenode>
 </treenode>
 <treenode node="RouteServiceProvider;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Support\Providers\RouteServiceProvider.php;f0;8;1;97;;D:\Programs\OpenServer\domains\hyip.loc\app\Providers\RouteServiceProvider.php;f0;7;1;72;;;;vpos;;vServiceProvider;;c;;r;;d0,9;;b0,0;;m">
@@ -17853,9 +18704,26 @@ Description
 </treenode>
 </treenode>
 <treenode node="RouteSignatureParameters;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteSignatureParameters.php;f0;8;1;44;;;;vpos;;v;;r;;d0,9;;b0,0;;m">
-<treenode node="fromAction;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteSignatureParameters.php;f18;17;5;26;;;;vpos;;varray;;r Definition     fromAction(array $action, $subClass = null)  Description      Extract the route action&apos;s signature parameters.  Parameters:     array $action     string $subClass;;d4,18;;b1,5;;marray $action;;pstring $subClass;;p">
+<treenode node="fromAction;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteSignatureParameters.php;f18;17;5;26;;;;vpos;;varray;;r
+Definition
+    fromAction(array $action, $subClass = null)
+
+Description
+     Extract the route action&apos;s signature parameters.
+
+Parameters:
+    array $action
+    string $subClass;;d4,18;;b1,5;;marray $action;;pstring $subClass;;p">
 </treenode>
-<treenode node="fromClassMethodString;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteSignatureParameters.php;f21;34;5;43;;;;vpos;;varray;;r Definition     fromClassMethodString($uses)  Description      Get the parameters for the given class / method by string.  Parameters:     string $uses;;d4,35;;b2,5;;mstring $uses;;p">
+<treenode node="fromClassMethodString;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteSignatureParameters.php;f21;34;5;43;;;;vpos;;varray;;r
+Definition
+    fromClassMethodString($uses)
+
+Description
+     Get the parameters for the given class / method by string.
+
+Parameters:
+    string $uses;;d4,35;;b2,5;;mstring $uses;;p">
 </treenode>
 </treenode>
 <treenode node="RoutesNotifications;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Notifications\RoutesNotifications.php;f0;7;1;41;;;;vpos;;v;;r;;d0,8;;b0,0;;m">
@@ -17865,33 +18733,158 @@ Description
 </treenode>
 </treenode>
 <treenode node="RouteUrlGenerator;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f0;8;1;306;;;;vpos;;v;;r;;d0,9;;b0,0;;m">
-<treenode node="__construct;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f11;60;5;64;;;;vpos;;vvoid;;r Definition     __construct($url, $request)  Description      Create a new Route URL generator.  Parameters:     \Illuminate\Routing\UrlGenerator $url     \Illuminate\Http\Request $request;;d4,61;;b1,0;;m\Illuminate\Routing\UrlGenerator $url;;p\Illuminate\Http\Request $request;;p">
+<treenode node="__construct;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f11;60;5;64;;;;vpos;;vvoid;;r
+Definition
+    __construct($url, $request)
+
+Description
+     Create a new Route URL generator.
+
+Parameters:
+    \Illuminate\Routing\UrlGenerator $url
+    \Illuminate\Http\Request $request;;d4,61;;b1,0;;m\Illuminate\Routing\UrlGenerator $url;;p\Illuminate\Http\Request $request;;p">
 </treenode>
-<treenode node="addPortToDomain;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f14;153;5;161;;;;vpos;;vstring;;r Definition     addPortToDomain($domain)  Description      Add the port to the domain if necessary.  Parameters:     string $domain;;d4,154;;b2,0;;mstring $domain;;p">
+<treenode node="addPortToDomain;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f14;153;5;161;;;;vpos;;vstring;;r
+Definition
+    addPortToDomain($domain)
+
+Description
+     Add the port to the domain if necessary.
+
+Parameters:
+    string $domain;;d4,154;;b2,0;;mstring $domain;;p">
 </treenode>
-<treenode node="addQueryString;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f14;227;5;239;;;;vpos;;vmixed;;r Definition     addQueryString($uri, array $parameters)  Description      Add a query string to the URI.  Parameters:     string $uri     array $parameters  Return:    |string;;d4,228;;b2,0;;mstring $uri;;parray $parameters;;p">
+<treenode node="addQueryString;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f14;227;5;239;;;;vpos;;vmixed;;r
+Definition
+    addQueryString($uri, array $parameters)
+
+Description
+     Add a query string to the URI.
+
+Parameters:
+    string $uri
+    array $parameters
+
+Return:
+   |string;;d4,228;;b2,0;;mstring $uri;;parray $parameters;;p">
 </treenode>
-<treenode node="defaults;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f11;300;5;305;;;;vpos;;vvoid;;r Definition     defaults(array $defaults)  Description      Set the default named parameters used by the URL generator.  Parameters:     array $defaults;;d4,301;;b1,0;;marray $defaults;;p">
+<treenode node="defaults;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f11;300;5;305;;;;vpos;;vvoid;;r
+Definition
+    defaults(array $defaults)
+
+Description
+     Set the default named parameters used by the URL generator.
+
+Parameters:
+    array $defaults;;d4,301;;b1,0;;marray $defaults;;p">
 </treenode>
-<treenode node="formatDomain;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f14;123;5;128;;;;vpos;;vstring;;r Definition     formatDomain($route, &amp;$parameters)  Description      Format the domain and port for the route and request.  Parameters:     \Illuminate\Routing\Route $route     array $parameters;;d4,124;;b2,0;;m\Illuminate\Routing\Route $route;;parray $parameters;;p">
+<treenode node="formatDomain;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f14;123;5;128;;;;vpos;;vstring;;r
+Definition
+    formatDomain($route, &amp;$parameters)
+
+Description
+     Format the domain and port for the route and request.
+
+Parameters:
+    \Illuminate\Routing\Route $route
+    array $parameters;;d4,124;;b2,0;;m\Illuminate\Routing\Route $route;;parray $parameters;;p">
 </treenode>
-<treenode node="getNumericParameters;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f14;289;5;292;;;;vpos;;varray;;r Definition     getNumericParameters(array $parameters)  Description      Get the numeric parameters from a given list.  Parameters:     array $parameters;;d4,290;;b2,0;;marray $parameters;;p">
+<treenode node="getNumericParameters;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f14;289;5;292;;;;vpos;;varray;;r
+Definition
+    getNumericParameters(array $parameters)
+
+Description
+     Get the numeric parameters from a given list.
+
+Parameters:
+    array $parameters;;d4,290;;b2,0;;marray $parameters;;p">
 </treenode>
-<treenode node="getRouteDomain;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f14;111;5;114;;;;vpos;;vstring;;r Definition     getRouteDomain($route, &amp;$parameters)  Description      Get the formatted domain for a given route.  Parameters:     \Illuminate\Routing\Route $route     array $parameters;;d4,112;;b2,0;;m\Illuminate\Routing\Route $route;;parray $parameters;;p">
+<treenode node="getRouteDomain;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f14;111;5;114;;;;vpos;;vstring;;r
+Definition
+    getRouteDomain($route, &amp;$parameters)
+
+Description
+     Get the formatted domain for a given route.
+
+Parameters:
+    \Illuminate\Routing\Route $route
+    array $parameters;;d4,112;;b2,0;;m\Illuminate\Routing\Route $route;;parray $parameters;;p">
 </treenode>
-<treenode node="getRouteQueryString;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f14;247;5;270;;;;vpos;;vstring;;r Definition     getRouteQueryString(array $parameters)  Description      Get the query string for a given route.  Parameters:     array $parameters;;d4,248;;b2,0;;marray $parameters;;p">
+<treenode node="getRouteQueryString;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f14;247;5;270;;;;vpos;;vstring;;r
+Definition
+    getRouteQueryString(array $parameters)
+
+Description
+     Get the query string for a given route.
+
+Parameters:
+    array $parameters;;d4,248;;b2,0;;marray $parameters;;p">
 </treenode>
-<treenode node="getRouteScheme;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f14;136;5;145;;;;vpos;;vstring;;r Definition     getRouteScheme($route)  Description      Get the scheme for the given route.  Parameters:     \Illuminate\Routing\Route $route;;d4,137;;b2,0;;m\Illuminate\Routing\Route $route;;p">
+<treenode node="getRouteScheme;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f14;136;5;145;;;;vpos;;vstring;;r
+Definition
+    getRouteScheme($route)
+
+Description
+     Get the scheme for the given route.
+
+Parameters:
+    \Illuminate\Routing\Route $route;;d4,137;;b2,0;;m\Illuminate\Routing\Route $route;;p">
 </treenode>
-<treenode node="getStringParameters;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f14;278;5;281;;;;vpos;;varray;;r Definition     getStringParameters(array $parameters)  Description      Get the string parameters from a given list.  Parameters:     array $parameters;;d4,279;;b2,0;;marray $parameters;;p">
+<treenode node="getStringParameters;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f14;278;5;281;;;;vpos;;varray;;r
+Definition
+    getStringParameters(array $parameters)
+
+Description
+     Get the string parameters from a given list.
+
+Parameters:
+    array $parameters;;d4,279;;b2,0;;marray $parameters;;p">
 </treenode>
-<treenode node="replaceNamedParameters;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f14;207;5;218;;;;vpos;;vstring;;r Definition     replaceNamedParameters($path, &amp;$parameters)  Description      Replace all of the named parameters in the path.  Parameters:     string $path     array $parameters;;d4,208;;b2,0;;mstring $path;;parray $parameters;;p">
+<treenode node="replaceNamedParameters;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f14;207;5;218;;;;vpos;;vstring;;r
+Definition
+    replaceNamedParameters($path, &amp;$parameters)
+
+Description
+     Replace all of the named parameters in the path.
+
+Parameters:
+    string $path
+    array $parameters;;d4,208;;b2,0;;mstring $path;;parray $parameters;;p">
 </treenode>
-<treenode node="replaceRootParameters;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f14;171;5;178;;;;vpos;;vstring;;r Definition     replaceRootParameters($route, $domain, &amp;$parameters)  Description      Replace the parameters on the root path.  Parameters:     \Illuminate\Routing\Route $route     string $domain     array $parameters;;d4,172;;b2,0;;m\Illuminate\Routing\Route $route;;pstring $domain;;parray $parameters;;p">
+<treenode node="replaceRootParameters;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f14;171;5;178;;;;vpos;;vstring;;r
+Definition
+    replaceRootParameters($route, $domain, &amp;$parameters)
+
+Description
+     Replace the parameters on the root path.
+
+Parameters:
+    \Illuminate\Routing\Route $route
+    string $domain
+    array $parameters;;d4,172;;b2,0;;m\Illuminate\Routing\Route $route;;pstring $domain;;parray $parameters;;p">
 </treenode>
-<treenode node="replaceRouteParameters;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f14;187;5;198;;;;vpos;;vstring;;r Definition     replaceRouteParameters($path, array &amp;$parameters)  Description      Replace all of the wildcard parameters for a route path.  Parameters:     string $path     array $parameters;;d4,188;;b2,0;;mstring $path;;parray $parameters;;p">
+<treenode node="replaceRouteParameters;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f14;187;5;198;;;;vpos;;vstring;;r
+Definition
+    replaceRouteParameters($path, array &amp;$parameters)
+
+Description
+     Replace all of the wildcard parameters for a route path.
+
+Parameters:
+    string $path
+    array $parameters;;d4,188;;b2,0;;mstring $path;;parray $parameters;;p">
 </treenode>
-<treenode node="to;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f11;76;5;102;;;;vpos;;vstring;;r Definition     to($route, $parameters = [], $absolute = false)  Description      Generate a URL for the given route.  Parameters:     \Illuminate\Routing\Route $route     array $parameters     bool $absolute;;d4,77;;b1,0;;m\Illuminate\Routing\Route $route;;parray $parameters;;pbool $absolute;;p">
+<treenode node="to;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RouteUrlGenerator.php;f11;76;5;102;;;;vpos;;vstring;;r
+Definition
+    to($route, $parameters = [], $absolute = false)
+
+Description
+     Generate a URL for the given route.
+
+Parameters:
+    \Illuminate\Routing\Route $route
+    array $parameters
+    bool $absolute;;d4,77;;b1,0;;m\Illuminate\Routing\Route $route;;parray $parameters;;pbool $absolute;;p">
 </treenode>
 </treenode>
 <treenode node="RoutingServiceProvider;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\RoutingServiceProvider.php;f0;12;1;150;;;;vpos;;vServiceProvider;;c;;r;;d0,13;;b0,0;;m">
@@ -20234,7 +21227,7 @@ Description
 <treenode node="make;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Pagination\UrlWindow.php;f18;33;5;36;;;;vpos;;varray;;r Definition     make(PaginatorContract $paginator, $onEachSide = 3)  Description      Create a new URL window instance.  Parameters:     \Illuminate\Contracts\Pagination\LengthAwarePaginator $paginator     int $onEachSide;;d4,34;;b1,5;;m\Illuminate\Contracts\Pagination\LengthAwarePaginator $paginator;;pint $onEachSide;;p">
 </treenode>
 </treenode>
-<treenode node="User;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\User.php;f0;12;1;18;;D:\Programs\OpenServer\domains\hyip.loc\app\User.php;f0;7;1;28;;;;vpos;;vModel;;cAuthenticatableContract;;cAuthorizableContract;;cCanResetPasswordContract;;cAuthenticatable;;c;;r;;d0,16;;b0,0;;m">
+<treenode node="User;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\User.php;f0;12;1;18;;D:\Programs\OpenServer\domains\hyip.loc\app\User.php;f0;7;1;29;;;;vpos;;vAuthenticatable;;cNotifiable;;c;;r;;d35,7;;b0,0;;m">
 </treenode>
 <treenode node="UserAgent;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\fzaninotto\faker\src\Faker\Provider\UserAgent.php;f0;4;1;165;;;;vpos;;vBase;;c;;r;;d0,5;;b0,0;;m">
 <treenode node="chrome;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\fzaninotto\faker\src\Faker\Provider\UserAgent.php;f18;66;5;77;;;;vpos;;v;;r Definition     chrome()  Description      Generate Chrome user agent;;d4,67;;b1,5;;m">
@@ -20272,6 +21265,10 @@ Description
 <treenode node="testRandomUserAgent;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\fzaninotto\faker\test\Faker\Provider\UserAgentTest.php;f11;8;5;11;;;;vpos;;v;;r;;d4,9;;b1,0;;m">
 </treenode>
 <treenode node="testSafariUserAgent;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\fzaninotto\faker\test\Faker\Provider\UserAgentTest.php;f11;18;5;21;;;;vpos;;v;;r;;d4,19;;b1,0;;m">
+</treenode>
+</treenode>
+<treenode node="UsersTableSeeder;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\database\seeds\UsersTableSeeder.php;f0;4;1;25;;;;vpos;;vSeeder;;c;;r;;d38,4;;b0,0;;m">
+<treenode node="run;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\database\seeds\UsersTableSeeder.php;f8;10;2;24;;;;vpos;;vvoid;;r Definition     run()  Description      Run the database seeds.;;d23,10;;b1,0;;m">
 </treenode>
 </treenode>
 <treenode node="Util;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\league\flysystem\src\Util.php;f0;7;1;309;;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest\Util.php;f0;12;1;71;;;;vpos;;v;;r;;d0,8;;b0,0;;m">
@@ -20796,7 +21793,7 @@ Description
 <treenode node="clearCountValidators;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\mockery\mockery\library\Mockery\VerificationExpectation.php;f11;6;5;9;;;;vpos;;v;;r;;d4,7;;b1,0;;m">
 </treenode>
 </treenode>
-<treenode node="VerifyCsrfToken;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\VerifyCsrfToken.php;f0;11;1;164;;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Middleware\VerifyCsrfToken.php;f0;6;1;16;;;;vpos;;v;;r;;d0,12;;b0,0;;m">
+<treenode node="VerifyCsrfToken;PHP:Class Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\VerifyCsrfToken.php;f0;11;1;164;;D:\Programs\OpenServer\domains\hyip.loc\app\Http\Middleware\VerifyCsrfToken.php;f0;6;1;16;;;;vpos;;vBaseVerifier;;c;;r;;d0,7;;b0,0;;m">
 <treenode node="__construct;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\VerifyCsrfToken.php;f11;41;5;45;;;;vpos;;vvoid;;r Definition     __construct(Application $app, Encrypter $encrypter)  Description      Create a new middleware instance.  Parameters:     \Illuminate\Foundation\Application $app     \Illuminate\Contracts\Encryption\Encrypter $encrypter;;d4,42;;b1,0;;m\Illuminate\Foundation\Application $app;;p\Illuminate\Contracts\Encryption\Encrypter $encrypter;;p">
 </treenode>
 <treenode node="addCookieToResponse;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\VerifyCsrfToken.php;f14;151;5;163;;;;vpos;;v;;r Definition     addCookieToResponse($request, $response)  Description      Add the CSRF token to the response cookies.  Parameters:     \Illuminate\Http\Request $request     \Symfony\Component\HttpFoundation\Response $response;;d4,152;;b2,0;;m\Illuminate\Http\Request $request;;p\Symfony\Component\HttpFoundation\Response $response;;p">
@@ -21150,15 +22147,67 @@ Description
 <treenode node="__construct;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\doctrine\instantiator\tests\DoctrineTest\InstantiatorTestAsset\XMLReaderAsset.php;f11;36;5;39;;;;vpos;;v;;r Definition     __construct()  Description      Constructor - should not be called;;d4,37;;b1,0;;m">
 </treenode>
 </treenode>
-<treenode node="__;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;822;5;825;;;;vpos;;v;;r Definition     __($key = null, $replace = [], $locale = null)  Description      Translate the given message.  Parameters:     string $key     array $replace     string $locale;;d4,823;;b0,0;;mstring $key;;parray $replace;;pstring $locale;;p">
+<treenode node="__;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;822;5;825;;;;vpos;;v;;r
+Definition
+    __($key = null, $replace = [], $locale = null)
+
+Description
+     Translate the given message.
+
+Parameters:
+    string $key
+    array $replace
+    string $locale;;d4,823;;b0,0;;mstring $key;;parray $replace;;pstring $locale;;p">
 </treenode>
-<treenode node="abort;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;27;5;30;;;;vpos;;vvoid;;r Definition     abort($code, $message = &apos;&apos;, array $headers = [])  Description      Throw an HttpException with the given data.  Parameters:     int $code     string $message     array $headers;;d4,28;;b0,0;;mint $code;;pstring $message;;parray $headers;;p">
+<treenode node="abort;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;27;5;30;;;;vpos;;vvoid;;r
+Definition
+    abort($code, $message = &apos;&apos;, array $headers = [])
+
+Description
+     Throw an HttpException with the given data.
+
+Parameters:
+    int $code
+    string $message
+    array $headers;;d4,28;;b0,0;;mint $code;;pstring $message;;parray $headers;;p">
 </treenode>
-<treenode node="abort_if;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;46;5;51;;;;vpos;;vvoid;;r Definition     abort_if($boolean, $code, $message = &apos;&apos;, array $headers = [])  Description      Throw an HttpException with the given data if the given condition is true.  Parameters:     bool $boolean     int $code     string $message     array $headers;;d4,47;;b0,0;;mbool $boolean;;pint $code;;pstring $message;;parray $headers;;p">
+<treenode node="abort_if;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;46;5;51;;;;vpos;;vvoid;;r
+Definition
+    abort_if($boolean, $code, $message = &apos;&apos;, array $headers = [])
+
+Description
+     Throw an HttpException with the given data if the given condition is true.
+
+Parameters:
+    bool $boolean
+    int $code
+    string $message
+    array $headers;;d4,47;;b0,0;;mbool $boolean;;pint $code;;pstring $message;;parray $headers;;p">
 </treenode>
-<treenode node="abort_unless;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;67;5;72;;;;vpos;;vvoid;;r Definition     abort_unless($boolean, $code, $message = &apos;&apos;, array $headers = [])  Description      Throw an HttpException with the given data unless the given condition is true.  Parameters:     bool $boolean     int $code     string $message     array $headers;;d4,68;;b0,0;;mbool $boolean;;pint $code;;pstring $message;;parray $headers;;p">
+<treenode node="abort_unless;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;67;5;72;;;;vpos;;vvoid;;r
+Definition
+    abort_unless($boolean, $code, $message = &apos;&apos;, array $headers = [])
+
+Description
+     Throw an HttpException with the given data unless the given condition is true.
+
+Parameters:
+    bool $boolean
+    int $code
+    string $message
+    array $headers;;d4,68;;b0,0;;mbool $boolean;;pint $code;;pstring $message;;parray $headers;;p">
 </treenode>
-<treenode node="action;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;84;5;87;;;;vpos;;vstring;;r Definition     action($name, $parameters = [], $absolute = true)  Description      Generate the URL to a controller action.  Parameters:     string $name     array $parameters     bool $absolute;;d4,85;;b0,0;;mstring $name;;parray $parameters;;pbool $absolute;;p">
+<treenode node="action;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;84;5;87;;;;vpos;;vstring;;r
+Definition
+    action($name, $parameters = [], $absolute = true)
+
+Description
+     Generate the URL to a controller action.
+
+Parameters:
+    string $name
+    array $parameters
+    bool $absolute;;d4,85;;b0,0;;mstring $name;;parray $parameters;;pbool $absolute;;p">
 </treenode>
 <treenode node="allOf;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;213;5;217;;;;vpos;;v;;r Definition     allOf(/* args... */)  Description      Evaluates to true only if ALL of the passed in matchers evaluate to true.;;d4,214;;b0,0;;m">
 </treenode>
@@ -21174,9 +22223,29 @@ Description
 </treenode>
 <treenode node="anything;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;318;5;321;;;;vpos;;v;;r Definition     anything($description = &apos;ANYTHING&apos;)  Description      This matcher always evaluates to true.  Parameters:     string $description - A meaningful string used when describing itself;;d4,319;;b0,0;;mstring $description;;p">
 </treenode>
-<treenode node="app;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;98;5;107;;;;vpos;;vmixed;;r Definition     app($abstract = null, array $parameters = [])  Description      Get the available container instance.  Parameters:     string $abstract     array $parameters  Return:    |\Illuminate\Foundation\Application;;d4,99;;b0,0;;mstring $abstract;;parray $parameters;;p">
+<treenode node="app;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;98;5;107;;;;vpos;;vmixed;;r
+Definition
+    app($abstract = null, array $parameters = [])
+
+Description
+     Get the available container instance.
+
+Parameters:
+    string $abstract
+    array $parameters
+
+Return:
+   |\Illuminate\Foundation\Application;;d4,99;;b0,0;;mstring $abstract;;parray $parameters;;p">
 </treenode>
-<treenode node="app_path;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;117;5;120;;;;vpos;;vstring;;r Definition     app_path($path = &apos;&apos;)  Description      Get the path to the application folder.  Parameters:     string $path;;d4,118;;b0,0;;mstring $path;;p">
+<treenode node="app_path;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;117;5;120;;;;vpos;;vstring;;r
+Definition
+    app_path($path = &apos;&apos;)
+
+Description
+     Get the path to the application folder.
+
+Parameters:
+    string $path;;d4,118;;b0,0;;mstring $path;;p">
 </treenode>
 <treenode node="append_config;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Support\helpers.php;f4;16;5;29;;;;vpos;;varray;;r Definition     append_config(array $array)  Description      Assign high numeric IDs to a config item to force appending.  Parameters:     array $array;;d4,17;;b0,0;;marray $array;;p">
 </treenode>
@@ -21232,19 +22301,63 @@ Description
 </treenode>
 <treenode node="assertThat;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;22;5;29;;;;vpos;;v;;r Definition     assertThat()  Description      Make an assertion and throw { link Hamcrest_AssertionError} if it fails.;;d4,23;;b0,0;;m">
 </treenode>
-<treenode node="asset;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;131;5;134;;;;vpos;;vstring;;r Definition     asset($path, $secure = null)  Description      Generate an asset path for the application.  Parameters:     string $path     bool $secure;;d4,132;;b0,0;;mstring $path;;pbool $secure;;p">
+<treenode node="asset;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;131;5;134;;;;vpos;;vstring;;r
+Definition
+    asset($path, $secure = null)
+
+Description
+     Generate an asset path for the application.
+
+Parameters:
+    string $path
+    bool $secure;;d4,132;;b0,0;;mstring $path;;pbool $secure;;p">
 </treenode>
 <treenode node="atLeast;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;509;5;512;;;;vpos;;v;;r Definition     atLeast($value)  Description      The value is &gt;= $value.;;d4,510;;b0,0;;mvalue;;p">
 </treenode>
 <treenode node="atMost;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;536;5;539;;;;vpos;;v;;r Definition     atMost($value)  Description      The value is &lt;= $value.;;d4,537;;b0,0;;mvalue;;p">
 </treenode>
-<treenode node="auth;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;144;5;151;;;;vpos;;v;;r Definition     auth($guard = null)  Description      Get the available auth instance.  Parameters:     string|null $guard;;d4,145;;b0,0;;mstring|null $guard;;p">
+<treenode node="auth;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;144;5;151;;;;vpos;;v;;r
+Definition
+    auth($guard = null)
+
+Description
+     Get the available auth instance.
+
+Parameters:
+    string|null $guard;;d4,145;;b0,0;;mstring|null $guard;;p">
 </treenode>
-<treenode node="back;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;163;5;166;;;;vpos;;v;;r Definition     back($status = 302, $headers = [], $fallback = false)  Description      Create a new redirect response to the previous location.  Parameters:     int $status     array $headers     mixed $fallback;;d4,164;;b0,0;;mint $status;;parray $headers;;pmixed $fallback;;p">
+<treenode node="back;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;163;5;166;;;;vpos;;v;;r
+Definition
+    back($status = 302, $headers = [], $fallback = false)
+
+Description
+     Create a new redirect response to the previous location.
+
+Parameters:
+    int $status
+    array $headers
+    mixed $fallback;;d4,164;;b0,0;;mint $status;;parray $headers;;pmixed $fallback;;p">
 </treenode>
-<treenode node="base_path;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;176;5;179;;;;vpos;;vstring;;r Definition     base_path($path = &apos;&apos;)  Description      Get the path to the base of the install.  Parameters:     string $path;;d4,177;;b0,0;;mstring $path;;p">
+<treenode node="base_path;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;176;5;179;;;;vpos;;vstring;;r
+Definition
+    base_path($path = &apos;&apos;)
+
+Description
+     Get the path to the base of the install.
+
+Parameters:
+    string $path;;d4,177;;b0,0;;mstring $path;;p">
 </treenode>
-<treenode node="bcrypt;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;190;5;193;;;;vpos;;vstring;;r Definition     bcrypt($value, $options = [])  Description      Hash the given value.  Parameters:     string $value     array $options;;d4,191;;b0,0;;mstring $value;;parray $options;;p">
+<treenode node="bcrypt;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;190;5;193;;;;vpos;;vstring;;r
+Definition
+    bcrypt($value, $options = [])
+
+Description
+     Hash the given value.
+
+Parameters:
+    string $value
+    array $options;;d4,191;;b0,0;;mstring $value;;parray $options;;p">
 </treenode>
 <treenode node="booleanValue;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;681;5;684;;;;vpos;;v;;r Definition     booleanValue()  Description      Is the value a boolean?;;d4,682;;b0,0;;m">
 </treenode>
@@ -21252,9 +22365,25 @@ Description
 </treenode>
 <treenode node="both;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;247;5;250;;;;vpos;;v;;r Definition     both(\Hamcrest\Matcher $matcher)  Description      This is useful for fluently combining matchers that must both pass. For example: &lt;pre&gt; assertThat($string, both(containsString(&quot;a&quot;))-&gt;andAlso(containsString(&quot;b&quot;)));s &lt;/pre&gt;;;d4,248;;b0,0;;mmatcher;;p">
 </treenode>
-<treenode node="broadcast;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;203;5;206;;;;vpos;;v;;r Definition     broadcast($event = null)  Description      Begin broadcasting an event.  Parameters:     mixed|null $event;;d4,204;;b0,0;;mmixed|null $event;;p">
+<treenode node="broadcast;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;203;5;206;;;;vpos;;v;;r
+Definition
+    broadcast($event = null)
+
+Description
+     Begin broadcasting an event.
+
+Parameters:
+    mixed|null $event;;d4,204;;b0,0;;mmixed|null $event;;p">
 </treenode>
-<treenode node="cache;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;220;5;245;;;;vpos;;vmixed;;r Definition     cache()  Description      Get / set the specified cache value.  Parameters:     dynamic - key|key,default|data,expiration|null;;d4,221;;b0,0;;m">
+<treenode node="cache;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;220;5;245;;;;vpos;;vmixed;;r
+Definition
+    cache()
+
+Description
+     Get / set the specified cache value.
+
+Parameters:
+    dynamic - key|key,default|data,expiration|null;;d4,221;;b0,0;;m">
 </treenode>
 <treenode node="callableValue;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;699;5;702;;;;vpos;;v;;r Definition     callableValue()  Description      Is the value callable?;;d4,700;;b0,0;;m">
 </treenode>
@@ -21274,9 +22403,26 @@ Description
 </treenode>
 <treenode node="composerRequire66ea2e45eb1d9ab34985467fc75a68d0;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\composer\autoload_real.php;f0;62;1;69;;;;vpos;;v;;r;;d0,63;;b0,0;;mfileIdentifier;;pfile;;p">
 </treenode>
-<treenode node="config;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;258;5;269;;;;vpos;;vmixed;;r Definition     config($key = null, $default = null)  Description      Get / set the specified configuration value.  Parameters:     array|string $key     mixed $default;;d4,259;;b0,0;;marray|string $key;;pmixed $default;;p">
+<treenode node="config;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;258;5;269;;;;vpos;;vmixed;;r
+Definition
+    config($key = null, $default = null)
+
+Description
+     Get / set the specified configuration value.
+
+Parameters:
+    array|string $key
+    mixed $default;;d4,259;;b0,0;;marray|string $key;;pmixed $default;;p">
 </treenode>
-<treenode node="config_path;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;279;5;282;;;;vpos;;vstring;;r Definition     config_path($path = &apos;&apos;)  Description      Get the configuration path.  Parameters:     string $path;;d4,280;;b0,0;;mstring $path;;p">
+<treenode node="config_path;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;279;5;282;;;;vpos;;vstring;;r
+Definition
+    config_path($path = &apos;&apos;)
+
+Description
+     Get the configuration path.
+
+Parameters:
+    string $path;;d4,280;;b0,0;;mstring $path;;p">
 </treenode>
 <treenode node="contains;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;101;5;105;;;;vpos;;v;;r Definition     contains(/* args... */)  Description      An array with elements that match the given matchers in the same order.;;d4,102;;b0,0;;m">
 </treenode>
@@ -21286,11 +22432,35 @@ Description
 </treenode>
 <treenode node="containsStringIgnoringCase;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;635;5;638;;;;vpos;;v;;r Definition     containsStringIgnoringCase($substring)  Description      Matches if value is a string that contains $substring regardless of the case.;;d4,636;;b0,0;;msubstring;;p">
 </treenode>
-<treenode node="cookie;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;298;5;307;;;;vpos;;v;;r Definition     cookie($name = null, $value = null, $minutes = 0, $path = null, $domain = null, $secure = false, $httpOnly = true)  Description      Create a new cookie instance.  Parameters:     string $name     string $value     int $minutes     string $path     string $domain     bool $secure     bool $httpOnly;;d4,299;;b0,0;;mstring $name;;pstring $value;;pint $minutes;;pstring $path;;pstring $domain;;pbool $secure;;pbool $httpOnly;;p">
+<treenode node="cookie;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;298;5;307;;;;vpos;;v;;r
+Definition
+    cookie($name = null, $value = null, $minutes = 0, $path = null, $domain = null, $secure = false, $httpOnly = true)
+
+Description
+     Create a new cookie instance.
+
+Parameters:
+    string $name
+    string $value
+    int $minutes
+    string $path
+    string $domain
+    bool $secure
+    bool $httpOnly;;d4,299;;b0,0;;mstring $name;;pstring $value;;pint $minutes;;pstring $path;;pstring $domain;;pbool $secure;;pbool $httpOnly;;p">
 </treenode>
-<treenode node="csrf_field;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;316;5;319;;;;vpos;;v;;r Definition     csrf_field()  Description      Generate a CSRF token form field.;;d4,317;;b0,0;;m">
+<treenode node="csrf_field;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;316;5;319;;;;vpos;;v;;r
+Definition
+    csrf_field()
+
+Description
+     Generate a CSRF token form field.;;d4,317;;b0,0;;m">
 </treenode>
-<treenode node="csrf_token;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;330;5;339;;;;vpos;;vstring;;r Definition     csrf_token()  Description      Get the CSRF token value.;;d4,331;;b0,0;;m">
+<treenode node="csrf_token;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;330;5;339;;;;vpos;;vstring;;r
+Definition
+    csrf_token()
+
+Description
+     Get the CSRF token value.;;d4,331;;b0,0;;m">
 </treenode>
 <treenode node="data_fill;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Support\helpers.php;f4;405;5;408;;;;vpos;;vmixed;;r Definition     data_fill(&amp;$target, $key, $value)  Description      Fill in data where it&apos;s missing.  Parameters:     mixed $target     string|array $key     mixed $value;;d4,406;;b0,0;;mmixed $target;;pstring|array $key;;pmixed $value;;p">
 </treenode>
@@ -21298,15 +22468,39 @@ Description
 </treenode>
 <treenode node="data_set;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Support\helpers.php;f4;464;5;513;;;;vpos;;vmixed;;r Definition     data_set(&amp;$target, $key, $value, $overwrite = true)  Description      Set an item on an array or object using dot notation.  Parameters:     mixed $target     string|array $key     mixed $value     bool $overwrite;;d4,465;;b0,0;;mmixed $target;;pstring|array $key;;pmixed $value;;pbool $overwrite;;p">
 </treenode>
-<treenode node="database_path;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;349;5;352;;;;vpos;;vstring;;r Definition     database_path($path = &apos;&apos;)  Description      Get the database path.  Parameters:     string $path;;d4,350;;b0,0;;mstring $path;;p">
+<treenode node="database_path;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;349;5;352;;;;vpos;;vstring;;r
+Definition
+    database_path($path = &apos;&apos;)
+
+Description
+     Get the database path.
+
+Parameters:
+    string $path;;d4,350;;b0,0;;mstring $path;;p">
 </treenode>
 <treenode node="dd;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Support\helpers.php;f4;523;5;530;;;;vpos;;vvoid;;r Definition     dd(...$args)  Description      Dump the passed variables and end the script.  Parameters:     mixed;;d4,524;;b0,0;;mmixed;;p">
 </treenode>
-<treenode node="decrypt;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;362;5;365;;;;vpos;;vstring;;r Definition     decrypt($value)  Description      Decrypt the given value.  Parameters:     string $value;;d4,363;;b0,0;;mstring $value;;p">
+<treenode node="decrypt;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;362;5;365;;;;vpos;;vstring;;r
+Definition
+    decrypt($value)
+
+Description
+     Decrypt the given value.
+
+Parameters:
+    string $value;;d4,363;;b0,0;;mstring $value;;p">
 </treenode>
 <treenode node="describedAs;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;269;5;273;;;;vpos;;v;;r Definition     describedAs(/* args... */)  Description      Wraps an existing matcher and overrides the description when it fails.;;d4,270;;b0,0;;m">
 </treenode>
-<treenode node="dispatch;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;375;5;378;;;;vpos;;vmixed;;r Definition     dispatch($job)  Description      Dispatch a job to its appropriate handler.  Parameters:     mixed $job;;d4,376;;b0,0;;mmixed $job;;p">
+<treenode node="dispatch;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;375;5;378;;;;vpos;;vmixed;;r
+Definition
+    dispatch($job)
+
+Description
+     Dispatch a job to its appropriate handler.
+
+Parameters:
+    mixed $job;;d4,376;;b0,0;;mmixed $job;;p">
 </treenode>
 <treenode node="doubleValue;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;708;5;711;;;;vpos;;v;;r Definition     doubleValue()  Description      Is the value a float/double?;;d4,709;;b0,0;;m">
 </treenode>
@@ -21314,7 +22508,16 @@ Description
 </treenode>
 <treenode node="either;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;260;5;263;;;;vpos;;v;;r Definition     either(\Hamcrest\Matcher $matcher)  Description      This is useful for fluently combining matchers where either may pass, for example: &lt;pre&gt; assertThat($string, either(containsString(&quot;a&quot;))-&gt;orElse(containsString(&quot;b&quot;)));s &lt;/pre&gt;;;d4,261;;b0,0;;mmatcher;;p">
 </treenode>
-<treenode node="elixir;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;391;5;418;;;;vpos;;vstring;;r Definition     elixir($file, $buildDirectory = &apos;build&apos;)  Description      Get the path to a versioned Elixir file.  Parameters:     string $file     string $buildDirectory;;d4,392;;b0,0;;mstring $file;;pstring $buildDirectory;;p">
+<treenode node="elixir;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;391;5;418;;;;vpos;;vstring;;r
+Definition
+    elixir($file, $buildDirectory = &apos;build&apos;)
+
+Description
+     Get the path to a versioned Elixir file.
+
+Parameters:
+    string $file
+    string $buildDirectory;;d4,392;;b0,0;;mstring $file;;pstring $buildDirectory;;p">
 </treenode>
 <treenode node="emptyArray;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;168;5;171;;;;vpos;;v;;r Definition     emptyArray()  Description      Matches an empty array.;;d4,169;;b0,0;;m">
 </treenode>
@@ -21322,7 +22525,15 @@ Description
 </treenode>
 <treenode node="emptyTraversable;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;186;5;189;;;;vpos;;v;;r Definition     emptyTraversable()  Description      Returns true if traversable is empty.;;d4,187;;b0,0;;m">
 </treenode>
-<treenode node="encrypt;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;428;5;431;;;;vpos;;vstring;;r Definition     encrypt($value)  Description      Encrypt the given value.  Parameters:     mixed $value;;d4,429;;b0,0;;mmixed $value;;p">
+<treenode node="encrypt;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;428;5;431;;;;vpos;;vstring;;r
+Definition
+    encrypt($value)
+
+Description
+     Encrypt the given value.
+
+Parameters:
+    mixed $value;;d4,429;;b0,0;;mmixed $value;;p">
 </treenode>
 <treenode node="ends_with;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Support\helpers.php;f4;558;5;561;;;;vpos;;vbool;;r Definition     ends_with($haystack, $needles)  Description      Determine if a given string ends with a given substring.  Parameters:     string $haystack     string|array $needles;;d4,559;;b0,0;;mstring $haystack;;pstring|array $needles;;p">
 </treenode>
@@ -21336,11 +22547,32 @@ Description
 </treenode>
 <treenode node="equalToIgnoringWhiteSpace;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;608;5;611;;;;vpos;;v;;r Definition     equalToIgnoringWhiteSpace($string)  Description      Matches if value is a string equal to $string, regardless of whitespace.;;d4,609;;b0,0;;mstring;;p">
 </treenode>
-<treenode node="event;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;443;5;446;;;;vpos;;varray;;r Definition     event(...$args)  Description      Dispatch an event and call the listeners.  Parameters:     string|object $event     mixed $payload     bool $halt  Return:    |null;;d4,444;;b0,0;;margs;;p">
+<treenode node="event;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;443;5;446;;;;vpos;;varray;;r
+Definition
+    event(...$args)
+
+Description
+     Dispatch an event and call the listeners.
+
+Parameters:
+    string|object $event
+    mixed $payload
+    bool $halt
+
+Return:
+   |null;;d4,444;;b0,0;;margs;;p">
 </treenode>
 <treenode node="everyItem;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;283;5;286;;;;vpos;;v;;r Definition     everyItem(\Hamcrest\Matcher $itemMatcher)  Description        Parameters:     Matcher $itemMatcher - A matcher to apply to every element in an array;;d4,284;;b0,0;;mMatcher $itemMatcher;;p">
 </treenode>
-<treenode node="factory;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;456;5;469;;;;vpos;;v;;r Definition     factory()  Description      Create a model factory builder for a given class, name, and amount.  Parameters:     dynamic - class|class,name|class,amount|class,name,amount;;d4,457;;b0,0;;m">
+<treenode node="factory;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;456;5;469;;;;vpos;;v;;r
+Definition
+    factory()
+
+Description
+     Create a model factory builder for a given class, name, and amount.
+
+Parameters:
+    dynamic - class|class,name|class,amount|class,name,amount;;d4,457;;b0,0;;m">
 </treenode>
 <treenode node="floatValue;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;717;5;720;;;;vpos;;v;;r Definition     floatValue()  Description      Is the value a float/double?;;d4,718;;b0,0;;m">
 </treenode>
@@ -21374,7 +22606,16 @@ Description
 </treenode>
 <treenode node="includeFile;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\composer\ClassLoader.php;f0;441;1;444;;;;vpos;;v;;r Definition     includeFile($file)  Description      Scope isolated include.;;d0,442;;b0,0;;mfile;;p">
 </treenode>
-<treenode node="info;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;480;5;483;;;;vpos;;vvoid;;r Definition     info($message, $context = [])  Description      Write some information to the log.  Parameters:     string $message     array $context;;d4,481;;b0,0;;mstring $message;;parray $context;;p">
+<treenode node="info;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;480;5;483;;;;vpos;;vvoid;;r
+Definition
+    info($message, $context = [])
+
+Description
+     Write some information to the log.
+
+Parameters:
+    string $message
+    array $context;;d4,481;;b0,0;;mstring $message;;parray $context;;p">
 </treenode>
 <treenode node="integerValue;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;726;5;729;;;;vpos;;v;;r Definition     integerValue()  Description      Is the value an integer?;;d4,727;;b0,0;;m">
 </treenode>
@@ -21396,13 +22637,39 @@ Description
 </treenode>
 <treenode node="lessThanOrEqualTo;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;527;5;530;;;;vpos;;v;;r Definition     lessThanOrEqualTo($value)  Description      The value is &lt;= $value.;;d4,528;;b0,0;;mvalue;;p">
 </treenode>
-<treenode node="logger;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;494;5;501;;;;vpos;;v;;r Definition     logger($message = null, array $context = [])  Description      Log a debug message to the logs.  Parameters:     string $message     array $context;;d4,495;;b0,0;;mstring $message;;parray $context;;p">
+<treenode node="logger;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;494;5;501;;;;vpos;;v;;r
+Definition
+    logger($message = null, array $context = [])
+
+Description
+     Log a debug message to the logs.
+
+Parameters:
+    string $message
+    array $context;;d4,495;;b0,0;;mstring $message;;parray $context;;p">
 </treenode>
 <treenode node="matchesPattern;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;617;5;620;;;;vpos;;v;;r Definition     matchesPattern($pattern)  Description      Matches if value is a string that matches regular expression $pattern.;;d4,618;;b0,0;;mpattern;;p">
 </treenode>
-<treenode node="method_field;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;511;5;514;;;;vpos;;v;;r Definition     method_field($method)  Description      Generate a form field to spoof the HTTP verb used by forms.  Parameters:     string $method;;d4,512;;b0,0;;mstring $method;;p">
+<treenode node="method_field;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;511;5;514;;;;vpos;;v;;r
+Definition
+    method_field($method)
+
+Description
+     Generate a form field to spoof the HTTP verb used by forms.
+
+Parameters:
+    string $method;;d4,512;;b0,0;;mstring $method;;p">
 </treenode>
-<treenode node="mix;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;527;5;565;;;;vpos;;v;;r Definition     mix($path, $manifestDirectory = &apos;&apos;)  Description      Get the path to a versioned Mix file.  Parameters:     string $path     string $manifestDirectory;;d4,528;;b0,0;;mstring $path;;pstring $manifestDirectory;;p">
+<treenode node="mix;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;527;5;565;;;;vpos;;v;;r
+Definition
+    mix($path, $manifestDirectory = &apos;&apos;)
+
+Description
+     Get the path to a versioned Mix file.
+
+Parameters:
+    string $path
+    string $manifestDirectory;;d4,528;;b0,0;;mstring $path;;pstring $manifestDirectory;;p">
 </treenode>
 <treenode node="nonEmptyArray;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;177;5;180;;;;vpos;;v;;r Definition     nonEmptyArray()  Description      Matches an empty array.;;d4,178;;b0,0;;m">
 </treenode>
@@ -21428,39 +22695,146 @@ Description
 </treenode>
 <treenode node="objectValue;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;753;5;756;;;;vpos;;v;;r Definition     objectValue()  Description      Is the value an object?;;d4,754;;b0,0;;m">
 </treenode>
-<treenode node="old;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;576;5;579;;;;vpos;;vmixed;;r Definition     old($key = null, $default = null)  Description      Retrieve an old input item.  Parameters:     string $key     mixed $default;;d4,577;;b0,0;;mstring $key;;pmixed $default;;p">
+<treenode node="old;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;576;5;579;;;;vpos;;vmixed;;r
+Definition
+    old($key = null, $default = null)
+
+Description
+     Retrieve an old input item.
+
+Parameters:
+    string $key
+    mixed $default;;d4,577;;b0,0;;mstring $key;;pmixed $default;;p">
 </treenode>
-<treenode node="policy;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;591;5;594;;;;vpos;;vmixed;;r Definition     policy($class)  Description      Get a policy instance for a given class.  Parameters:     object|string $class;;d4,592;;b0,0;;mobject|string $class;;p">
+<treenode node="policy;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;591;5;594;;;;vpos;;vmixed;;r
+Definition
+    policy($class)
+
+Description
+     Get a policy instance for a given class.
+
+Parameters:
+    object|string $class;;d4,592;;b0,0;;mobject|string $class;;p">
 </treenode>
 <treenode node="preg_replace_array;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Support\helpers.php;f4;678;5;685;;;;vpos;;vstring;;r Definition     preg_replace_array($pattern, array $replacements, $subject)  Description      Replace a given pattern with each value in the array in sequentially.  Parameters:     string $pattern     array $replacements     string $subject;;d4,679;;b0,0;;mstring $pattern;;parray $replacements;;pstring $subject;;p">
 </treenode>
-<treenode node="public_path;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;604;5;607;;;;vpos;;vstring;;r Definition     public_path($path = &apos;&apos;)  Description      Get the path to the public folder.  Parameters:     string $path;;d4,605;;b0,0;;mstring $path;;p">
+<treenode node="public_path;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;604;5;607;;;;vpos;;vstring;;r
+Definition
+    public_path($path = &apos;&apos;)
+
+Description
+     Get the path to the public folder.
+
+Parameters:
+    string $path;;d4,605;;b0,0;;mstring $path;;p">
 </treenode>
-<treenode node="redirect;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;620;5;627;;;;vpos;;v;;r Definition     redirect($to = null, $status = 302, $headers = [], $secure = null)  Description      Get an instance of the redirector.  Parameters:     string|null $to     int $status     array $headers     bool $secure;;d4,621;;b0,0;;mstring|null $to;;pint $status;;parray $headers;;pbool $secure;;p">
+<treenode node="redirect;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;620;5;627;;;;vpos;;v;;r
+Definition
+    redirect($to = null, $status = 302, $headers = [], $secure = null)
+
+Description
+     Get an instance of the redirector.
+
+Parameters:
+    string|null $to
+    int $status
+    array $headers
+    bool $secure;;d4,621;;b0,0;;mstring|null $to;;pint $status;;parray $headers;;pbool $secure;;p">
 </treenode>
-<treenode node="request;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;638;5;649;;;;vpos;;v;;r Definition     request($key = null, $default = null)  Description      Get an instance of the current request or an input item from the request.  Parameters:     array|string $key     mixed $default;;d4,639;;b0,0;;marray|string $key;;pmixed $default;;p">
+<treenode node="request;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;638;5;649;;;;vpos;;v;;r
+Definition
+    request($key = null, $default = null)
+
+Description
+     Get an instance of the current request or an input item from the request.
+
+Parameters:
+    array|string $key
+    mixed $default;;d4,639;;b0,0;;marray|string $key;;pmixed $default;;p">
 </treenode>
-<treenode node="resolve;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;659;5;662;;;;vpos;;vmixed;;r Definition     resolve($name)  Description      Resolve a service from the container.  Parameters:     string $name;;d4,660;;b0,0;;mstring $name;;p">
+<treenode node="resolve;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;659;5;662;;;;vpos;;vmixed;;r
+Definition
+    resolve($name)
+
+Description
+     Resolve a service from the container.
+
+Parameters:
+    string $name;;d4,660;;b0,0;;mstring $name;;p">
 </treenode>
-<treenode node="resource_path;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;672;5;675;;;;vpos;;vstring;;r Definition     resource_path($path = &apos;&apos;)  Description      Get the path to the resources folder.  Parameters:     string $path;;d4,673;;b0,0;;mstring $path;;p">
+<treenode node="resource_path;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;672;5;675;;;;vpos;;vstring;;r
+Definition
+    resource_path($path = &apos;&apos;)
+
+Description
+     Get the path to the resources folder.
+
+Parameters:
+    string $path;;d4,673;;b0,0;;mstring $path;;p">
 </treenode>
 <treenode node="resourceValue;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;771;5;774;;;;vpos;;v;;r Definition     resourceValue()  Description      Is the value a resource?;;d4,772;;b0,0;;m">
 </treenode>
-<treenode node="response;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;687;5;696;;;;vpos;;v;;r Definition     response($content = &apos;&apos;, $status = 200, array $headers = [])  Description      Return a new response from the application.  Parameters:     string $content     int $status     array $headers;;d4,688;;b0,0;;mstring $content;;pint $status;;parray $headers;;p">
+<treenode node="response;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;687;5;696;;;;vpos;;v;;r
+Definition
+    response($content = &apos;&apos;, $status = 200, array $headers = [])
+
+Description
+     Return a new response from the application.
+
+Parameters:
+    string $content
+    int $status
+    array $headers;;d4,688;;b0,0;;mstring $content;;pint $status;;parray $headers;;p">
 </treenode>
 <treenode node="retry;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Support\helpers.php;f4;699;5;719;;;;vpos;;vmixed;;r Definition     retry($times, callable $callback, $sleep = 0)  Description      Retry an operation a given number of times.  Parameters:     int $times     callable $callback     int $sleep;;d4,700;;b0,0;;mint $times;;pcallable $callback;;pint $sleep;;p">
 </treenode>
-<treenode node="route;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;708;5;711;;;;vpos;;vstring;;r Definition     route($name, $parameters = [], $absolute = true)  Description      Generate the URL to a named route.  Parameters:     string $name     array $parameters     bool $absolute;;d4,709;;b0,0;;mstring $name;;parray $parameters;;pbool $absolute;;p">
+<treenode node="route;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;708;5;711;;;;vpos;;vstring;;r
+Definition
+    route($name, $parameters = [], $absolute = true)
+
+Description
+     Generate the URL to a named route.
+
+Parameters:
+    string $name
+    array $parameters
+    bool $absolute;;d4,709;;b0,0;;mstring $name;;parray $parameters;;pbool $absolute;;p">
 </treenode>
 <treenode node="sameInstance;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;436;5;439;;;;vpos;;v;;r Definition     sameInstance($object)  Description      Creates a new instance of IsSame.  Parameters:     mixed $object - The predicate evaluates to true only when the argument is;;d4,437;;b0,0;;mmixed $object;;p">
 </treenode>
 <treenode node="scalarValue;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;780;5;783;;;;vpos;;v;;r Definition     scalarValue()  Description      Is the value a scalar (boolean, integer, double, or string)?;;d4,781;;b0,0;;m">
 </treenode>
-<treenode node="secure_asset;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;721;5;724;;;;vpos;;vstring;;r Definition     secure_asset($path)  Description      Generate an asset path for the application.  Parameters:     string $path;;d4,722;;b0,0;;mstring $path;;p">
+<treenode node="secure_asset;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;721;5;724;;;;vpos;;vstring;;r
+Definition
+    secure_asset($path)
+
+Description
+     Generate an asset path for the application.
+
+Parameters:
+    string $path;;d4,722;;b0,0;;mstring $path;;p">
 </treenode>
-<treenode node="secure_url;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;735;5;738;;;;vpos;;vstring;;r Definition     secure_url($path, $parameters = [])  Description      Generate a HTTPS url for the application.  Parameters:     string $path     mixed $parameters;;d4,736;;b0,0;;mstring $path;;pmixed $parameters;;p">
+<treenode node="secure_url;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;735;5;738;;;;vpos;;vstring;;r
+Definition
+    secure_url($path, $parameters = [])
+
+Description
+     Generate a HTTPS url for the application.
+
+Parameters:
+    string $path
+    mixed $parameters;;d4,736;;b0,0;;mstring $path;;pmixed $parameters;;p">
 </treenode>
-<treenode node="session;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;751;5;762;;;;vpos;;vmixed;;r Definition     session($key = null, $default = null)  Description      Get / set the specified session value.  Parameters:     array|string $key     mixed $default;;d4,752;;b0,0;;marray|string $key;;pmixed $default;;p">
+<treenode node="session;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;751;5;762;;;;vpos;;vmixed;;r
+Definition
+    session($key = null, $default = null)
+
+Description
+     Get / set the specified session value.
+
+Parameters:
+    array|string $key
+    mixed $default;;d4,752;;b0,0;;marray|string $key;;pmixed $default;;p">
 </treenode>
 <treenode node="set;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;454;5;457;;;;vpos;;v;;r Definition     set($property)  Description      Matches if value (class, object, or array) has named $property.;;d4,455;;b0,0;;mproperty;;p">
 </treenode>
@@ -21470,7 +22844,15 @@ Description
 </treenode>
 <treenode node="startsWith;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;663;5;666;;;;vpos;;v;;r Definition     startsWith($substring)  Description      Matches if value is a string that starts with $substring.;;d4,664;;b0,0;;msubstring;;p">
 </treenode>
-<treenode node="storage_path;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;772;5;775;;;;vpos;;vstring;;r Definition     storage_path($path = &apos;&apos;)  Description      Get the path to the storage folder.  Parameters:     string $path;;d4,773;;b0,0;;mstring $path;;p">
+<treenode node="storage_path;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;772;5;775;;;;vpos;;vstring;;r
+Definition
+    storage_path($path = &apos;&apos;)
+
+Description
+     Get the path to the storage folder.
+
+Parameters:
+    string $path;;d4,773;;b0,0;;mstring $path;;p">
 </treenode>
 <treenode node="str_after;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Support\helpers.php;f4;758;5;761;;;;vpos;;vstring;;r Definition     str_after($subject, $search)  Description      Return the remainder of a string after a given value.  Parameters:     string $subject     string $search;;d4,759;;b0,0;;mstring $subject;;pstring $search;;p">
 </treenode>
@@ -21508,21 +22890,73 @@ Description
 </treenode>
 <treenode node="trait_uses_recursive;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Support\helpers.php;f4;975;5;984;;;;vpos;;varray;;r Definition     trait_uses_recursive($trait)  Description      Returns all traits used by a trait and its traits.  Parameters:     string $trait;;d4,976;;b0,0;;mstring $trait;;p">
 </treenode>
-<treenode node="trans;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;787;5;794;;;;vpos;;v;;r Definition     trans($id = null, $replace = [], $locale = null)  Description      Translate the given message.  Parameters:     string $id     array $replace     string $locale;;d4,788;;b0,0;;mstring $id;;parray $replace;;pstring $locale;;p">
+<treenode node="trans;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;787;5;794;;;;vpos;;v;;r
+Definition
+    trans($id = null, $replace = [], $locale = null)
+
+Description
+     Translate the given message.
+
+Parameters:
+    string $id
+    array $replace
+    string $locale;;d4,788;;b0,0;;mstring $id;;parray $replace;;pstring $locale;;p">
 </treenode>
-<treenode node="trans_choice;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;807;5;810;;;;vpos;;vstring;;r Definition     trans_choice($id, $number, array $replace = [], $locale = null)  Description      Translates the given message based on a count.  Parameters:     string $id     int|array|\Countable $number     array $replace     string $locale;;d4,808;;b0,0;;mstring $id;;pint|array|\Countable $number;;parray $replace;;pstring $locale;;p">
+<treenode node="trans_choice;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;807;5;810;;;;vpos;;vstring;;r
+Definition
+    trans_choice($id, $number, array $replace = [], $locale = null)
+
+Description
+     Translates the given message based on a count.
+
+Parameters:
+    string $id
+    int|array|\Countable $number
+    array $replace
+    string $locale;;d4,808;;b0,0;;mstring $id;;pint|array|\Countable $number;;parray $replace;;pstring $locale;;p">
 </treenode>
 <treenode node="traversableWithSize;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;204;5;207;;;;vpos;;v;;r Definition     traversableWithSize($size)  Description      Does traversable size satisfy a given matcher?;;d4,205;;b0,0;;msize;;p">
 </treenode>
 <treenode node="typeOf;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest.php;f4;445;5;448;;;;vpos;;v;;r Definition     typeOf($theType)  Description      Is the value a particular built-in type?;;d4,446;;b0,0;;mtheType;;p">
 </treenode>
-<treenode node="url;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;837;5;844;;;;vpos;;v;;r Definition     url($path = null, $parameters = [], $secure = null)  Description      Generate a url for the application.  Parameters:     string $path     mixed $parameters     bool $secure;;d4,838;;b0,0;;mstring $path;;pmixed $parameters;;pbool $secure;;p">
+<treenode node="url;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;837;5;844;;;;vpos;;v;;r
+Definition
+    url($path = null, $parameters = [], $secure = null)
+
+Description
+     Generate a url for the application.
+
+Parameters:
+    string $path
+    mixed $parameters
+    bool $secure;;d4,838;;b0,0;;mstring $path;;pmixed $parameters;;pbool $secure;;p">
 </treenode>
-<treenode node="validator;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;857;5;866;;;;vpos;;v;;r Definition     validator(array $data = [], array $rules = [], array $messages = [], array $customAttributes = [])  Description      Create a new Validator instance.  Parameters:     array $data     array $rules     array $messages     array $customAttributes;;d4,858;;b0,0;;marray $data;;parray $rules;;parray $messages;;parray $customAttributes;;p">
+<treenode node="validator;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;857;5;866;;;;vpos;;v;;r
+Definition
+    validator(array $data = [], array $rules = [], array $messages = [], array $customAttributes = [])
+
+Description
+     Create a new Validator instance.
+
+Parameters:
+    array $data
+    array $rules
+    array $messages
+    array $customAttributes;;d4,858;;b0,0;;marray $data;;parray $rules;;parray $messages;;parray $customAttributes;;p">
 </treenode>
 <treenode node="value;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Support\helpers.php;f4;994;5;997;;;;vpos;;vmixed;;r Definition     value($value)  Description      Return the default value of the given value.  Parameters:     mixed $value;;d4,995;;b0,0;;mmixed $value;;p">
 </treenode>
-<treenode node="view;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;878;5;887;;;;vpos;;v;;r Definition     view($view = null, $data = [], $mergeData = [])  Description      Get the evaluated view contents for the given view.  Parameters:     string $view     array $data     array $mergeData;;d4,879;;b0,0;;mstring $view;;parray $data;;parray $mergeData;;p">
+<treenode node="view;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php;f4;878;5;887;;;;vpos;;v;;r
+Definition
+    view($view = null, $data = [], $mergeData = [])
+
+Description
+     Get the evaluated view contents for the given view.
+
+Parameters:
+    string $view
+    array $data
+    array $mergeData;;d4,879;;b0,0;;mstring $view;;parray $data;;parray $mergeData;;p">
 </treenode>
 <treenode node="windows_os;PHP:Function Name;D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Support\helpers.php;f4;1006;5;1009;;;;vpos;;vbool;;r Definition     windows_os()  Description      Determine whether the current environment is Windows based.;;d4,1007;;b0,0;;m">
 </treenode>
