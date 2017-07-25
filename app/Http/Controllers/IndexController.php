@@ -13,7 +13,7 @@ class IndexController extends Controller {
 		return view('front.main');
 	}
 	
-	// Зпоминаем реферера в сессию
+	// Запоминаем реферера в сессию
 	public function referer($ref) {
 		if (Auth::guest()) {
 			$user = DB::table('users')->select('ident', 'login', 'refback')->where('ident', $ref)->first();

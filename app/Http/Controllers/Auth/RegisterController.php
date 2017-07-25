@@ -98,7 +98,7 @@ class RegisterController extends Controller {
 		return $user;
 	}
 	
-	// Запись в таблицу wallets
+	// Запись кошелька в таблицу wallets
 	protected function setWallets($ident) {
 		Wallet::create(['ident' => $ident]);
 	}
@@ -106,16 +106,20 @@ class RegisterController extends Controller {
 	// Запись в таблицу referrals
 	protected function setReferrals($user, $referer, $refback) {
 		$c = 5;
-
+		
+		// Если реферальная система включена - заисываем первого
 		if ($c > 0) {
+			if (Request::ip() == $this->getIp($referer)) return;
 			$this->saveReferrals($referer, $user, 1, $refback);
 		}
-
+		
+		// Если установлен больше, чем 1 реферальный уровень - бегаем в цикле по таблице refferals - ищем рефереров
 		if ($c > 1) {
 			for ($i = 1; $i <= $c; $i++) {
 				$level = $i+1;
 				$ident = Referral::where('referral', $referer)->where('level', $i)->first();
 				if (!$ident) break;
+				if (Request::ip() == $this->getIp($ident)) return;
 				$this->saveReferrals($ident->ident, $user, $level, 0);
 			}
 		}
@@ -129,6 +133,12 @@ class RegisterController extends Controller {
 			'level' => $level,
 			'refback' => $refback,
 		]);
+	}
+	
+	// Получить IP пользователя по его полю ident
+	protected function getIp($ident) {
+		$user = User::where('ident', $ident)->first();
+		return $user->ip;
 	}
 
 	// Переопределение вида и передача логина реферера

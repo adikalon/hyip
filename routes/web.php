@@ -45,6 +45,6 @@ Route::group(['prefix'=>'cabinet', 'middleware'=>'auth'], function () {
 	Route::get('/', 'IndexController@index');
 });
 
-Route::group(['prefix'=>'admin'/*, 'middleware'=>'auth'*/], function () {
+Route::group(['prefix'=>'admin', 'middleware'=>'adminaccess'], function () {
 	Route::get('/', 'Admin\AdminController@index')->name('admin');
 });

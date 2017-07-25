@@ -1,4 +1,5 @@
 @extends('front.layouts.default')
+@section('meta_title', 'Региcтрация')
 @section('content')
 
 <form action="{{ route('register') }}" method="post">

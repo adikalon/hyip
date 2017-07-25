@@ -2,7 +2,7 @@
 <html lang="{{ app()->getLocale() }}">
 	<head>
 		<meta charset="UTF-8">
-		<title>My HYIP</title>
+		<title>@yield('meta_title')</title>
 	</head>
 	<body>
 		<a href="{{ route('index') }}">Главная</a>
