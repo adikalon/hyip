@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="D:\Programs\OpenServer\domains\hyip.loc\hyip.loc.clpprj">
 	<settings><PM_URL><![CDATA[http://hyip.loc/]]></PM_URL><PM_HOME_URL><![CDATA[http://hyip.loc/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\public\index.php"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\RegisterController.php"/>
 	</lastopfiles>
 	<errors version="5.11">
 		<errfile name="D:\Programs\OpenServer\domains\hyip.loc\vendor\webmozart\assert\src\Assert.php">
@@ -4054,7 +4054,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Notifications\Messages\SlackAttachment.php" crc="1499057548"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Notifications\Messages\SimpleMessage.php" crc="1499057546"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Notifications\Messages\NexmoMessage.php" crc="1499057546"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Notifications\Messages\MailMessage.php" crc="1499057546"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Notifications\Messages\MailMessage.php" crc="1500996398"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Notifications\Messages\DatabaseMessage.php" crc="1499057546"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Notifications\Messages\BroadcastMessage.php" crc="1499057546"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Notifications\Events\NotificationSent.php" crc="1499057546"/>
@@ -4508,7 +4508,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\Passwords\PasswordBroker.php" crc="1499057532"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\Passwords\DatabaseTokenRepository.php" crc="1499057532"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\Passwords\CanResetPassword.php" crc="1499057532"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\Notifications\ResetPassword.php" crc="1500081334"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\Notifications\ResetPassword.php" crc="1500997010"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\Middleware\Authorize.php" crc="1499057532"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\Middleware\AuthenticateWithBasicAuth.php" crc="1499057532"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\Middleware\Authenticate.php" crc="1499057532"/>
@@ -5292,38 +5292,53 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\f3751df3898ad406597fc01dd173c5ce2ffd322f.php" crc="1499547222"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\eb7cc5dcf5b0b4997de9d28de3b8ad200c501313.php" crc="1499552014"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\e74b93893f60693eccede64a11504213555b3601.php" crc="1499547222"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\e1d11d82dc41d35e7dc6246774a30a6094be8616.php" crc="1500992934"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\d7beaf0ad6c7fe3b60440f19e885c0d1a953a063.php" crc="1499547222"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\d6bfa8e395a8bc2bb4abd91e8b537742722dd456.php" crc="1499547226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\cfb3b21a7218328c21df20dcda057fb6b0a9df64.php" crc="1500990759"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\cccb5aca3d34a821ff9c576b618f2bedbb6ef078.php" crc="1499546016"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\c4c640f17bd854e30a263f35c6c6ffcdc8e11a0e.php" crc="1499547222"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\b153463687cccae59b0f603d570d30c9da186675.php" crc="1499547226"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\ae96e6df0de5624f46e8bdcf344e99e5d7c5f42a.php" crc="1500901286"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\9819765fb3b319b9060c964e8d37dacf97253679.php" crc="1499547224"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\93863373170141a23d1ca5f5c68878e1691ea29e.php" crc="1499448700"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\91fd186f49698607b397c37ba4dfa3b70532fd6a.php" crc="1500990759"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\8ea7213f31cc8d6d3cf38fc768788b6be70abd9c.php" crc="1499547226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\8acde2967ce90e5d017b86cac3578c5b3a91d955.php" crc="1500990759"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\8a4aa97c148553ba0ae9011453c8757693701d4b.php" crc="1499436920"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\8492d598dd650a091c19212f9cd116e28441c455.php" crc="1499914330"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\7fd5bc94ecc9e2f7fb096c716d48176289fe2ec8.php" crc="1500901262"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\744e8b2a4a8ffa13b9c51868aebbb4fe2d4550dd.php" crc="1499623908"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\6da1108247cc7d4eb7c0a2ed00baa92d3ea2a96e.php" crc="1499669766"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\6be31da798680a9f30df5be1f6dbc930adf7969c.php" crc="1499547222"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\6a0956a16edf1addfc2dd81f41d35355cb2c4076.php" crc="1500990756"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\691fdb3c08adb5a6cb089d708a26ad0ae2682795.php" crc="1499547224"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\65c647a0ab13358d95e628743f0c14d7ffa37e0a.php" crc="1500990756"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\63bb281467ccf5496a4173f306a8be65612fbcb0.php" crc="1499620970"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\5b41d86efe696b252ab0d6d655df282bc00bcf10.php" crc="1499669766"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\5b41d86efe696b252ab0d6d655df282bc00bcf10.php" crc="1501002272"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\5572347fcb3b92f308cc23b921279c32b46fbe57.php" crc="1499547226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\51b7a7dab4acaa57bb4a9ba3cc7b323db55600e1.php" crc="1500990756"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\4d56c1ab8ffa1cea6e5db222f153a7211ae755be.php" crc="1499562708"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\4c7cc173482f6dcb5b474cce2fce88a3725049fa.php" crc="1500990756"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\4bcc6cfdcf5f78adade02058ae3757727ac46a08.php" crc="1499447958"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\451029a612783703f7f077b0fdb7af57b83bf218.php" crc="1500990759"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\4235bb36b487761c0abf8e0563696e5e3f10f8cd.php" crc="1500996330"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\418c5c099e376a45a43ca04d5419f490c82dcb84.php" crc="1501013542"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\3ac7274ef75945b530b5ae9a123d1b02690f0989.php" crc="1499541918"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\36d1c60ecf7246a114cf3306483500247717208c.php" crc="1499623828"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\33a0beb8056851d11078876b36eb93ccd56ebc09.php" crc="1500990756"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\333743a6149bb2e715b2c1c65bbe65e1899790a8.php" crc="1500990759"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\2ef655af60fafcc2805261a04c5a7fba70d791d9.php" crc="1499544894"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\2bed6f5500735e4d6f03089c99aaed35fa3afb04.php" crc="1500990759"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\2a5167aa93a04406fc0972ecda9ea110dee8119d.php" crc="1499436950"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\1e684dbb8816f00f7618fc4599cb35b67cfd4fc2.php" crc="1499447958"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\1d0b69fad4822f362cd9b92cd1787371910528a6.php" crc="1499071372"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\19c18000de3d6d1c26510212ab3e95749dd3fd2e.php" crc="1499541514"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\10c66bcefe63dadb52b5e02e8780ff2aa2f5206f.php" crc="1499563114"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\10c66bcefe63dadb52b5e02e8780ff2aa2f5206f.php" crc="1501013415"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\0fd6b9ba7cc8b4f1d8ba928d6950247b99336cc1.php" crc="1499547222"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\0750dbdaf86a4f9e1021207e6a2fbe5bd2f13caf.php" crc="1499436892"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\routes\web.php" crc="1499814968"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\06f485e72295c100fea786959ea43c651b3ed2fa.php" crc="1500990756"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\routes\web.php" crc="1501011857"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\routes\console.php" crc="1499057344"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\routes\channels.php" crc="1499057344"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\routes\api.php" crc="1499057344"/>
@@ -5333,9 +5348,9 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\repassword.blade.php" crc="1499559590"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\registration.blade.php" crc="1499669766"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\main.blade.php" crc="1499544892"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\acceptrepassword.blade.php" crc="1499563106"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\acceptrepassword.blade.php" crc="1501011865"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\errors\404.blade.php" crc="1499467286"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\emails\htmlrepassword.blade.php" crc="1499908884"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\emails\htmlrepassword.blade.php" crc="1501014979"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\admin\main.blade.php" crc="1499447920"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\admin\layout.blade.php" crc="1499447938"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\lang\ru\passwords.php" crc="1499605654"/>
@@ -5394,12 +5409,14 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Kernel.php" crc="1499815068"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Exceptions\Handler.php" crc="1499625386"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Console\Kernel.php" crc="1499057346"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Classes\ResetPassword.php" crc="1501000747"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Wallet.php" crc="1499660434"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\User.php" crc="1500081292"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\User.php" crc="1501000829"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Referral.php" crc="1499660354"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\webpack.mix.js" crc="1499057346"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\server.php" crc="1499057344"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\phpunit.xml" crc="1499057344"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\.htaccess" crc="1499067318"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\.env" crc="1501013391"/>
 	</filescache>
 </project>

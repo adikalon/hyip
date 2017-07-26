@@ -1,7 +1,7 @@
 @extends('front.layouts.default')
 @section('content')
 
-<form action="{{ route('password.request') }}" method="post">
+<form action="{{ route('acceptrepassword') }}" method="post">
 	{{ csrf_field() }}
 	<input type="hidden" name="token" value="{{ $token }}">
 	<input type="email" name="email" value="{{ $email or old('email') }}"  placeholder="Email" required autofocus>

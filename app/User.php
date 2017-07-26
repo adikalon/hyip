@@ -5,7 +5,7 @@ namespace App;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
-use Illuminate\Auth\Notifications\ResetPassword as ResetPasswordNotification;
+use App\Classes\ResetPassword as ResetPasswordNotification;
 
 class User extends Authenticatable {
 	use Notifiable;
@@ -28,6 +28,7 @@ class User extends Authenticatable {
 		'password', 'remember_token',
 	];
 
+	// Перегружаем метод для переопределения вида письма восстановления пароля
 	public function sendPasswordResetNotification($token) {
 		$this->notify(new ResetPasswordNotification($token));
 	}
