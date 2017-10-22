@@ -16,6 +16,7 @@ class CreateReferralsTable extends Migration {
 			$table->integer('ident')->lenght(10)->unsigned()->nullable()->default(NULL);
 			$table->integer('referral')->lenght(10)->unsigned()->nullable()->default(NULL);
 			$table->tinyInteger('level')->lenght(1)->unsigned()->nullable()->default(NULL);
+			$table->decimal('percent', 5, 2)->unsigned()->default(0);
 			$table->decimal('refback', 5, 2)->unsigned()->default(0);
 		});
 	}

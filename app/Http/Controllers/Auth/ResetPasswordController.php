@@ -25,7 +25,7 @@ class ResetPasswordController extends Controller {
 	*
 	* @var string
 	*/
-	protected $redirectTo = '/home';
+	protected $redirectTo = '';
 
 	/**
 	* Create a new controller instance.
@@ -34,6 +34,7 @@ class ResetPasswordController extends Controller {
 	*/
 	public function __construct() {
 		$this->middleware('guest');
+		$this->redirectTo = route('cabinet');
 	}
 
 	// Правила валидации

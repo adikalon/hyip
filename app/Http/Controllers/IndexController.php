@@ -6,11 +6,12 @@ use DB;
 use Session;
 use Auth;
 use Illuminate\Http\Request;
+use App\Rate;
 
 class IndexController extends Controller {
 	
 	public function index() {
-		return view('front.main');
+		return $this->getView();
 	}
 	
 	// Запоминаем реферера в сессию
@@ -26,7 +27,12 @@ class IndexController extends Controller {
 				Session::put('referer', $referer);
 			}
 		}
-		//dump(Session::get('referer'));
-		return view('front.main');
+
+		return $this->getView();
+	}
+	
+	public function getView() {
+		$rates = Rate::all();
+		return view('front.main')->with('rates', $rates);
 	}
 }

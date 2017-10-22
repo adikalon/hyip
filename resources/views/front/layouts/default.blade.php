@@ -5,7 +5,17 @@
 		<title>@yield('meta_title')</title>
 	</head>
 	<body>
+		Пополнено: {{ $stat->replenished or 'none' }}
+		Инвестировано: {{ $stat->invested or 'none' }}
+		Выплачено: {{ $stat->paidout or 'none' }}
+		Баланс: {{ $stat->balance or 'none' }}
+		<br>
+	
 		<a href="{{ route('index') }}">Главная</a>
+		<a href="#">Маркетинг</a>
+		<a href="#">Новости</a>
+		<a href="#">Отзывы</a>
+		<a href="#">FAQ</a>
 		@if (Auth::guest())
 			<form action="{{ route('auth') }}" method="POST">
 				{{ csrf_field() }}
@@ -26,7 +36,8 @@
 				{{ $errors->first('password') }}
 			@endif
 		@else
-			Вы вошли как {{ Auth::user()->login }}
+			<a href="{{ route('cabinet') }}">Кабинет</a>
+			Вы вошли как {{ Auth::user()->login }}, Ваш баланс: {{ $digits->balance }}
 			<form action="{{ route('logout') }}" method="POST">
 				{{ csrf_field() }}
 				<button type="submit">Выйти</button>
@@ -34,5 +45,10 @@
 		@endif
 
 		@yield('content')
+		
+		<div>
+			Зарегистировано: {{ $stat->registered or 'none' }}
+			Активно: {{ $stat->active or 'none' }}
+		</div>
 	</body>
 </html>

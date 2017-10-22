@@ -3,14 +3,18 @@
 namespace App\Http\Controllers\Auth;
 
 use App\User;
+use App\Digit;
+use App\Statistic;
 use App\Referral;
 use App\Wallet;
+use App\ReferralsLevel;
 use Session;
 use Request;
-use Illuminate\Support\Str;
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\RequestTokenController;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
+use App\Classes\Helpers;
 
 class RegisterController extends Controller {
 	/*
@@ -31,7 +35,7 @@ class RegisterController extends Controller {
 	*
 	* @var string
 	*/
-	protected $redirectTo = '/';
+	protected $redirectTo = '';
 
 	/**
 	* Create a new controller instance.
@@ -40,6 +44,7 @@ class RegisterController extends Controller {
 	*/
 	public function __construct() {
 		$this->middleware('guest');
+		$this->redirectTo = route('cabinet');
 	}
 
 	/**
@@ -57,13 +62,15 @@ class RegisterController extends Controller {
 			'email' => 'Некорректный e-mail адрес',
 			'email.unique' => 'Участник с таким e-mail уже зарегистрирован',
 			'password_confirmation.same' => 'Пароли не совпадают',
+			'captcha' => 'Код каптчи введен неверно'
 		];
 
 		return Validator::make($data, [
 			'login' => 'required|max:255|min:2|unique:users',
 			'password' => 'required|max:255|min:5',
 			'password_confirmation' => 'same:password',
-			'email' => 'required|email|max:255|unique:users'
+			'email' => 'required|email|max:255|unique:users',
+			'captcha' => 'required|captcha'
 		], $messages);
 	}
 
@@ -80,37 +87,63 @@ class RegisterController extends Controller {
 			'password' => bcrypt($data['password']),
 			'email' => $data['email'],
 			'refback' => 0,
-			'balance' => 0,
-			'date' => time(),
+			'date' => Helpers::time(),
 			'ip' => Request::ip(),
 			'role' => 0,
-			'hash' => Str::random(100),
 		]);
 
 		if ($user) {
 			$user->update(['ident' => $user->id]);
 			if (Session::has('referer.ident') AND Session::has('referer.refback')) {
 				$this->setReferrals($user->ident, Session::get('referer.ident'), Session::get('referer.refback'));
-				$this->setWallets($user->ident);
-			}	
+			}
+			$this->setWallets($user->ident);
+			$this->setDigits($user->ident);
+			$token = new RequestTokenController;
+			$token->accountVerification($data['email']);
+			$statistica = Statistic::first();
+			$statistica->update(['registered' => $statistica->registered+1]);
 		}
 
 		return $user;
 	}
 	
+	// Запись статистики участника в таблицу digits
+	protected function setDigits($ident) {
+		Digit::create([
+			'ident' => $ident,
+			'balance' => 0,
+			'replenished' => 0,
+			'invested' => 0,
+			'pay_by_inv' => 0,
+			'payment' => 0,
+			'widthdraw' => 0,
+			'actively' => 0,
+			'pending' => 0,
+			'pay_by_refs' => 0,
+			'spent_on_refs' => 0
+		]);
+	}
+	
 	// Запись кошелька в таблицу wallets
 	protected function setWallets($ident) {
-		Wallet::create(['ident' => $ident]);
+		Wallet::create([
+			'ident' => $ident,
+			'qiwi' => NULL,
+			'payeer' => NULL
+		]);
 	}
 	
 	// Запись в таблицу referrals
 	protected function setReferrals($user, $referer, $refback) {
-		$c = 5;
 		
+		// Получаем число реферальных уровней
+		$c = count(ReferralsLevel::all());
+
 		// Если реферальная система включена - заисываем первого
 		if ($c > 0) {
 			if (Request::ip() == $this->getIp($referer)) return;
-			$this->saveReferrals($referer, $user, 1, $refback);
+			$this->saveReferrals($referer, $user, 1, $this->getPercent(1), $refback);
 		}
 		
 		// Если установлен больше, чем 1 реферальный уровень - бегаем в цикле по таблице refferals - ищем рефереров
@@ -119,18 +152,26 @@ class RegisterController extends Controller {
 				$level = $i+1;
 				$ident = Referral::where('referral', $referer)->where('level', $i)->first();
 				if (!$ident) break;
-				if (Request::ip() == $this->getIp($ident)) return;
-				$this->saveReferrals($ident->ident, $user, $level, 0);
+				if (Request::ip() == $this->getIp($ident->ident)) return;
+				$this->saveReferrals($ident->ident, $user, $level, $this->getPercent($level), 0);
 			}
 		}
 	}
 	
+	// Вернуть реферальный процент
+	protected function getPercent($level) {
+		$ref = ReferralsLevel::where('level', $level)->first();
+		if ($ref === NULL) return 0;
+		return $ref->percent;
+	} 
+	
 	// INSERT в БД referrals
-	protected function saveReferrals($ident, $referral, $level, $refback=0) {
+	protected function saveReferrals($ident, $referral, $level, $percent, $refback=0) {
 		Referral::create([
 			'ident' => $ident,
 			'referral' => $referral,
 			'level' => $level,
+			'percent' => $percent,
 			'refback' => $refback,
 		]);
 	}

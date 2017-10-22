@@ -14,8 +14,8 @@ class CreateWalletsTable extends Migration {
 		Schema::create('wallets', function (Blueprint $table) {
 				$table->increments('id')->lenght(10)->unsigned();
 				$table->integer('ident')->lenght(10)->unsigned()->nullable()->default(NULL);
-				$table->bigInteger('qiwi')->lenght(12)->unsigned()->nullable()->default(NULL);
-				$table->bigInteger('payeer')->lenght(8)->unsigned()->nullable()->default(NULL);
+				$table->string('qiwi', 20)->nullable()->default(NULL);
+				$table->string('payeer', 20)->nullable()->default(NULL);
 			});
 	}
 

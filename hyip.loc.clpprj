@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="D:\Programs\OpenServer\domains\hyip.loc\hyip.loc.clpprj">
 	<settings><PM_URL><![CDATA[http://hyip.loc/]]></PM_URL><PM_HOME_URL><![CDATA[http://hyip.loc/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\RegisterController.php"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\routes\web.php"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Cabinet\InvestController.php"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Cabinet\ReplenishController.php"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\cabinet\replenish.blade.php"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\cabinet\invest.blade.php"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\database\migrations\2017_09_05_165949_create_referral_bonuses_table.php"/>
 	</lastopfiles>
 	<errors version="5.11">
 		<errfile name="D:\Programs\OpenServer\domains\hyip.loc\vendor\webmozart\assert\src\Assert.php">
@@ -125,6 +130,7 @@
 		<facade class="Auth" name="auth"/>
 		<facade class="Blade" name="view"/>
 		<facade class="Cache" name="cache"/>
+		<facade class="Captcha" name="captcha"/>
 		<facade class="Config" name="config"/>
 		<facade class="Cookie" name="cookie"/>
 		<facade class="Crypt" name="encrypter"/>
@@ -133,6 +139,7 @@
 		<facade class="Facade" name="Facade does not implement getFacadeAccessor method."/>
 		<facade class="File" name="files"/>
 		<facade class="Hash" name="hash"/>
+		<facade class="Image" name="image"/>
 		<facade class="Input" name="request"/>
 		<facade class="Lang" name="translator"/>
 		<facade class="Mail" name="mailer"/>
@@ -201,6 +208,9 @@
 		</todofile>
 		<todofile name="D:\Programs\OpenServer\domains\hyip.loc\vendor\fzaninotto\faker\src\Faker\Provider\pl_PL\Address.php">
 			<todo name="TODO list all country names in the world" pos="5;22"/>
+		</todofile>
+		<todofile name="D:\Programs\OpenServer\domains\hyip.loc\vendor\guzzlehttp\psr7\src\BufferStream.php">
+			<todo name="TODO: What should happen here" pos="9;120"/>
 		</todofile>
 		<todofile name="D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\generator\FactoryMethod.php">
 			<todo name="todo Search method in file contents for func_get_args() to replace factoryVarArgs." pos="4;9"/>
@@ -383,9 +393,11 @@
 	<filescache>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\webmozart\assert\tests\AssertTest.php" crc="1499057600"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\webmozart\assert\src\Assert.php" crc="1499057600"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\webmozart\assert\composer.json" crc="1499057600"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\webmozart\assert\appveyor.yml" crc="1499057600"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\webmozart\assert\.travis.yml" crc="1499057600"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\webmozart\assert\.styleci.yml" crc="1499057600"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\webmozart\assert\.composer-auth.json" crc="1499057600"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\vlucas\phpdotenv\src\Exception\ValidationException.php" crc="1499057418"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\vlucas\phpdotenv\src\Exception\InvalidPathException.php" crc="1499057418"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\vlucas\phpdotenv\src\Exception\InvalidFileException.php" crc="1499057418"/>
@@ -395,12 +407,14 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\vlucas\phpdotenv\src\Loader.php" crc="1499057418"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\vlucas\phpdotenv\src\Dotenv.php" crc="1499057418"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\vlucas\phpdotenv\LICENSE.txt" crc="1499057418"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\vlucas\phpdotenv\composer.json" crc="1499057418"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\tijsverkoyen\css-to-inline-styles\src\Css\Rule\Rule.php" crc="1499057426"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\tijsverkoyen\css-to-inline-styles\src\Css\Rule\Processor.php" crc="1499057426"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\tijsverkoyen\css-to-inline-styles\src\Css\Property\Property.php" crc="1499057426"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\tijsverkoyen\css-to-inline-styles\src\Css\Property\Processor.php" crc="1499057426"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\tijsverkoyen\css-to-inline-styles\src\Css\Processor.php" crc="1499057426"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\tijsverkoyen\css-to-inline-styles\src\CssToInlineStyles.php" crc="1499057426"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\tijsverkoyen\css-to-inline-styles\composer.json" crc="1499057426"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\yaml\Tests\Fixtures\YtsTypeTransfers.yml" crc="1499057616"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\yaml\Tests\Fixtures\YtsSpecificationExamples.yml" crc="1499057616"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\yaml\Tests\Fixtures\YtsNullsAndEmpties.yml" crc="1499057616"/>
@@ -447,6 +461,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\yaml\Inline.php" crc="1499057616"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\yaml\Escaper.php" crc="1499057616"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\yaml\Dumper.php" crc="1499057616"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\yaml\composer.json" crc="1499057618"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\var-dumper\Tests\Test\VarDumperTestTraitTest.php" crc="1499057366"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\var-dumper\Tests\Fixtures\xml_reader.xml" crc="1499057366"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\var-dumper\Tests\Fixtures\Twig.php" crc="1499057366"/>
@@ -506,6 +521,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\var-dumper\Caster\ArgsStub.php" crc="1499057364"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\var-dumper\Caster\AmqpCaster.php" crc="1499057364"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\var-dumper\VarDumper.php" crc="1499057366"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\var-dumper\composer.json" crc="1499057366"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\translation\Writer\TranslationWriter.php" crc="1499057508"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\translation\Util\ArrayConverter.php" crc="1499057508"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\translation\Tests\Writer\TranslationWriterTest.php" crc="1499057506"/>
@@ -527,11 +543,15 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\translation\Tests\fixtures\resourcebundle\dat\en.txt" crc="1499057506"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\translation\Tests\fixtures\resources.yml" crc="1499057508"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\translation\Tests\fixtures\resources.php" crc="1499057508"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\translation\Tests\fixtures\resources.json" crc="1499057508"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\translation\Tests\fixtures\resources.ini" crc="1499057508"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\translation\Tests\fixtures\resources.dump.json" crc="1499057506"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\translation\Tests\fixtures\non-valid.yml" crc="1499057506"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\translation\Tests\fixtures\messages_linear.yml" crc="1499057506"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\translation\Tests\fixtures\messages.yml" crc="1499057506"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\translation\Tests\fixtures\malformed.json" crc="1499057506"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\translation\Tests\fixtures\empty.yml" crc="1499057506"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\translation\Tests\fixtures\empty.json" crc="1499057506"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\translation\Tests\fixtures\empty.ini" crc="1499057506"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\translation\Tests\Dumper\YamlFileDumperTest.php" crc="1499057506"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\translation\Tests\Dumper\XliffFileDumperTest.php" crc="1499057506"/>
@@ -610,6 +630,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\translation\Interval.php" crc="1499057504"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\translation\IdentityTranslator.php" crc="1499057504"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\translation\DataCollectorTranslator.php" crc="1499057504"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\translation\composer.json" crc="1499057508"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\routing\Tests\Matcher\Dumper\StaticPrefixCollectionTest.php" crc="1499057434"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\routing\Tests\Matcher\Dumper\PhpMatcherDumperTest.php" crc="1499057434"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\routing\Tests\Matcher\Dumper\DumperCollectionTest.php" crc="1499057434"/>
@@ -740,6 +761,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\routing\Route.php" crc="1499057432"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\routing\RequestContextAwareInterface.php" crc="1499057430"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\routing\RequestContext.php" crc="1499057430"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\routing\composer.json" crc="1499057436"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\routing\CompiledRoute.php" crc="1499057428"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\process\Tests\SignalListener.php" crc="1499057440"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\process\Tests\ProcessUtilsTest.php" crc="1499057440"/>
@@ -768,9 +790,11 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\process\PhpExecutableFinder.php" crc="1499057438"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\process\InputStream.php" crc="1499057438"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\process\ExecutableFinder.php" crc="1499057438"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\process\composer.json" crc="1499057440"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\polyfill-mbstring\Resources\unidata\upperCase.php" crc="1499057362"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\polyfill-mbstring\Resources\unidata\lowerCase.php" crc="1499057362"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\polyfill-mbstring\Mbstring.php" crc="1499057362"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\polyfill-mbstring\composer.json" crc="1499057362"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\polyfill-mbstring\bootstrap.php" crc="1499057362"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\http-kernel\Tests\Profiler\ProfilerTest.php" crc="1499057472"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\http-kernel\Tests\Profiler\FileProfilerStorageTest.php" crc="1499057472"/>
@@ -1015,6 +1039,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\http-kernel\Kernel.php" crc="1499057464"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\http-kernel\HttpKernelInterface.php" crc="1499057464"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\http-kernel\HttpKernel.php" crc="1499057464"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\http-kernel\composer.json" crc="1499057472"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\http-kernel\Client.php" crc="1499057458"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\http-foundation\Tests\Session\Storage\Proxy\SessionHandlerProxyTest.php" crc="1499057452"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\http-foundation\Tests\Session\Storage\Proxy\NativeProxyTest.php" crc="1499057452"/>
@@ -1121,6 +1146,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\http-foundation\FileBag.php" crc="1499057444"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\http-foundation\ExpressionRequestMatcher.php" crc="1499057444"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\http-foundation\Cookie.php" crc="1499057444"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\http-foundation\composer.json" crc="1499057452"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\http-foundation\BinaryFileResponse.php" crc="1499057444"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\http-foundation\ApacheRequest.php" crc="1499057444"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\http-foundation\AcceptHeaderItem.php" crc="1499057444"/>
@@ -1173,6 +1199,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\finder\SplFileInfo.php" crc="1499057474"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\finder\Glob.php" crc="1499057474"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\finder\Finder.php" crc="1499057474"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\finder\composer.json" crc="1499057476"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\event-dispatcher\Tests\DependencyInjection\RegisterListenersPassTest.php" crc="1499057454"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\event-dispatcher\Tests\Debug\TraceableEventDispatcherTest.php" crc="1499057454"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\event-dispatcher\Tests\ImmutableEventDispatcherTest.php" crc="1499057454"/>
@@ -1192,6 +1219,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\event-dispatcher\EventDispatcher.php" crc="1499057454"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\event-dispatcher\Event.php" crc="1499057454"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\event-dispatcher\ContainerAwareEventDispatcher.php" crc="1499057454"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\event-dispatcher\composer.json" crc="1499057454"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\debug\Tests\Fixtures2\RequiredTwice.php" crc="1499057372"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\debug\Tests\Fixtures\psr4\Psr4CaseMismatch.php" crc="1499057372"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\debug\Tests\Fixtures\ToStringThrower.php" crc="1499057372"/>
@@ -1232,6 +1260,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\debug\ErrorHandler.php" crc="1499057370"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\debug\DebugClassLoader.php" crc="1499057370"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\debug\Debug.php" crc="1499057370"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\debug\composer.json" crc="1499057372"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\debug\BufferingLogger.php" crc="1499057370"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\css-selector\XPath\Extension\PseudoClassExtension.php" crc="1499057424"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\css-selector\XPath\Extension\NodeExtension.php" crc="1499057424"/>
@@ -1311,6 +1340,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\css-selector\Exception\ExpressionErrorException.php" crc="1499057420"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\css-selector\Exception\ExceptionInterface.php" crc="1499057420"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\css-selector\CssSelectorConverter.php" crc="1499057420"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\css-selector\composer.json" crc="1499057424"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Tester\CommandTesterTest.php" crc="1499057382"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Tester\ApplicationTesterTest.php" crc="1499057382"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Style\SymfonyStyleTest.php" crc="1499057382"/>
@@ -1381,38 +1411,55 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\TestCommand.php" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_option_with_style_array.xml" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_option_with_style_array.txt" crc="1499057380"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_option_with_style_array.json" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_option_with_style.xml" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_option_with_style.txt" crc="1499057380"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_option_with_style.json" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_option_6.xml" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_option_6.txt" crc="1499057380"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_option_6.json" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_option_5.xml" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_option_5.txt" crc="1499057380"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_option_5.json" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_option_4.xml" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_option_4.txt" crc="1499057380"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_option_4.json" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_option_3.xml" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_option_3.txt" crc="1499057380"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_option_3.json" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_option_2.xml" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_option_2.txt" crc="1499057380"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_option_2.json" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_option_1.xml" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_option_1.txt" crc="1499057380"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_option_1.json" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_definition_4.xml" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_definition_4.txt" crc="1499057380"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_definition_4.json" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_definition_3.xml" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_definition_3.txt" crc="1499057380"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_definition_3.json" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_definition_2.xml" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_definition_2.txt" crc="1499057380"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_definition_2.json" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_definition_1.xml" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_definition_1.txt" crc="1499057380"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_definition_1.json" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_argument_with_style.xml" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_argument_with_style.txt" crc="1499057380"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_argument_with_style.json" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_argument_4.xml" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_argument_4.txt" crc="1499057380"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_argument_4.json" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_argument_3.xml" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_argument_3.txt" crc="1499057380"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_argument_3.json" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_argument_2.xml" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_argument_2.txt" crc="1499057380"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_argument_2.json" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_argument_1.xml" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_argument_1.txt" crc="1499057380"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\input_argument_1.json" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\FooSubnamespaced2Command.php" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\FooSubnamespaced1Command.php" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\FooLockCommand.php" crc="1499057380"/>
@@ -1437,8 +1484,10 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\command_mbstring.txt" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\command_2.xml" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\command_2.txt" crc="1499057380"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\command_2.json" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\command_1.xml" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\command_1.txt" crc="1499057380"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\command_1.json" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\BarBucCommand.php" crc="1499057378"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\application_run4.txt" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\application_run3.txt" crc="1499057380"/>
@@ -1458,8 +1507,10 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\application_filtered_namespace.txt" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\application_2.xml" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\application_2.txt" crc="1499057380"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\application_2.json" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\application_1.xml" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\application_1.txt" crc="1499057380"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Fixtures\application_1.json" crc="1499057380"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\EventListener\ErrorListenerTest.php" crc="1499057378"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Descriptor\XmlDescriptorTest.php" crc="1499057378"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Tests\Descriptor\TextDescriptorTest.php" crc="1499057378"/>
@@ -1547,6 +1598,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Command\Command.php" crc="1499057374"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Terminal.php" crc="1499057378"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\ConsoleEvents.php" crc="1499057374"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\composer.json" crc="1499057382"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\symfony\console\Application.php" crc="1499057374"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\swiftmailer\swiftmailer\tests\unit\Swift\Transport\EsmtpTransport\ExtensionSupportTest.php" crc="1499057494"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\swiftmailer\swiftmailer\tests\unit\Swift\Transport\Esmtp\Auth\PlainAuthenticatorTest.php" crc="1499057494"/>
@@ -1849,15 +1901,19 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\swiftmailer\swiftmailer\lib\swift_init.php" crc="1499057488"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\swiftmailer\swiftmailer\lib\preferences.php" crc="1499057488"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\swiftmailer\swiftmailer\lib\mime_types.php" crc="1499057488"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\swiftmailer\swiftmailer\composer.json" crc="1499057478"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\swiftmailer\swiftmailer\.travis.yml" crc="1499057478"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\version\src\Version.php" crc="1499057620"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\version\composer.json" crc="1499057620"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\resource-operations\src\ResourceOperations.php" crc="1499057622"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\resource-operations\build\generate.php" crc="1499057622"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\resource-operations\composer.json" crc="1499057622"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\resource-operations\build.xml" crc="1499057622"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\recursion-context\tests\ContextTest.php" crc="1499057624"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\recursion-context\src\InvalidArgumentException.php" crc="1499057624"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\recursion-context\src\Exception.php" crc="1499057624"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\recursion-context\src\Context.php" crc="1499057624"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\recursion-context\composer.json" crc="1499057624"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\recursion-context\build.xml" crc="1499057624"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\recursion-context\.travis.yml" crc="1499057624"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\object-enumerator\tests\Fixtures\ExceptionThrower.php" crc="1499057626"/>
@@ -1866,6 +1922,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\object-enumerator\src\Exception.php" crc="1499057626"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\object-enumerator\src\Enumerator.php" crc="1499057626"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\object-enumerator\phpunit.xml" crc="1499057626"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\object-enumerator\composer.json" crc="1499057626"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\object-enumerator\build.xml" crc="1499057626"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\object-enumerator\.travis.yml" crc="1499057626"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\global-state\tests\_fixture\SnapshotTrait.php" crc="1499057628"/>
@@ -1884,10 +1941,12 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\global-state\src\Exception.php" crc="1499057628"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\global-state\src\CodeExporter.php" crc="1499057628"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\global-state\src\Blacklist.php" crc="1499057628"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\global-state\composer.json" crc="1499057628"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\global-state\build.xml" crc="1499057628"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\global-state\.travis.yml" crc="1499057628"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\exporter\tests\ExporterTest.php" crc="1499057630"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\exporter\src\Exporter.php" crc="1499057630"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\exporter\composer.json" crc="1499057630"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\exporter\build.xml" crc="1499057630"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\exporter\.travis.yml" crc="1499057630"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\environment\tests\RuntimeTest.php" crc="1499057632"/>
@@ -1895,6 +1954,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\environment\src\Runtime.php" crc="1499057632"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\environment\src\Console.php" crc="1499057632"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\environment\phpunit.xml" crc="1499057632"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\environment\composer.json" crc="1499057632"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\environment\build.xml" crc="1499057632"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\environment\.travis.yml" crc="1499057632"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\diff\tests\LCS\TimeEfficientImplementationTest.php" crc="1499057634"/>
@@ -1916,6 +1976,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\diff\src\Diff.php" crc="1499057634"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\diff\src\Chunk.php" crc="1499057634"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\diff\phpunit.xml" crc="1499057634"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\diff\composer.json" crc="1499057634"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\diff\build.xml" crc="1499057634"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\diff\.travis.yml" crc="1499057634"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\comparator\tests\_files\TestClassComparator.php" crc="1499057638"/>
@@ -1956,11 +2017,13 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\comparator\src\Comparator.php" crc="1499057636"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\comparator\src\ArrayComparator.php" crc="1499057636"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\comparator\build\travis-ci.xml" crc="1499057636"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\comparator\composer.json" crc="1499057636"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\comparator\build.xml" crc="1499057636"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\comparator\.travis.yml" crc="1499057636"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\code-unit-reverse-lookup\tests\WizardTest.php" crc="1499057654"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\code-unit-reverse-lookup\src\Wizard.php" crc="1499057654"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\code-unit-reverse-lookup\phpunit.xml" crc="1499057654"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\code-unit-reverse-lookup\composer.json" crc="1499057654"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\code-unit-reverse-lookup\build.xml" crc="1499057654"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\sebastian\code-unit-reverse-lookup\.travis.yml" crc="1499057654"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\ramsey\uuid\src\Provider\Time\SystemTimeProvider.php" crc="1499057502"/>
@@ -2009,6 +2072,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\ramsey\uuid\src\FeatureSet.php" crc="1499057500"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\ramsey\uuid\src\DegradedUuid.php" crc="1499057500"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\ramsey\uuid\src\BinaryUtils.php" crc="1499057500"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\ramsey\uuid\composer.json" crc="1499057500"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psy\psysh\test\tools\vis.py" crc="1499057416"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psy\psysh\test\tools\gen_unvis_fixtures.py" crc="1499057416"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psy\psysh\test\Psy\Test\VersionUpdater\GitHubCheckerTest.php" crc="1499057416"/>
@@ -2067,6 +2131,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psy\psysh\test\fixtures\mixed\.psysh\config.php" crc="1499057416"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psy\psysh\test\fixtures\legacy\.psysh\rc.php" crc="1499057416"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psy\psysh\test\fixtures\default\.config\psysh\config.php" crc="1499057416"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psy\psysh\test\fixtures\unvis_fixtures.json" crc="1499057416"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psy\psysh\test\fixtures\empty.php" crc="1499057416"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psy\psysh\test\fixtures\config.php" crc="1499057416"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psy\psysh\src\Psy\VersionUpdater\NoopChecker.php" crc="1499057414"/>
@@ -2195,6 +2260,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psy\psysh\src\Psy\CodeCleaner.php" crc="1499057408"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psy\psysh\src\Psy\Autoloader.php" crc="1499057408"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psy\psysh\.phan\config.php" crc="1499057406"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psy\psysh\composer.json" crc="1499057408"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psy\psysh\.travis.yml" crc="1499057406"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psy\psysh\.styleci.yml" crc="1499057406"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psr\log\Psr\Log\Test\LoggerInterfaceTest.php" crc="1499057368"/>
@@ -2206,6 +2272,15 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psr\log\Psr\Log\LoggerAwareInterface.php" crc="1499057368"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psr\log\Psr\Log\InvalidArgumentException.php" crc="1499057368"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psr\log\Psr\Log\AbstractLogger.php" crc="1499057368"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psr\log\composer.json" crc="1499057368"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psr\http-message\src\UriInterface.php" crc="1501101216"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psr\http-message\src\UploadedFileInterface.php" crc="1501101216"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psr\http-message\src\StreamInterface.php" crc="1501101216"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psr\http-message\src\ServerRequestInterface.php" crc="1501101216"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psr\http-message\src\ResponseInterface.php" crc="1501101216"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psr\http-message\src\RequestInterface.php" crc="1501101216"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psr\http-message\src\MessageInterface.php" crc="1501101216"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\psr\http-message\composer.json" crc="1501101216"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\phpunit-mock-objects\tests\MockObject\Matcher\ConsecutiveParametersTest.php" crc="1499057648"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\phpunit-mock-objects\tests\MockObject\Invocation\StaticTest.php" crc="1499057648"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\phpunit-mock-objects\tests\MockObject\Invocation\ObjectTest.php" crc="1499057648"/>
@@ -2283,6 +2358,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Generator.php" crc="1499057644"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\phpunit-mock-objects\build\travis-ci.xml" crc="1499057644"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\phpunit-mock-objects\phpunit.xml" crc="1499057644"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\phpunit-mock-objects\composer.json" crc="1499057644"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\phpunit-mock-objects\build.xml" crc="1499057644"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\phpunit-mock-objects\.travis.yml" crc="1499057644"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\phpunit\tests\Util\TestDox\NamePrettifierTest.php" crc="1499057690"/>
@@ -2367,6 +2443,8 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\phpunit\tests\Extensions\PhptTestCaseTest.php" crc="1499057686"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\phpunit\tests\_files\phpunit-example-extension\tests\OneTest.php" crc="1499057692"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\phpunit\tests\_files\phpunit-example-extension\phpunit.xml" crc="1499057692"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\phpunit\tests\_files\JsonData\simpleObject.json" crc="1499057690"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\phpunit\tests\_files\JsonData\arrayObject.json" crc="1499057690"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\phpunit\tests\_files\Inheritance\InheritanceB.php" crc="1499057690"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\phpunit\tests\_files\Inheritance\InheritanceA.php" crc="1499057690"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\phpunit\tests\_files\WasRun.php" crc="1499057692"/>
@@ -2659,6 +2737,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\phpunit\src\Extensions\GroupTestSuite.php" crc="1499057680"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\phpunit\src\Exception.php" crc="1499057680"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\phpunit\phpunit.xml" crc="1499057680"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\phpunit\composer.json" crc="1499057680"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\phpunit\build.xml" crc="1499057680"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\phpunit\.travis.yml" crc="1499057680"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\phpunit\.stickler.yml" crc="1499057680"/>
@@ -2690,16 +2769,20 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\php-token-stream\src\Token\Stream.php" crc="1499057614"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\php-token-stream\src\Token.php" crc="1499057614"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\php-token-stream\build\phpunit.xml" crc="1499057614"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\php-token-stream\composer.json" crc="1499057614"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\php-token-stream\build.xml" crc="1499057614"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\php-token-stream\.travis.yml" crc="1499057612"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\php-timer\tests\TimerTest.php" crc="1499057650"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\php-timer\src\Timer.php" crc="1499057650"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\php-timer\phpunit.xml" crc="1499057650"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\php-timer\composer.json" crc="1499057650"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\php-timer\.travis.yml" crc="1499057650"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\php-text-template\src\Template.php" crc="1499057640"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\php-text-template\composer.json" crc="1499057640"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\php-file-iterator\src\Iterator.php" crc="1499057652"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\php-file-iterator\src\Factory.php" crc="1499057652"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\php-file-iterator\src\Facade.php" crc="1499057652"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\php-file-iterator\composer.json" crc="1499057652"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\php-code-coverage\tests\tests\XMLTest.php" crc="1499057664"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\php-code-coverage\tests\tests\UtilTest.php" crc="1499057662"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\php-code-coverage\tests\tests\TextTest.php" crc="1499057662"/>
@@ -2825,6 +2908,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\php-code-coverage\src\Filter.php" crc="1499057658"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\php-code-coverage\src\CodeCoverage.php" crc="1499057658"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\php-code-coverage\phpunit.xml" crc="1499057658"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\php-code-coverage\composer.json" crc="1499057658"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\php-code-coverage\build.xml" crc="1499057658"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpunit\php-code-coverage\.travis.yml" crc="1499057658"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpspec\prophecy\tests\Doubler\Generator\ClassMirrorTest.php" crc="1499057674"/>
@@ -2997,6 +3081,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpspec\prophecy\fixtures\FinalClass.php" crc="1499057668"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpspec\prophecy\fixtures\EmptyInterface.php" crc="1499057668"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpspec\prophecy\fixtures\EmptyClass.php" crc="1499057668"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpspec\prophecy\composer.json" crc="1499057668"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpspec\prophecy\.travis.yml" crc="1499057668"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpdocumentor\type-resolver\tests\unit\Types\ContextTest.php" crc="1499057606"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpdocumentor\type-resolver\tests\unit\Types\ContextFactoryTest.php" crc="1499057606"/>
@@ -3029,6 +3114,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpdocumentor\type-resolver\examples\03-resolving-all-elements.php" crc="1499057604"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpdocumentor\type-resolver\examples\02-resolving-classes.php" crc="1499057604"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpdocumentor\type-resolver\examples\01-resolving-simple-types.php" crc="1499057604"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpdocumentor\type-resolver\composer.json" crc="1499057604"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpdocumentor\type-resolver\.travis.yml" crc="1499057604"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpdocumentor\type-resolver\.scrutinizer.yml" crc="1499057604"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpdocumentor\reflection-docblock\tests\unit\DocBlock\Tags\Formatter\PassthroughFormatterTest.php" crc="1499057610"/>
@@ -3098,6 +3184,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpdocumentor\reflection-docblock\examples\03-reconstituting-a-docblock.php" crc="1499057608"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpdocumentor\reflection-docblock\examples\02-interpreting-tags.php" crc="1499057608"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpdocumentor\reflection-docblock\examples\01-interpreting-a-simple-docblock.php" crc="1499057608"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpdocumentor\reflection-docblock\composer.json" crc="1499057608"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpdocumentor\reflection-docblock\.travis.yml" crc="1499057608"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpdocumentor\reflection-docblock\.scrutinizer.yml" crc="1499057608"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpdocumentor\reflection-common\tests\unit\FqsenTest.php" crc="1499057602"/>
@@ -3108,6 +3195,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpdocumentor\reflection-common\src\Fqsen.php" crc="1499057602"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpdocumentor\reflection-common\src\File.php" crc="1499057602"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpdocumentor\reflection-common\src\Element.php" crc="1499057602"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\phpdocumentor\reflection-common\composer.json" crc="1499057602"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\paragonie\random_compat\other\build_phar.php" crc="1499057496"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\paragonie\random_compat\lib\random_int.php" crc="1499057496"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\paragonie\random_compat\lib\random_bytes_mcrypt.php" crc="1499057496"/>
@@ -3121,6 +3209,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\paragonie\random_compat\lib\byte_safe_strings.php" crc="1499057496"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\paragonie\random_compat\psalm.xml" crc="1499057496"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\paragonie\random_compat\psalm-autoload.php" crc="1499057496"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\paragonie\random_compat\composer.json" crc="1499057496"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\nikic\php-parser\test_old\run.php" crc="1499057400"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\nikic\php-parser\test\PhpParser\Unserializer\XMLTest.php" crc="1499057396"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\nikic\php-parser\test\PhpParser\Serializer\XMLTest.php" crc="1499057396"/>
@@ -3367,6 +3456,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\nikic\php-parser\lib\PhpParser\Autoloader.php" crc="1499057386"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\nikic\php-parser\lib\bootstrap.php" crc="1499057394"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\nikic\php-parser\grammar\rebuildParsers.php" crc="1499057386"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\nikic\php-parser\composer.json" crc="1499057386"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\nikic\php-parser\.travis.yml" crc="1499057386"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\nesbot\carbon\src\Carbon\Lang\zh_TW.php" crc="1499057510"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\nesbot\carbon\src\Carbon\Lang\zh.php" crc="1499057510"/>
@@ -3428,6 +3518,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\nesbot\carbon\src\Carbon\Exceptions\InvalidDateException.php" crc="1499057510"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\nesbot\carbon\src\Carbon\CarbonInterval.php" crc="1499057510"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\nesbot\carbon\src\Carbon\Carbon.php" crc="1499057510"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\nesbot\carbon\composer.json" crc="1499057510"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\myclabs\deep-copy\src\DeepCopy\TypeMatcher\TypeMatcher.php" crc="1499057676"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\myclabs\deep-copy\src\DeepCopy\TypeFilter\Spl\SplDoublyLinkedList.php" crc="1499057676"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\myclabs\deep-copy\src\DeepCopy\TypeFilter\TypeFilter.php" crc="1499057676"/>
@@ -3448,6 +3539,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\myclabs\deep-copy\src\DeepCopy\Filter\Filter.php" crc="1499057676"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\myclabs\deep-copy\src\DeepCopy\Exception\CloneException.php" crc="1499057676"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\myclabs\deep-copy\src\DeepCopy\DeepCopy.php" crc="1499057676"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\myclabs\deep-copy\composer.json" crc="1499057676"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\myclabs\deep-copy\.travis.yml" crc="1499057676"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mtdowling\cron-expression\tests\Cron\YearFieldTest.php" crc="1499057512"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mtdowling\cron-expression\tests\Cron\MonthFieldTest.php" crc="1499057512"/>
@@ -3468,6 +3560,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mtdowling\cron-expression\src\Cron\DayOfMonthField.php" crc="1499057512"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mtdowling\cron-expression\src\Cron\CronExpression.php" crc="1499057512"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mtdowling\cron-expression\src\Cron\AbstractField.php" crc="1499057512"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mtdowling\cron-expression\composer.json" crc="1499057512"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\monolog\monolog\tests\Monolog\Processor\WebProcessorTest.php" crc="1499057522"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\monolog\monolog\tests\Monolog\Processor\UidProcessorTest.php" crc="1499057522"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\monolog\monolog\tests\Monolog\Processor\TagProcessorTest.php" crc="1499057522"/>
@@ -3635,6 +3728,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\monolog\monolog\src\Monolog\Registry.php" crc="1499057520"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\monolog\monolog\src\Monolog\Logger.php" crc="1499057518"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\monolog\monolog\src\Monolog\ErrorHandler.php" crc="1499057516"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\monolog\monolog\composer.json" crc="1499057516"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mockery\mockery\travis\extra.ini" crc="1499057598"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mockery\mockery\tests\Mockery\Test\Generator\MockConfigurationBuilderTest.php" crc="1499057598"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mockery\mockery\tests\Mockery\Loader\RequireLoaderTest.php" crc="1499057598"/>
@@ -3746,9 +3840,25 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mockery\mockery\docs\cookbook\map.rst.inc" crc="1499057592"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mockery\mockery\docs\conf.py" crc="1499057592"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mockery\mockery\package.xml" crc="1499057596"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mockery\mockery\composer.json" crc="1499057592"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mockery\mockery\.travis.yml" crc="1499057592"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mockery\mockery\.styleci.yml" crc="1499057592"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mockery\mockery\.scrutinizer.yml" crc="1499057592"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mews\captcha\tests\Captcha\CaptchaTest.php" crc="1501101236"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mews\captcha\tests\Captcha\CaptchaServiceProviderTest.php" crc="1501101236"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mews\captcha\src\Facades\Captcha.php" crc="1501101236"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mews\captcha\src\LumenCaptchaController.php" crc="1501101236"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mews\captcha\src\helpers.php" crc="1501101236"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mews\captcha\src\CaptchaServiceProvider.php" crc="1501101236"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mews\captcha\src\CaptchaController.php" crc="1501101236"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mews\captcha\src\Captcha.php" crc="1501101235"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mews\captcha\config\captcha.php" crc="1501101235"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mews\captcha\assets\fonts\license\ubuntu-font-licence-1.0.txt" crc="1501101235"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mews\captcha\assets\fonts\license\OFL.txt" crc="1501101235"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mews\captcha\assets\fonts\license\LICENSE-2.0.txt" crc="1501101235"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mews\captcha\phpunit.xml" crc="1501101235"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mews\captcha\composer.json" crc="1501101235"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\mews\captcha\.travis.yml" crc="1501101235"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\league\flysystem\src\Util\StreamHasher.php" crc="1499057528"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\league\flysystem\src\Util\MimeType.php" crc="1499057528"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\league\flysystem\src\Util\ContentListingFormatter.php" crc="1499057528"/>
@@ -3799,10 +3909,12 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\league\flysystem\docs\_data\project.yml" crc="1499057526"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\league\flysystem\docs\_data\menu.yml" crc="1499057526"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\league\flysystem\docs\_data\images.yml" crc="1499057526"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\league\flysystem\composer.json" crc="1499057526"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\tinker\src\Console\TinkerCommand.php" crc="1499057562"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\tinker\src\TinkerServiceProvider.php" crc="1499057562"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\tinker\src\TinkerCaster.php" crc="1499057562"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\tinker\LICENSE.txt" crc="1499057562"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\tinker\composer.json" crc="1499057562"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\View\Middleware\ShareErrorsFromSession.php" crc="1499057560"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\View\Engines\PhpEngine.php" crc="1499057560"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\View\Engines\FileEngine.php" crc="1499057560"/>
@@ -3837,6 +3949,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\View\View.php" crc="1499057560"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\View\FileViewFinder.php" crc="1499057560"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\View\Factory.php" crc="1499057560"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\View\composer.json" crc="1499057560"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Validation\Rules\Unique.php" crc="1499057558"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Validation\Rules\NotIn.php" crc="1499057558"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Validation\Rules\In.php" crc="1499057558"/>
@@ -3856,11 +3969,13 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Validation\PresenceVerifierInterface.php" crc="1499057558"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Validation\Factory.php" crc="1499057558"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Validation\DatabasePresenceVerifier.php" crc="1499057558"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Validation\composer.json" crc="1499057558"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Translation\Translator.php" crc="1499057558"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Translation\TranslationServiceProvider.php" crc="1499057558"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Translation\MessageSelector.php" crc="1499057558"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Translation\LoaderInterface.php" crc="1499057558"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Translation\FileLoader.php" crc="1499057558"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Translation\composer.json" crc="1499057558"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Translation\ArrayLoader.php" crc="1499057558"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Support\Traits\Macroable.php" crc="1499057558"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Support\Traits\CapsuleManagerTrait.php" crc="1499057558"/>
@@ -3919,6 +4034,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Support\helpers.php" crc="1499057558"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Support\Fluent.php" crc="1499057558"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Support\Composer.php" crc="1499057552"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Support\composer.json" crc="1499057558"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Support\Collection.php" crc="1499057552"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Support\Arr.php" crc="1499057552"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Support\AggregateServiceProvider.php" crc="1499057552"/>
@@ -3934,6 +4050,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Session\EncryptedStore.php" crc="1499057552"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Session\DatabaseSessionHandler.php" crc="1499057552"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Session\CookieSessionHandler.php" crc="1499057552"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Session\composer.json" crc="1499057552"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Session\CacheBasedSessionHandler.php" crc="1499057552"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Middleware\ThrottleRequests.php" crc="1499057550"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Middleware\SubstituteBindings.php" crc="1499057550"/>
@@ -3970,6 +4087,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\ControllerMiddlewareOptions.php" crc="1499057550"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\ControllerDispatcher.php" crc="1499057550"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\Controller.php" crc="1499057550"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Routing\composer.json" crc="1499057552"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Redis\Connectors\PredisConnector.php" crc="1499057550"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Redis\Connectors\PhpRedisConnector.php" crc="1499057550"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Redis\Connections\PredisConnection.php" crc="1499057550"/>
@@ -3979,6 +4097,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Redis\Connections\Connection.php" crc="1499057550"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Redis\RedisServiceProvider.php" crc="1499057550"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Redis\RedisManager.php" crc="1499057550"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Redis\composer.json" crc="1499057550"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Queue\Jobs\SyncJob.php" crc="1499057550"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Queue\Jobs\SqsJob.php" crc="1499057550"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Queue\Jobs\RedisJob.php" crc="1499057550"/>
@@ -4034,11 +4153,13 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Queue\InteractsWithQueue.php" crc="1499057548"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Queue\FailingJob.php" crc="1499057548"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Queue\DatabaseQueue.php" crc="1499057548"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Queue\composer.json" crc="1499057550"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Queue\CallQueuedHandler.php" crc="1499057548"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Queue\BeanstalkdQueue.php" crc="1499057548"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Pipeline\PipelineServiceProvider.php" crc="1499057548"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php" crc="1499057548"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Pipeline\Hub.php" crc="1499057548"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Pipeline\composer.json" crc="1499057548"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Pagination\resources\views\simple-default.blade.php" crc="1499057548"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Pagination\resources\views\simple-bootstrap-4.blade.php" crc="1499057548"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Pagination\resources\views\default.blade.php" crc="1499057548"/>
@@ -4047,6 +4168,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Pagination\Paginator.php" crc="1499057548"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Pagination\PaginationServiceProvider.php" crc="1499057548"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Pagination\LengthAwarePaginator.php" crc="1499057548"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Pagination\composer.json" crc="1499057548"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Pagination\AbstractPaginator.php" crc="1499057548"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Notifications\resources\views\email.blade.php" crc="1499911192"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Notifications\Messages\SlackMessage.php" crc="1499057548"/>
@@ -4076,6 +4198,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Notifications\HasDatabaseNotifications.php" crc="1499057546"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Notifications\DatabaseNotificationCollection.php" crc="1499057546"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Notifications\DatabaseNotification.php" crc="1499057546"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Notifications\composer.json" crc="1499057548"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Notifications\ChannelManager.php" crc="1499057546"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Notifications\Action.php" crc="1499057546"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Mail\Transport\Transport.php" crc="1499057546"/>
@@ -4116,9 +4239,11 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Mail\MailServiceProvider.php" crc="1499057546"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Mail\Mailer.php" crc="1499057546"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Mail\Mailable.php" crc="1499057546"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Mail\composer.json" crc="1499057546"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Log\Events\MessageLogged.php" crc="1499057546"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Log\Writer.php" crc="1499057546"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Log\LogServiceProvider.php" crc="1499057546"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Log\composer.json" crc="1499057546"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Http\Testing\MimeType.php" crc="1499057546"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Http\Testing\FileFactory.php" crc="1499057546"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Http\Testing\File.php" crc="1499057546"/>
@@ -4137,7 +4262,9 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Http\JsonResponse.php" crc="1499057546"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Http\FileHelpers.php" crc="1499057546"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Http\File.php" crc="1499057546"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Http\composer.json" crc="1499057546"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Hashing\HashServiceProvider.php" crc="1499057544"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Hashing\composer.json" crc="1499057544"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Hashing\BcryptHasher.php" crc="1499057544"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Validation\ValidatesRequests.php" crc="1499057544"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Constraints\SoftDeletedInDatabase.php" crc="1499057544"/>
@@ -4227,7 +4354,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\ResetsPasswords.php" crc="1499057542"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\RegistersUsers.php" crc="1499618832"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\RedirectsUsers.php" crc="1499618760"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php" crc="1499534760"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php" crc="1502178715"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php" crc="1499057544"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\Inspiring.php" crc="1499057544"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php" crc="1499057544"/>
@@ -4239,12 +4366,15 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Filesystem\FilesystemManager.php" crc="1499057542"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Filesystem\FilesystemAdapter.php" crc="1499057542"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Filesystem\Filesystem.php" crc="1499057542"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Filesystem\composer.json" crc="1499057542"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Events\EventServiceProvider.php" crc="1499057542"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Events\Dispatcher.php" crc="1499057542"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Events\composer.json" crc="1499057542"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Events\CallQueuedListener.php" crc="1499057540"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Events\CallQueuedHandler.php" crc="1499057540"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php" crc="1499057540"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Encryption\Encrypter.php" crc="1499057540"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Encryption\composer.json" crc="1499057540"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Database\Schema\Grammars\SqlServerGrammar.php" crc="1499057540"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Database\Schema\Grammars\SQLiteGrammar.php" crc="1499057540"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Database\Schema\Grammars\RenameColumn.php" crc="1499057540"/>
@@ -4354,10 +4484,12 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Database\ConnectionResolver.php" crc="1499057536"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Database\ConnectionInterface.php" crc="1499057536"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Database\Connection.php" crc="1499057536"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Database\composer.json" crc="1499057540"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Cookie\Middleware\EncryptCookies.php" crc="1499057536"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse.php" crc="1499057536"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Cookie\CookieServiceProvider.php" crc="1499057536"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Cookie\CookieJar.php" crc="1499057536"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Cookie\composer.json" crc="1499057536"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Contracts\View\View.php" crc="1499057536"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Contracts\View\Factory.php" crc="1499057536"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Contracts\Validation\Validator.php" crc="1499057536"/>
@@ -4437,8 +4569,10 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Contracts\Auth\Factory.php" crc="1499057534"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Contracts\Auth\CanResetPassword.php" crc="1499057534"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Contracts\Auth\Authenticatable.php" crc="1499057534"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Contracts\composer.json" crc="1499057536"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Container\ContextualBindingBuilder.php" crc="1499057534"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Container\Container.php" crc="1499057534"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Container\composer.json" crc="1499057534"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php" crc="1499057534"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Console\Scheduling\ScheduleRunCommand.php" crc="1499057534"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Console\Scheduling\ScheduleFinishCommand.php" crc="1499057534"/>
@@ -4455,9 +4589,11 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Console\GeneratorCommand.php" crc="1499057534"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Console\DetectsApplicationNamespace.php" crc="1499057534"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Console\ConfirmableTrait.php" crc="1499057534"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Console\composer.json" crc="1499057534"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Console\Command.php" crc="1499057534"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Console\Application.php" crc="1499057534"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Config\Repository.php" crc="1499057534"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Config\composer.json" crc="1499057534"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Cache\Events\KeyWritten.php" crc="1499057532"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Cache\Events\KeyForgotten.php" crc="1499057532"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Cache\Events\CacheMissed.php" crc="1499057532"/>
@@ -4479,6 +4615,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Cache\MemcachedConnector.php" crc="1499057532"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Cache\FileStore.php" crc="1499057532"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Cache\DatabaseStore.php" crc="1499057532"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Cache\composer.json" crc="1499057534"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Cache\CacheServiceProvider.php" crc="1499057532"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Cache\CacheManager.php" crc="1499057532"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Cache\ArrayStore.php" crc="1499057532"/>
@@ -4486,6 +4623,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Cache\ApcStore.php" crc="1499057532"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Bus\Queueable.php" crc="1499057532"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Bus\Dispatcher.php" crc="1499057532"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Bus\composer.json" crc="1499057532"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Bus\BusServiceProvider.php" crc="1499057532"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Broadcasting\Broadcasters\RedisBroadcaster.php" crc="1499057532"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Broadcasting\Broadcasters\PusherBroadcaster.php" crc="1499057532"/>
@@ -4496,6 +4634,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Broadcasting\PresenceChannel.php" crc="1499057532"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Broadcasting\PendingBroadcast.php" crc="1499057532"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Broadcasting\InteractsWithSockets.php" crc="1499057532"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Broadcasting\composer.json" crc="1499057532"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Broadcasting\Channel.php" crc="1499057532"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Broadcasting\BroadcastServiceProvider.php" crc="1499057532"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Broadcasting\BroadcastManager.php" crc="1499057532"/>
@@ -4534,10 +4673,12 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\EloquentUserProvider.php" crc="1499057530"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\DatabaseUserProvider.php" crc="1499057530"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\CreatesUserProviders.php" crc="1499057530"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\composer.json" crc="1499057532"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\AuthServiceProvider.php" crc="1499057530"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\AuthManager.php" crc="1499057530"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\AuthenticationException.php" crc="1499057530"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\src\Illuminate\Auth\Authenticatable.php" crc="1499057530"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\laravel\framework\composer.json" crc="1499057530"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\jakub-onderka\php-console-highlighter\tests\JakubOnderka\PhpConsoleHighligter\HigligterTest.php" crc="1499057402"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\jakub-onderka\php-console-highlighter\tests\bootstrap.php" crc="1499057402"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\jakub-onderka\php-console-highlighter\src\JakubOnderka\PhpConsoleHighlighter\Highlighter.php" crc="1499057402"/>
@@ -4545,6 +4686,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\jakub-onderka\php-console-highlighter\examples\whole_file.php" crc="1499057402"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\jakub-onderka\php-console-highlighter\examples\snippet.php" crc="1499057402"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\jakub-onderka\php-console-highlighter\phpunit.xml" crc="1499057402"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\jakub-onderka\php-console-highlighter\composer.json" crc="1499057402"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\jakub-onderka\php-console-highlighter\build.xml" crc="1499057402"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\jakub-onderka\php-console-highlighter\.travis.yml" crc="1499057402"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\jakub-onderka\php-console-color\tests\JakubOnderka\PhpConsoleColor\ConsoleColorTest.php" crc="1499057360"/>
@@ -4553,8 +4695,138 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\jakub-onderka\php-console-color\src\JakubOnderka\PhpConsoleColor\ConsoleColor.php" crc="1499057360"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\jakub-onderka\php-console-color\phpunit.xml" crc="1499057360"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\jakub-onderka\php-console-color\example.php" crc="1499057360"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\jakub-onderka\php-console-color\composer.json" crc="1499057360"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\jakub-onderka\php-console-color\build.xml" crc="1499057360"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\jakub-onderka\php-console-color\.travis.yml" crc="1499057360"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Shapes\RectangleShape.php" crc="1501101228"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Shapes\PolygonShape.php" crc="1501101228"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Shapes\LineShape.php" crc="1501101227"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Shapes\EllipseShape.php" crc="1501101227"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Shapes\CircleShape.php" crc="1501101227"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\WidenCommand.php" crc="1501101227"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\TrimCommand.php" crc="1501101227"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\SharpenCommand.php" crc="1501101227"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\RotateCommand.php" crc="1501101227"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\ResizeCommand.php" crc="1501101227"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\ResizeCanvasCommand.php" crc="1501101227"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\ResetCommand.php" crc="1501101227"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\PixelCommand.php" crc="1501101227"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\PixelateCommand.php" crc="1501101227"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\PickColorCommand.php" crc="1501101227"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\OpacityCommand.php" crc="1501101227"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\MaskCommand.php" crc="1501101227"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\LimitColorsCommand.php" crc="1501101227"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\InvertCommand.php" crc="1501101227"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\InterlaceCommand.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\InsertCommand.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\HeightenCommand.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\GreyscaleCommand.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\GetSizeCommand.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\GammaCommand.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\FlipCommand.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\FitCommand.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\FillCommand.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\ExifCommand.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\DestroyCommand.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\CropCommand.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\ContrastCommand.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\ColorizeCommand.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\BrightnessCommand.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\BlurCommand.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Commands\BackupCommand.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Font.php" crc="1501101227"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Encoder.php" crc="1501101227"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Driver.php" crc="1501101227"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Decoder.php" crc="1501101227"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Imagick\Color.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Shapes\RectangleShape.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Shapes\PolygonShape.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Shapes\LineShape.php" crc="1501101225"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Shapes\EllipseShape.php" crc="1501101225"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Shapes\CircleShape.php" crc="1501101225"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\WidenCommand.php" crc="1501101225"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\TrimCommand.php" crc="1501101225"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\SharpenCommand.php" crc="1501101225"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\RotateCommand.php" crc="1501101225"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\ResizeCommand.php" crc="1501101225"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\ResizeCanvasCommand.php" crc="1501101225"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\ResetCommand.php" crc="1501101225"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\PixelCommand.php" crc="1501101225"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\PixelateCommand.php" crc="1501101225"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\PickColorCommand.php" crc="1501101225"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\OpacityCommand.php" crc="1501101225"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\MaskCommand.php" crc="1501101225"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\LimitColorsCommand.php" crc="1501101225"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\InvertCommand.php" crc="1501101225"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\InterlaceCommand.php" crc="1501101225"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\InsertCommand.php" crc="1501101225"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\HeightenCommand.php" crc="1501101225"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\GreyscaleCommand.php" crc="1501101225"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\GetSizeCommand.php" crc="1501101224"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\GammaCommand.php" crc="1501101224"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\FlipCommand.php" crc="1501101224"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\FitCommand.php" crc="1501101224"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\FillCommand.php" crc="1501101224"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\DestroyCommand.php" crc="1501101224"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\CropCommand.php" crc="1501101224"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\ContrastCommand.php" crc="1501101224"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\ColorizeCommand.php" crc="1501101224"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\BrightnessCommand.php" crc="1501101224"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\BlurCommand.php" crc="1501101224"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Commands\BackupCommand.php" crc="1501101224"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Font.php" crc="1501101225"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Encoder.php" crc="1501101225"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Driver.php" crc="1501101225"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Decoder.php" crc="1501101225"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Gd\Color.php" crc="1501101224"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Filters\FilterInterface.php" crc="1501101224"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Filters\DemoFilter.php" crc="1501101224"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Facades\Image.php" crc="1501101224"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Exception\RuntimeException.php" crc="1501101224"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Exception\NotWritableException.php" crc="1501101224"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Exception\NotSupportedException.php" crc="1501101223"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Exception\NotReadableException.php" crc="1501101223"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Exception\NotFoundException.php" crc="1501101223"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Exception\MissingDependencyException.php" crc="1501101223"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Exception\InvalidArgumentException.php" crc="1501101223"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Exception\ImageException.php" crc="1501101223"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Commands\TextCommand.php" crc="1501101223"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Commands\StreamCommand.php" crc="1501101223"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Commands\ResponseCommand.php" crc="1501101223"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Commands\RectangleCommand.php" crc="1501101223"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Commands\PsrResponseCommand.php" crc="1501101223"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Commands\PolygonCommand.php" crc="1501101223"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Commands\OrientateCommand.php" crc="1501101223"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Commands\LineCommand.php" crc="1501101223"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Commands\IptcCommand.php" crc="1501101223"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Commands\ExifCommand.php" crc="1501101223"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Commands\EllipseCommand.php" crc="1501101223"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Commands\CircleCommand.php" crc="1501101223"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Commands\ChecksumCommand.php" crc="1501101223"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Commands\Argument.php" crc="1501101223"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Commands\AbstractCommand.php" crc="1501101223"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Size.php" crc="1501101228"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Response.php" crc="1501101228"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Point.php" crc="1501101228"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\ImageServiceProviderLumen.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\ImageServiceProviderLeague.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\ImageServiceProviderLaravel5.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\ImageServiceProviderLaravel4.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\ImageServiceProvider.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\ImageManagerStatic.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\ImageManager.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Image.php" crc="1501101226"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\File.php" crc="1501101224"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\Constraint.php" crc="1501101223"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\AbstractShape.php" crc="1501101223"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\AbstractFont.php" crc="1501101223"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\AbstractEncoder.php" crc="1501101223"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\AbstractDriver.php" crc="1501101222"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\AbstractDecoder.php" crc="1501101222"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\Intervention\Image\AbstractColor.php" crc="1501101222"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\src\config\config.php" crc="1501101228"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\provides.json" crc="1501101222"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\intervention\image\composer.json" crc="1501101222"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\tests\Hamcrest\Xml\HasXPathTest.php" crc="1499057590"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\tests\Hamcrest\Type\IsStringTest.php" crc="1499057590"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\tests\Hamcrest\Type\IsScalarTest.php" crc="1499057590"/>
@@ -4699,10 +4971,36 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\generator\FactoryCall.php" crc="1499057584"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\TODO.txt" crc="1499057584"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\LICENSE.txt" crc="1499057584"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\composer.json" crc="1499057584"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\CHANGES.txt" crc="1499057584"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\.travis.yml" crc="1499057584"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\.gush.yml" crc="1499057584"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\hamcrest\hamcrest-php\.coveralls.yml" crc="1499057584"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\guzzlehttp\psr7\src\UriResolver.php" crc="1501101220"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\guzzlehttp\psr7\src\UriNormalizer.php" crc="1501101220"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\guzzlehttp\psr7\src\Uri.php" crc="1501101220"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\guzzlehttp\psr7\src\UploadedFile.php" crc="1501101220"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\guzzlehttp\psr7\src\StreamWrapper.php" crc="1501101220"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\guzzlehttp\psr7\src\StreamDecoratorTrait.php" crc="1501101220"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\guzzlehttp\psr7\src\Stream.php" crc="1501101220"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\guzzlehttp\psr7\src\ServerRequest.php" crc="1501101219"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\guzzlehttp\psr7\src\Response.php" crc="1501101219"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\guzzlehttp\psr7\src\Request.php" crc="1501101219"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\guzzlehttp\psr7\src\PumpStream.php" crc="1501101219"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\guzzlehttp\psr7\src\NoSeekStream.php" crc="1501101219"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\guzzlehttp\psr7\src\MultipartStream.php" crc="1501101219"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\guzzlehttp\psr7\src\MessageTrait.php" crc="1501101219"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\guzzlehttp\psr7\src\LimitStream.php" crc="1501101219"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\guzzlehttp\psr7\src\LazyOpenStream.php" crc="1501101219"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\guzzlehttp\psr7\src\InflateStream.php" crc="1501101219"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\guzzlehttp\psr7\src\functions_include.php" crc="1501101220"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\guzzlehttp\psr7\src\functions.php" crc="1501101220"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\guzzlehttp\psr7\src\FnStream.php" crc="1501101219"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\guzzlehttp\psr7\src\DroppingStream.php" crc="1501101219"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\guzzlehttp\psr7\src\CachingStream.php" crc="1501101219"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\guzzlehttp\psr7\src\BufferStream.php" crc="1501101219"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\guzzlehttp\psr7\src\AppendStream.php" crc="1501101219"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\guzzlehttp\psr7\composer.json" crc="1501101219"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\fzaninotto\faker\test\Faker\Provider\zh_TW\TextTest.php" crc="1499057582"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\fzaninotto\faker\test\Faker\Provider\uk_UA\PhoneNumberTest.php" crc="1499057582"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\fzaninotto\faker\test\Faker\Provider\uk_UA\AddressTest.php" crc="1499057582"/>
@@ -5184,6 +5482,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\fzaninotto\faker\src\Faker\Documentor.php" crc="1499057566"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\fzaninotto\faker\src\Faker\DefaultGenerator.php" crc="1499057566"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\fzaninotto\faker\src\autoload.php" crc="1499057580"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\fzaninotto\faker\composer.json" crc="1499057566"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\fzaninotto\faker\.travis.yml" crc="1499057566"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\erusev\parsedown\test\data\whitespace.html" crc="1499057358"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\erusev\parsedown\test\data\url_autolinking.html" crc="1499057358"/>
@@ -5243,6 +5542,7 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\erusev\parsedown\test\bootstrap.php" crc="1499057356"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\erusev\parsedown\Parsedown.php" crc="1499057356"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\erusev\parsedown\LICENSE.txt" crc="1499057356"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\erusev\parsedown\composer.json" crc="1499057356"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\erusev\parsedown\.travis.yml" crc="1499057356"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\doctrine\instantiator\tests\DoctrineTest\InstantiatorTestAsset\XMLReaderAsset.php" crc="1499057642"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\doctrine\instantiator\tests\DoctrineTest\InstantiatorTestAsset\WakeUpNoticesAsset.php" crc="1499057642"/>
@@ -5266,27 +5566,32 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\doctrine\instantiator\src\Doctrine\Instantiator\Exception\ExceptionInterface.php" crc="1499057642"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\doctrine\instantiator\src\Doctrine\Instantiator\InstantiatorInterface.php" crc="1499057642"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\doctrine\instantiator\src\Doctrine\Instantiator\Instantiator.php" crc="1499057642"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\doctrine\instantiator\composer.json" crc="1499057642"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\doctrine\instantiator\.travis.yml" crc="1499057642"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\doctrine\instantiator\.scrutinizer.yml" crc="1499057642"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\doctrine\inflector\tests\Doctrine\Tests\Common\Inflector\InflectorTest.php" crc="1499057354"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\doctrine\inflector\tests\Doctrine\Tests\TestInit.php" crc="1499057354"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\doctrine\inflector\tests\Doctrine\Tests\DoctrineTestCase.php" crc="1499057354"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\doctrine\inflector\lib\Doctrine\Common\Inflector\Inflector.php" crc="1499057354"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\doctrine\inflector\composer.json" crc="1499057354"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\doctrine\inflector\.travis.yml" crc="1499057354"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\dnoegel\php-xdg-base-dir\tests\XdgTest.php" crc="1499057404"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\dnoegel\php-xdg-base-dir\src\Xdg.php" crc="1499057404"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\composer\ClassLoader.php" crc="1499643868"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\composer\autoload_static.php" crc="1499643868"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\composer\autoload_real.php" crc="1499643868"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\composer\autoload_psr4.php" crc="1499643868"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\composer\autoload_namespaces.php" crc="1499643868"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\composer\autoload_files.php" crc="1499643868"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\composer\autoload_classmap.php" crc="1499643868"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\autoload.php" crc="1499643868"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\dnoegel\php-xdg-base-dir\composer.json" crc="1499057404"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\composer\installed.json" crc="1501101236"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\composer\ClassLoader.php" crc="1504630794"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\composer\autoload_static.php" crc="1504630794"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\composer\autoload_real.php" crc="1504630794"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\composer\autoload_psr4.php" crc="1504630794"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\composer\autoload_namespaces.php" crc="1504630794"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\composer\autoload_files.php" crc="1504630794"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\composer\autoload_classmap.php" crc="1504630794"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\vendor\autoload.php" crc="1504630794"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\tests\Unit\ExampleTest.php" crc="1499057344"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\tests\Feature\ExampleTest.php" crc="1499057344"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\tests\TestCase.php" crc="1499057344"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\tests\CreatesApplication.php" crc="1499057344"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\ffe738f0d5be0ffaa84bfd436f5bc39f80c25d82.php" crc="1503914733"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\fba8a90826897bc30350c2d8f58c4d5472b92483.php" crc="1499467292"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\fb95aaa61b99a0323ded15f3719c8fb44eefefbe.php" crc="1500901261"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\f3751df3898ad406597fc01dd173c5ce2ffd322f.php" crc="1499547222"/>
@@ -5298,24 +5603,31 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\cfb3b21a7218328c21df20dcda057fb6b0a9df64.php" crc="1500990759"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\cccb5aca3d34a821ff9c576b618f2bedbb6ef078.php" crc="1499546016"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\c4c640f17bd854e30a263f35c6c6ffcdc8e11a0e.php" crc="1499547222"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\bc7bf632eb84db6a7757e77bec9eaec5868b392e.php" crc="1503915047"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\b153463687cccae59b0f603d570d30c9da186675.php" crc="1499547226"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\ae96e6df0de5624f46e8bdcf344e99e5d7c5f42a.php" crc="1500901286"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\9833e225a09b20122124ace8fdb3e0373d315cd1.php" crc="1502200276"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\9819765fb3b319b9060c964e8d37dacf97253679.php" crc="1499547224"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\93863373170141a23d1ca5f5c68878e1691ea29e.php" crc="1499448700"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\91fd186f49698607b397c37ba4dfa3b70532fd6a.php" crc="1500990759"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\8ea7213f31cc8d6d3cf38fc768788b6be70abd9c.php" crc="1499547226"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\8acde2967ce90e5d017b86cac3578c5b3a91d955.php" crc="1500990759"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\8a4aa97c148553ba0ae9011453c8757693701d4b.php" crc="1499436920"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\84ef44c4311e94cadb6b9970cef7c40cd84bcad2.php" crc="1502620439"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\8492d598dd650a091c19212f9cd116e28441c455.php" crc="1499914330"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\7fd5bc94ecc9e2f7fb096c716d48176289fe2ec8.php" crc="1500901262"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\744e8b2a4a8ffa13b9c51868aebbb4fe2d4550dd.php" crc="1499623908"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\6da1108247cc7d4eb7c0a2ed00baa92d3ea2a96e.php" crc="1499669766"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\6f7755ad808aabaccb787ec75b74e5c43d47e7b4.php" crc="1502618594"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\6da1108247cc7d4eb7c0a2ed00baa92d3ea2a96e.php" crc="1501619979"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\6be31da798680a9f30df5be1f6dbc930adf7969c.php" crc="1499547222"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\6a0956a16edf1addfc2dd81f41d35355cb2c4076.php" crc="1500990756"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\691fdb3c08adb5a6cb089d708a26ad0ae2682795.php" crc="1499547224"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\663a74370ca36ddd82d4d930f4e082459bd6aad5.php" crc="1504286934"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\65c647a0ab13358d95e628743f0c14d7ffa37e0a.php" crc="1500990756"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\63bb281467ccf5496a4173f306a8be65612fbcb0.php" crc="1499620970"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\5b41d86efe696b252ab0d6d655df282bc00bcf10.php" crc="1501002272"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\606a05ee1c47fafca22d0d10ce3e0b405e9db9c7.php" crc="1501681251"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\5b41d86efe696b252ab0d6d655df282bc00bcf10.php" crc="1501394231"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\598daff6ad5fb413c1880178e582830cfde0e8e0.php" crc="1501817363"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\5572347fcb3b92f308cc23b921279c32b46fbe57.php" crc="1499547226"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\51b7a7dab4acaa57bb4a9ba3cc7b323db55600e1.php" crc="1500990756"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\4d56c1ab8ffa1cea6e5db222f153a7211ae755be.php" crc="1499562708"/>
@@ -5323,34 +5635,49 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\4bcc6cfdcf5f78adade02058ae3757727ac46a08.php" crc="1499447958"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\451029a612783703f7f077b0fdb7af57b83bf218.php" crc="1500990759"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\4235bb36b487761c0abf8e0563696e5e3f10f8cd.php" crc="1500996330"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\418c5c099e376a45a43ca04d5419f490c82dcb84.php" crc="1501013542"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\418c5c099e376a45a43ca04d5419f490c82dcb84.php" crc="1501379984"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\3ac7274ef75945b530b5ae9a123d1b02690f0989.php" crc="1499541918"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\36d1c60ecf7246a114cf3306483500247717208c.php" crc="1499623828"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\33a0beb8056851d11078876b36eb93ccd56ebc09.php" crc="1500990756"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\333743a6149bb2e715b2c1c65bbe65e1899790a8.php" crc="1500990759"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\2ef655af60fafcc2805261a04c5a7fba70d791d9.php" crc="1499544894"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\2ef655af60fafcc2805261a04c5a7fba70d791d9.php" crc="1502628212"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\2bed6f5500735e4d6f03089c99aaed35fa3afb04.php" crc="1500990759"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\2a5167aa93a04406fc0972ecda9ea110dee8119d.php" crc="1499436950"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\27f7a2dfad5009463457c172af74e60f3125663d.php" crc="1502218465"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\24cbcc6d00dcddb601757b1e571f5441ffc7f8d6.php" crc="1501678164"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\1e684dbb8816f00f7618fc4599cb35b67cfd4fc2.php" crc="1499447958"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\1d0b69fad4822f362cd9b92cd1787371910528a6.php" crc="1499071372"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\1a9c02f0beefcda8b56c1f167944008c9d3afec8.php" crc="1501818827"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\19c18000de3d6d1c26510212ab3e95749dd3fd2e.php" crc="1499541514"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\10c66bcefe63dadb52b5e02e8780ff2aa2f5206f.php" crc="1501013415"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\0fd6b9ba7cc8b4f1d8ba928d6950247b99336cc1.php" crc="1499547222"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\0750dbdaf86a4f9e1021207e6a2fbe5bd2f13caf.php" crc="1499436892"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\06f485e72295c100fea786959ea43c651b3ed2fa.php" crc="1500990756"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\routes\web.php" crc="1501011857"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\storage\framework\views\03b261de2d9d00cd80405654f7984f701849fe3e.php" crc="1501114045"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\routes\web.php" crc="1503914698"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\routes\console.php" crc="1499057344"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\routes\channels.php" crc="1499057344"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\routes\api.php" crc="1499057344"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\layouts\default.blade.php" crc="1499669744"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\layouts\default.blade.php" crc="1501619977"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\cabinet\verificationerror.blade.php" crc="1501818816"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\cabinet\statistics.blade.php" crc="1502218453"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\cabinet\settings.blade.php" crc="1502200273"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\cabinet\replenish.blade.php" crc="1503914629"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\cabinet\referrals.blade.php" crc="1502618593"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\cabinet\referral.blade.php" crc="1502620437"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\cabinet\notverification.blade.php" crc="1501817357"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\cabinet\menu.blade.php" crc="1501681246"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\cabinet\main.blade.php" crc="1503914710"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\cabinet\invest.blade.php" crc="1504286608"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\youareguest.blade.php" crc="1499623876"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\youareauth.blade.php" crc="1499620966"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\repassword.blade.php" crc="1499559590"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\registration.blade.php" crc="1499669766"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\main.blade.php" crc="1499544892"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\registration.blade.php" crc="1501394229"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\main.blade.php" crc="1502628210"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\front\acceptrepassword.blade.php" crc="1501011865"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\errors\404.blade.php" crc="1499467286"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\emails\htmlrepassword.blade.php" crc="1501014979"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\emails\accountverification.blade.php" crc="1501113824"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\admin\main.blade.php" crc="1499447920"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\views\admin\layout.blade.php" crc="1499447938"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\resources\lang\ru\passwords.php" crc="1499605654"/>
@@ -5368,11 +5695,20 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\public\robots.txt" crc="1499057344"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\public\index.php" crc="1499057344"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\public\.htaccess" crc="1499057344"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\database\seeds\UsersTableSeeder.php" crc="1499430614"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\database\seeds\DatabaseSeeder.php" crc="1499430614"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\database\migrations\2017_07_09_234150_create_wallets_table.php" crc="1499644348"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\database\seeds\StatisticsTableSeeder.php" crc="1501612356"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\database\seeds\DatabaseSeeder.php" crc="1501612380"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\database\migrations\2017_09_05_165949_create_referral_bonuses_table.php" crc="1504633045"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\database\migrations\2017_09_05_155546_create_referral_increases_table.php" crc="1504627152"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\database\migrations\2017_09_05_142429_create_referrals_levels_table.php" crc="1504623943"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\database\migrations\2017_08_16_111016_create_settings_table.php" crc="1504618883"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\database\migrations\2017_08_13_143848_create_replenishments_table.php" crc="1502894978"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\database\migrations\2017_08_13_140254_create_project_wallets_table.php" crc="1502894669"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\database\migrations\2017_08_13_110416_create_rates_table.php" crc="1502625904"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\database\migrations\2017_08_01_165243_create_digits_table.php" crc="1501662315"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\database\migrations\2017_07_30_062838_create_statistics_table.php" crc="1501608600"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\database\migrations\2017_07_09_234150_create_wallets_table.php" crc="1501673836"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\database\migrations\2017_07_09_195327_create_referrals_table.php" crc="1499655992"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\database\migrations\2017_07_03_083812_create_users_table.php" crc="1499547194"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\database\migrations\2017_07_03_083812_create_users_table.php" crc="1501606844"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\database\migrations\2014_10_12_100000_create_password_resets_table.php" crc="1499430534"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\database\factories\ModelFactory.php" crc="1499057344"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\config\view.php" crc="1499057346"/>
@@ -5380,43 +5716,70 @@
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\config\services.php" crc="1499057346"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\config\queue.php" crc="1499057346"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\config\mail.php" crc="1499057346"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\config\filesystems.php" crc="1499057346"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\config\filesystems.php" crc="1501091197"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\config\database.php" crc="1499057346"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\config\cache.php" crc="1499057346"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\config\broadcasting.php" crc="1499057346"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\config\auth.php" crc="1499436770"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\config\app.php" crc="1499551788"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\bootstrap\cache\services.php" crc="1499057720"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\config\app.php" crc="1504284538"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\bootstrap\cache\services.php" crc="1504284540"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\bootstrap\autoload.php" crc="1499057346"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\bootstrap\app.php" crc="1499057346"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Providers\StatisticServiceProvider.php" crc="1501683009"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Providers\RouteServiceProvider.php" crc="1499057346"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Providers\RateInvestValidateServiceProvider.php" crc="1504285606"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Providers\PasswordValidateServiceProvider.php" crc="1502200232"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Providers\MinSumInvestValidateServiceProvider.php" crc="1504285931"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Providers\MaxSumInvestValidateServiceProvider.php" crc="1504285964"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Providers\EventServiceProvider.php" crc="1499057346"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Providers\BroadcastServiceProvider.php" crc="1499057346"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Providers\BalanceInvestValidateServiceProvider.php" crc="1504277935"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Providers\AuthServiceProvider.php" crc="1499057346"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Providers\AppServiceProvider.php" crc="1499439946"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Middleware\VerifyCsrfToken.php" crc="1499057346"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Middleware\TrimStrings.php" crc="1499057346"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Middleware\RedirectIfAuthenticated.php" crc="1499620722"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Middleware\IfNoVerification.php" crc="1501819547"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Middleware\EncryptCookies.php" crc="1499057346"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Middleware\AdminAccess.php" crc="1499815980"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\ResetPasswordController.php" crc="1499923396"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\RegisterController.php" crc="1499908228"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\LoginController.php" crc="1499617042"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Middleware\CheckVerification.php" crc="1501816664"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Middleware\AdminAccess.php" crc="1501170076"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Cabinet\StatisticsController.php" crc="1502617885"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Cabinet\SettingsController.php" crc="1502202903"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Cabinet\ReplenishController.php" crc="1502895865"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Cabinet\ReferralsController.php" crc="1502621266"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Cabinet\InvestController.php" crc="1504946032"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Cabinet\CabinetController.php" crc="1502617913"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\ResetPasswordController.php" crc="1501380072"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\RegisterController.php" crc="1504625436"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\LoginController.php" crc="1502121581"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Auth\ForgotPasswordController.php" crc="1499559350"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Admin\AdminController.php" crc="1499451124"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\IndexController.php" crc="1499811104"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\ResponseTokenController.php" crc="1501818784"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\RequestTokenController.php" crc="1501820243"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\IndexController.php" crc="1504625264"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Controllers\Controller.php" crc="1499057346"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Kernel.php" crc="1499815068"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Http\Kernel.php" crc="1501819327"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Exceptions\Handler.php" crc="1499625386"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Console\Kernel.php" crc="1499057346"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Classes\ResetPassword.php" crc="1501000747"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Classes\ResetPassword.php" crc="1501095028"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Classes\Helpers.php" crc="1502894456"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Wallet.php" crc="1499660434"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\User.php" crc="1501000829"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\User.php" crc="1502200820"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Statistic.php" crc="1501615705"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Setting.php" crc="1502884433"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Replenishment.php" crc="1502894857"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\ReferralsLevel.php" crc="1504625323"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\ReferralIncrease.php" crc="1504627553"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Referral.php" crc="1499660354"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Rate.php" crc="1502627387"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\ProjectWallet.php" crc="1502634633"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\app\Digit.php" crc="1501662545"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\webpack.mix.js" crc="1499057346"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\server.php" crc="1499057344"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\phpunit.xml" crc="1499057344"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\package.json" crc="1499057344"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\composer.json" crc="1501101155"/>
 		<file name="D:\Programs\OpenServer\domains\hyip.loc\.htaccess" crc="1499067318"/>
-		<file name="D:\Programs\OpenServer\domains\hyip.loc\.env" crc="1501013391"/>
+		<file name="D:\Programs\OpenServer\domains\hyip.loc\.env" crc="1501370470"/>
 	</filescache>
 </project>

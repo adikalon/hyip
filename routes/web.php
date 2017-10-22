@@ -41,10 +41,25 @@ Route::post('password/reset', 'Auth\ResetPasswordController@reset')->name('accep
 /* ------------------------------------------------------------------------------------------ */
 /* ------------------------------------ end Auth::routes() ---------------------------------- */
 
-Route::group(['prefix'=>'cabinet', 'middleware'=>'auth'], function () {
-	Route::get('/', 'IndexController@index');
+//Route::get('/reverification', 'RequestTokenController@reSendEmail')->name('reverification');
+
+Route::group(['prefix'=>'cabinet', 'middleware'=>['auth', 'verification', 'investmentprocessing']], function () {
+	Route::get('/', 'Cabinet\CabinetController@index')->name('cabinet');
+	Route::post('/', 'Cabinet\CabinetController@index')->name('forreverification');
+	Route::get('/settings', 'Cabinet\SettingsController@index')->name('settings');
+	Route::post('/settings', 'Cabinet\SettingsController@request')->name('post.settings');
+	Route::get('/referrals', 'Cabinet\ReferralsController@index')->name('referrals');
+	Route::get('/referral/{token}', 'Cabinet\ReferralsController@getReferralInfo')->name('referral');
+	Route::get('/replenish', 'Cabinet\ReplenishController@index')->name('replenish');
+	Route::post('/replenish', 'Cabinet\ReplenishController@replenish')->name('post.replenish');
+	Route::get('/invest', 'Cabinet\InvestController@index')->name('invest');
+	Route::post('/invest', 'Cabinet\InvestController@invest')->name('post.invest');
+	Route::get('/withdraw', 'Cabinet\WithdrawController@index')->name('withdraw');
+	Route::post('/withdraw', 'Cabinet\WithdrawController@withdraw')->name('post.withdraw');
 });
 
 Route::group(['prefix'=>'admin', 'middleware'=>'adminaccess'], function () {
 	Route::get('/', 'Admin\AdminController@index')->name('admin');
 });
+
+Route::get('account/verification/{token}', 'ResponseTokenController@accountVerification')->middleware('noverification')->name('account.verification');

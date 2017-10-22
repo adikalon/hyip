@@ -136,6 +136,10 @@ return [
     */
 
     'providers' => [
+    
+    	Mews\Captcha\CaptchaServiceProvider::class,
+    	
+    	
 
         /*
          * Laravel Framework Service Providers...
@@ -162,6 +166,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+		
 
         /*
          * Package Service Providers...
@@ -176,6 +181,13 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+
+        App\Providers\PasswordValidateServiceProvider::class,
+        App\Providers\BalanceInvestValidateServiceProvider::class,
+        App\Providers\MinSumInvestValidateServiceProvider::class,
+        App\Providers\MaxSumInvestValidateServiceProvider::class,
+        App\Providers\RateInvestValidateServiceProvider::class,
+        App\Providers\MinSumWithdrawValidateServiceProvder::class,
 
     ],
 
@@ -192,6 +204,7 @@ return [
 
     'aliases' => [
 
+		'Captcha' => Mews\Captcha\Facades\Captcha::class,
         'App' => Illuminate\Support\Facades\App::class,
         'Artisan' => Illuminate\Support\Facades\Artisan::class,
         'Auth' => Illuminate\Support\Facades\Auth::class,
